@@ -128,7 +128,7 @@ if __name__ == "__main__":
 	parser = argparse.ArgumentParser(description="calculate tfidf")
 	parser.add_argument("--app",dest="APP", default="liv", help="URL to portal server, including port")
 	parser.add_argument("--type",dest="TYPE", default="all", help="which type")
-	parser.add_argument("--suffix",dest="SUFFIX", default="5",help="suffix of file") 
+	parser.add_argument("--suffix",dest="SUFFIX", default="",help="suffix of file") 
 	parser.add_argument("--out",dest="OUT", default="test", help="distinguishing feature of name of output text file")
 	parser.add_argument("--compare", dest="COMPARE", default=None, help="compare list, enumerated in file")
 	parser.add_argument("--top_n", dest="TOP_N", default=15, help="how many per faq")
