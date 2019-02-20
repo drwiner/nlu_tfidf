@@ -137,7 +137,7 @@ if __name__ == "__main__":
 
 	if args.TYPE == "getAnswer":
 		file_name = "{}/temp.txt.VpaGetAnswer__Question--String.norm {}".format(args.APP, args.SUFFIX).strip()
-	elif args.TYPE == "getDefinition"
+	elif args.TYPE == "getDefinition":
 		file_name = "{}/temp.txt.VpaGetDefinition__Question--String.norm {}".format(args.APP, args.SUFFIX).strip()
 	else:
 		file_name = "{}/temp-train.txt.norm {}".format(args.APP, args.SUFFIX).strip()
