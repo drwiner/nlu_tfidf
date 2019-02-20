@@ -28,9 +28,9 @@ class TokenGram:
 		# If there are no combinations of length "k", then handle solo 1 and 2 Ks
 		if len(self._grams) == 0:
 			if len(token_list) == 1:
-				self._grams = ["_{}_".format(token_list[0])]
+				self._grams = ["x{}x".format(token_list[0])]
 			if len(token_list) == 2:
-				self._grams = ["_{}_{}_".format(token_list[0], token_list[1])]
+				self._grams = ["x{}_{}x".format(token_list[0], token_list[1])]
 		
 	def get_token(self):
 		token =  " ".join(self._grams)
@@ -90,22 +90,6 @@ def remove_ending_brace(token):
 	else:
 		return token
 
-
-def top_tfidf_feats(row, features, top_n=25):
-	''' Get top n tfidf values in row and return them with their corresponding feature names.'''
-	topn_ids = np.argsort(row)[::-1][:top_n]
-	top_feats = [(features[i], row[i]) for i in topn_ids]
-	df = pd.DataFrame(top_feats)
-	df.columns = ['feature', 'tfidf']
-	return df
-
-
-def top_feats_in_doc(Xtr, features, row_id, top_n=25):
-	''' Top tfidf features in specific document (matrix row) '''
-	row = np.squeeze(Xtr[row_id].toarray())
-	return top_tfidf_feats(row, features, top_n)
-
-
 DELIMS = [("<", "f_"), (">", "_f"), ("'", "_apo_"), ("-", "_hyp_"), (".", "_dot_"), (",", "_ca_"), ("\"", "_quo_"), ("“", "_quo_"), ("\'", "_apo_"), (")", '_rp_'), ("(", "_lp"), ("/", "_fsl_"), ("\\", "_bsl_"), ("=", "_eq_"), ("@", "_aat_"), ("$", "_dol_"), ("%", "_per_"), ("*", "_star_"), ("#", "_hash_"), ("+", "_plus_"), ("^", "_car_"), ("!", "_excl_"), ("?", "_quest_"), ("&", "_aand_")]
 # DELIMS = []
 
@@ -115,6 +99,39 @@ def make_replacements(original):
 	for dx, dy in DELIMS:
 		original = original.replace(dx, dy)
 	return original
+
+TURNSTILE = False
+def return_replacements(original):
+	global TURNSTILE
+	for dx, dy in RETURN_DELIMS.items():
+		if TURNSTILE and dy == "<":
+			continue
+		temp_orig = original
+		original = original.replace(dx, dy)
+		if dy == "<" and original != temp_orig:
+			TURNSTILE = True
+		if dy == ">" and original != temp_orig:
+			TURNSTILE = False
+
+	return original
+
+
+def top_tfidf_feats(row, features, top_n=25):
+	global TURNSTILE
+	''' Get top n tfidf values in row and return them with their corresponding feature names.'''
+	topn_ids = np.argsort(row)[::-1][:top_n]
+	TURNSTILE = False
+	top_feats = [(return_replacements(features[i]), row[i]) for i in topn_ids]
+	TURNSTILE = False
+	df = pd.DataFrame(top_feats)
+	df.columns = ['feature', 'tfidf']
+	return df
+
+
+def top_feats_in_doc(Xtr, features, row_id, top_n=25):
+	''' Top tfidf features in specific document (matrix row) '''
+	row = np.squeeze(Xtr[row_id].toarray())
+	return top_tfidf_feats(row, features, top_n)
 
 
 if __name__ == "__main__":
@@ -181,8 +198,6 @@ if __name__ == "__main__":
 	with open("results/{}_{}_{}_{}_k={}.txt".format(args.APP, args.TYPE, args.OUT, args.SUFFIX, args.K), "w") as output_file_name:
 		for label, result in results:
 			print(label)
-			for key, value in RETURN_DELIMS.items():
-				result = result.replace(key, value)
 			print(result)
 			print("\n")
 			output_file_name.write("{}\n{}\n\n".format(label, result))
