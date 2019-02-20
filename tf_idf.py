@@ -90,7 +90,7 @@ def remove_ending_brace(token):
 	else:
 		return token
 
-DELIMS = [("<", "f_"), (">", "_f"), ("'", "_apo_"), ("-", "_hyp_"), (".", "_dot_"), (",", "_ca_"), ("\"", "_quo_"), ("“", "_quo_"), ("\'", "_apo_"), (")", '_rp_'), ("(", "_lp"), ("/", "_fsl_"), ("\\", "_bsl_"), ("=", "_eq_"), ("@", "_aat_"), ("$", "_dol_"), ("%", "_per_"), ("*", "_star_"), ("#", "_hash_"), ("+", "_plus_"), ("^", "_car_"), ("!", "_excl_"), ("?", "_quest_"), ("&", "_aand_")]
+DELIMS = [("<", "fstart_"), (">", "_fend"), ("'", "_apo_"), ("-", "_hyp_"), (".", "_dot_"), (",", "_ca_"), ("\"", "_quo_"), ("“", "_quo_"), ("\'", "_apo_"), (")", '_rp_'), ("(", "_lp"), ("/", "_fsl_"), ("\\", "_bsl_"), ("=", "_eq_"), ("@", "_aat_"), ("$", "_dol_"), ("%", "_per_"), ("*", "_star_"), ("#", "_hash_"), ("+", "_plus_"), ("^", "_car_"), ("!", "_excl_"), ("?", "_quest_"), ("&", "_aand_")]
 # DELIMS = []
 
 RETURN_DELIMS = {y: x for (x,y) in DELIMS}
@@ -100,29 +100,18 @@ def make_replacements(original):
 		original = original.replace(dx, dy)
 	return original
 
-TURNSTILE = False
+
 def return_replacements(original):
-	global TURNSTILE
 	for dx, dy in RETURN_DELIMS.items():
-		if TURNSTILE and dy == "<":
-			continue
-		temp_orig = original
 		original = original.replace(dx, dy)
-		if dy == "<" and original != temp_orig:
-			TURNSTILE = True
-		if dy == ">" and original != temp_orig:
-			TURNSTILE = False
 
 	return original
 
 
 def top_tfidf_feats(row, features, top_n=25):
-	global TURNSTILE
 	''' Get top n tfidf values in row and return them with their corresponding feature names.'''
 	topn_ids = np.argsort(row)[::-1][:top_n]
-	TURNSTILE = False
 	top_feats = [(return_replacements(features[i]), row[i]) for i in topn_ids]
-	TURNSTILE = False
 	df = pd.DataFrame(top_feats)
 	df.columns = ['feature', 'tfidf']
 	return df
