@@ -1,0 +1,3579 @@
+/usr/local/bin/python3.7 /Users/davidwiner/Documents/kasisto_docs/tfidf/tf_idf.py
+======================================================================
+CALCULATE TFIDF
+======================================================================
+Qid_002
+                    feature     tfidf
+0               xannot_what  0.212293
+1                xannot_you  0.208512
+2                      help  0.196588
+3                  manulife  0.186331
+4                    things  0.182745
+5   help_f_location_state_f  0.179927
+6                   help_me  0.177928
+7                   me_with  0.176423
+8   f_location_state_f_with  0.167817
+9                    you_do  0.147842
+10                  are_you  0.146208
+11          xannot_what_can  0.144927
+12                  to_help  0.141528
+13                 you_able  0.133442
+14             can_manulife  0.133442
+
+
+Qid_003
+                   feature     tfidf
+0                    agent  0.433793
+1             live_f_oov_f  0.233205
+2             xannot_agent  0.233197
+3                     live  0.223209
+4            f_oov_f_agent  0.222161
+5              xannot_live  0.207287
+6               live_agent  0.207287
+7      xannot_live_f_oov_f  0.191092
+8           xannot_f_oov_f  0.186302
+9                    speak  0.167196
+10                an_agent  0.147106
+11    xannot_f_oov_f_agent  0.145748
+12  xannot_f_oov_f_f_oov_f  0.136940
+13       xannot_live_agent  0.119838
+14                    chat  0.119052
+
+
+Qid_006
+                     feature     tfidf
+0                 debit_card  0.393920
+1                   checking  0.291293
+2           f_account_type_f  0.279667
+3              my_debit_card  0.248717
+4                    expires  0.226913
+5                my_checking  0.215480
+6   f_account_type_f_expires  0.203320
+7           checking_f_oov_f  0.182572
+8         debit_card_f_oov_f  0.179907
+9           checking_expires  0.179746
+10        debit_card_expires  0.176800
+11       my_f_account_type_f  0.175965
+12                      card  0.152500
+13                       new  0.143154
+14                     a_new  0.142453
+
+
+Qid_011
+                 feature     tfidf
+0                    pin  0.605491
+1                 my_pin  0.315907
+2                 change  0.250289
+3             debit_card  0.236237
+4              change_my  0.199739
+5               checking  0.199324
+6         debit_card_pin  0.198702
+7   f_account_type_f_pin  0.196967
+8           checking_pin  0.196218
+9          my_debit_card  0.190991
+10           my_checking  0.177138
+11               pin_for  0.152415
+12      f_account_type_f  0.135310
+13              i_change  0.123546
+14   my_f_account_type_f  0.110420
+
+
+Qid_016
+             feature     tfidf
+0      mobile_number  0.389205
+1            address  0.377986
+2             change  0.295690
+3   my_mobile_number  0.286126
+4             update  0.244680
+5          change_my  0.230376
+6          update_my  0.218366
+7           i_change  0.154193
+8         f_oov_f_my  0.144644
+9         my_address  0.144515
+10            number  0.140876
+11          i_update  0.134424
+12   f_oov_f_address  0.117589
+13           profile  0.111670
+14             email  0.110052
+
+
+Qid_019
+                           feature     tfidf
+0                pre_hyp_terminate  0.555100
+1             pre_hyp_terminate_my  0.340330
+2             to_pre_hyp_terminate  0.268960
+3                          account  0.246279
+4               _dol__bank_account  0.206233
+5   f_currency_type_f_bank_account  0.206233
+6                     bank_account  0.181913
+7              i_pre_hyp_terminate  0.177650
+8                    _dol__f_oov_f  0.175409
+9        f_currency_type_f_f_oov_f  0.153953
+10                           _dol_  0.137546
+11                        manulife  0.133050
+12                        my__dol_  0.131630
+13                manulife_account  0.127357
+14            my_f_currency_type_f  0.118556
+
+
+Qid_026
+                   feature     tfidf
+0                     bill  0.392233
+1                      pay  0.335662
+2      f_account_feature_f  0.323807
+3             f_category_f  0.268431
+4                  my_bill  0.197766
+5                   a_bill  0.195094
+6              bill_online  0.193426
+7      f_category_f_online  0.176422
+8   f_account_feature_f_my  0.174567
+9    f_account_feature_f_a  0.168423
+10                  to_pay  0.167856
+11  to_f_account_feature_f  0.165996
+12                  pay_my  0.159733
+13            bill_f_oov_f  0.156924
+14                   pay_a  0.153772
+
+
+Qid_028
+             feature     tfidf
+0             biller  0.579490
+1           a_biller  0.553460
+2   what_information  0.224877
+3           create_a  0.203264
+4       what_details  0.172862
+5             create  0.166947
+6     information_do  0.139896
+7          to_create  0.136694
+8            details  0.135436
+9        information  0.124206
+10            needed  0.107444
+11         needed_to  0.096549
+12    information_is  0.092281
+13         is_needed  0.087388
+14       biller_what  0.086431
+
+
+Qid_030
+                       feature     tfidf
+0            pre_hyp_terminate  0.503321
+1          pre_hyp_terminate_a  0.444056
+2                    a_payment  0.400231
+3                      payment  0.364867
+4         to_pre_hyp_terminate  0.320648
+5          i_pre_hyp_terminate  0.168766
+6                 f_category_f  0.106029
+7                    canceling  0.102426
+8                  canceling_a  0.094715
+9               a_f_category_f  0.092330
+10                      stop_a  0.083467
+11  pre_hyp_terminate_payments  0.078929
+12                        stop  0.071920
+13        pre_hyp_terminate_my  0.058324
+14   pre_hyp_terminate_payment  0.057882
+
+
+Qid_031
+                feature     tfidf
+0          f_category_f  0.352195
+1                  paid  0.252470
+2                 bills  0.199529
+3   f_account_feature_f  0.191257
+4       my_f_category_f  0.181320
+5                  bill  0.168637
+6               debited  0.168226
+7       billing_company  0.164990
+8              how_long  0.160718
+9                  long  0.154502
+10      billing_f_oov_f  0.144379
+11              instant  0.127738
+12      f_oov_f_company  0.127738
+13              billing  0.123768
+14         been_debited  0.123742
+
+
+Qid_032
+                                  feature     tfidf
+0                                   i_pay  0.438397
+1                   i_f_account_feature_f  0.422717
+2                                     pay  0.372573
+3   f_account_feature_f_f_location_city_f  0.333380
+4                   pay_f_location_city_f  0.333380
+5                     f_account_feature_f  0.300561
+6                             pay_f_oov_f  0.201363
+7             f_account_feature_f_f_oov_f  0.164944
+8                       f_location_city_f  0.124098
+9                                   taxes  0.111497
+10              f_location_city_f_f_oov_f  0.104257
+11                                   town  0.081754
+12                           f_category_f  0.075971
+13                          f_oov_f_taxes  0.067630
+14                                    ltd  0.058894
+
+
+Qid_064
+                      feature     tfidf
+0         mobile_f_category_f  0.421561
+1             mobile_deposits  0.403050
+2       f_category_f_deposits  0.381442
+3                      mobile  0.330032
+4   f_category_f_f_category_f  0.312993
+5                    deposits  0.294747
+6                f_category_f  0.155066
+7              f_oov_f_mobile  0.146525
+8              support_mobile  0.145516
+9                     support  0.138090
+10                    devices  0.119696
+11       support_f_category_f  0.112661
+12         which_f_category_f  0.098749
+13       f_category_f_support  0.086463
+14          what_f_category_f  0.081699
+
+
+Qid_066
+                      feature     tfidf
+0         mobile_f_category_f  0.422220
+1              mobile_deposit  0.386450
+2                     deposit  0.381689
+3        f_category_f_deposit  0.371191
+4                      mobile  0.344359
+5   f_category_f_f_category_f  0.319742
+6                f_category_f  0.220780
+7                    a_mobile  0.106489
+8                    my_phone  0.103914
+9              a_f_category_f  0.103781
+10                      phone  0.091377
+11                  a_deposit  0.075084
+12            my_f_category_f  0.074810
+13               deposit_with  0.065482
+14          f_category_f_with  0.059975
+
+
+Qid_118
+              feature     tfidf
+0                 fee  0.426497
+1             fee_for  0.361313
+2             the_fee  0.329825
+3        f_category_f  0.227267
+4            how_much  0.227145
+5                much  0.219641
+6         expense_for  0.174282
+7         the_expense  0.165056
+8             expense  0.158125
+9    f_category_f_for  0.150686
+10            much_is  0.136710
+11               fees  0.132068
+12    additional_fees  0.107752
+13  wire_f_category_f  0.103982
+14               wire  0.102858
+
+
+Qid_092
+                      feature     tfidf
+0                    overseas  0.569900
+1                    transfer  0.318202
+2       overseas_f_category_f  0.298390
+3                f_category_f  0.246752
+4           overseas_transfer  0.236600
+5                mutual_funds  0.171223
+6                        fees  0.147929
+7                 an_overseas  0.132732
+8          overseas_transfers  0.125956
+9                   transfers  0.120763
+10           overseas_account  0.116344
+11               for_overseas  0.109665
+12                      money  0.109339
+13      transfer_mutual_funds  0.108968
+14  f_category_f_mutual_funds  0.101018
+
+
+Qid_116
+                   feature     tfidf
+0         foreign_currency  0.352419
+1                 currency  0.302424
+2               currencies  0.296748
+3             mutual_funds  0.205980
+4        f_currency_type_f  0.201486
+5     to_f_currency_type_f  0.197183
+6       different_currency  0.174019
+7         other_currencies  0.154430
+8                  convert  0.154207
+9                converted  0.148374
+10                 dollars  0.147884
+11      mutual_funds_india  0.140853
+12                  dollar  0.140546
+13    f_currency_type_f_to  0.136848
+14  into_f_currency_type_f  0.136262
+
+
+Qid_117
+         feature     tfidf
+0            fee  0.455665
+1        expense  0.442584
+2   this_expense  0.252589
+3        dispute  0.252589
+4       this_fee  0.252589
+5       that_fee  0.204477
+6   that_expense  0.204477
+7      dispute_a  0.192449
+8     expense_is  0.167236
+9         fee_is  0.157882
+10     a_expense  0.136627
+11         a_fee  0.122563
+12         wrong  0.117147
+13     i_dispute  0.096224
+14       contest  0.089193
+
+
+Qid_125
+           feature     tfidf
+0    manulife_bank  0.505060
+1             safe  0.438577
+2             bank  0.378576
+3         manulife  0.378576
+4      is_manulife  0.196446
+5           secure  0.120344
+6         how_safe  0.114479
+7           safety  0.103588
+8     bank_f_oov_f  0.097934
+9        bank_safe  0.094482
+10     xannot_safe  0.080841
+11         bank_is  0.078777
+12         safe_to  0.076319
+13         safe_is  0.076319
+14  using_manulife  0.070488
+
+
+Qid_144
+               feature     tfidf
+0             mortgage  0.525720
+1           a_mortgage  0.499240
+2     f_account_type_f  0.385927
+3   a_f_account_type_f  0.377319
+4            mortgages  0.197647
+5            apply_for  0.126304
+6                apply  0.120036
+7                for_a  0.108177
+8             manulife  0.100127
+9               open_a  0.084340
+10                open  0.083646
+11   f_oov_f_mortgages  0.063079
+12       are_mortgages  0.062473
+13               get_a  0.058111
+14    mortgage_f_oov_f  0.057320
+
+
+Qid_181
+                      feature     tfidf
+0                  statements  0.638819
+1          account_statements  0.278457
+2                   statement  0.278457
+3               my_statements  0.255303
+4                        view  0.145653
+5             e_hyp_statement  0.139259
+6          statements_f_oov_f  0.130114
+7                   generated  0.105982
+8       my_account_statements  0.105661
+9                my_statement  0.105661
+10                    view_my  0.088954
+11           _apo_s_statement  0.085048
+12  _apo_s_account_statements  0.085048
+13                        app  0.083851
+14                     stored  0.083590
+
+
+Qid_193
+                feature     tfidf
+0               history  0.612041
+1            my_history  0.331320
+2   transaction_history  0.313760
+3                   why  0.235177
+4           transaction  0.195155
+5        my_transaction  0.181878
+6                 of_my  0.142600
+7               some_of  0.128912
+8            history_is  0.122543
+9                why_is  0.105647
+10                  not  0.102266
+11               all_of  0.088919
+12              part_of  0.087360
+13                 part  0.086998
+14              missing  0.084893
+
+
+Qid_199
+                      feature     tfidf
+0                        link  0.421761
+1                      i_link  0.413732
+2                     link_my  0.327080
+3                     account  0.229302
+4                      add_my  0.225943
+5                        bank  0.213793
+6                       i_add  0.188499
+7                         add  0.178593
+8   f_location_city_f_account  0.157888
+9                    accounts  0.153772
+10               bank_account  0.146298
+11               f_oov_f_bank  0.144484
+12             canada_account  0.133876
+13                    bank_of  0.114333
+14                     canada  0.112915
+
+
+Qid_201
+                      feature     tfidf
+0              transfer_money  0.464615
+1          f_category_f_money  0.408414
+2                    transfer  0.368829
+3                       money  0.341791
+4                f_category_f  0.216221
+5                  money_from  0.191924
+6                    money_to  0.183769
+7                     account  0.172631
+8                        bank  0.161580
+9                     from_my  0.139386
+10  f_location_city_f_account  0.119329
+11                       from  0.106441
+12               f_oov_f_bank  0.102679
+13             canada_account  0.101181
+14                    bank_of  0.086410
+
+
+Qid_204
+                         feature     tfidf
+0                        pending  0.379386
+1                      scheduled  0.361394
+2     pending_f_location_state_f  0.288196
+3                     pending_or  0.288196
+4                   or_scheduled  0.253784
+5   f_location_state_f_scheduled  0.235239
+6         scheduled_f_category_f  0.231252
+7                       transfer  0.222484
+8                   f_category_f  0.164681
+9             scheduled_transfer  0.163454
+10                     a_pending  0.158008
+11                       changes  0.157270
+12              pending_transfer  0.133344
+13          pending_f_category_f  0.129279
+14                            or  0.117106
+
+
+Qid_212
+                feature     tfidf
+0                status  0.440129
+1              transfer  0.425221
+2            a_transfer  0.291162
+3          f_category_f  0.279543
+4           my_transfer  0.230805
+5             status_of  0.230290
+6       transfer_status  0.207827
+7   f_category_f_status  0.196202
+8        a_f_category_f  0.162662
+9            the_status  0.143258
+10                check  0.127443
+11      transfer__apo_s  0.124696
+12      my_f_category_f  0.122215
+13        _apo_s_status  0.114305
+14              i_check  0.107785
+
+
+Qid_213
+                feature     tfidf
+0               deposit  0.343142
+1          f_category_f  0.265526
+2                cutoff  0.249677
+3               earlier  0.205506
+4           cutoff_time  0.201129
+5      earlier_f_date_f  0.197661
+6          made_earlier  0.187258
+7              deposits  0.183255
+8             deposit_i  0.183217
+9                i_made  0.176678
+10          the_deposit  0.148276
+11                 made  0.139284
+12                 time  0.133291
+13            a_deposit  0.128092
+14  mobile_f_category_f  0.123859
+
+
+Qid_214
+               feature     tfidf
+0               biller  0.321869
+1              payment  0.297323
+2               failed  0.272701
+3             a_biller  0.271007
+4                 fail  0.260275
+5                fails  0.237405
+6           payment_to  0.206210
+7           my_payment  0.202568
+8                  why  0.171868
+9   f_category_f_fails  0.168481
+10             why_did  0.152202
+11        f_category_f  0.149832
+12       biller_failed  0.140454
+13                to_a  0.137504
+14                 did  0.129275
+
+
+Qid_215
+                feature     tfidf
+0              my_check  0.465165
+1                 check  0.386959
+2                images  0.350340
+3       my_f_category_f  0.241605
+4          f_category_f  0.240060
+5          check_images  0.198774
+6   f_category_f_images  0.198774
+7             images_of  0.179031
+8         check_f_oov_f  0.175890
+9                  view  0.157846
+10                  see  0.156313
+11               to_see  0.153609
+12              to_view  0.115546
+13             pictures  0.115165
+14          pictures_of  0.107222
+
+
+Qid_216
+                     feature     tfidf
+0                credit_card  0.610456
+1           f_account_type_f  0.459723
+2                       card  0.231923
+3                      apply  0.201969
+4              a_credit_card  0.189687
+5        f_oov_f_credit_card  0.163741
+6         a_f_account_type_f  0.142267
+7   f_oov_f_f_account_type_f  0.138609
+8               f_oov_f_card  0.126909
+9                   manulife  0.116879
+10                 apply_for  0.108427
+11                  to_apply  0.088926
+12                    master  0.077986
+13                   i_apply  0.074092
+14          best_credit_card  0.073157
+
+
+Qid_217
+                 feature     tfidf
+0                    pin  0.575375
+1                 my_pin  0.207872
+2          my_debit_card  0.202568
+3             debit_card  0.201624
+4            my_checking  0.189538
+5           checking_pin  0.184192
+6               i_forget  0.184192
+7         debit_card_pin  0.180188
+8   f_account_type_f_pin  0.177669
+9               checking  0.171239
+10               new_pin  0.166329
+11                forget  0.166297
+12                forgot  0.160537
+13              i_forgot  0.143814
+14             forgotten  0.128187
+
+
+Qid_218
+            feature     tfidf
+0    online_banking  0.395398
+1   f_oov_f_banking  0.359853
+2           banking  0.350445
+3    online_f_oov_f  0.329001
+4            online  0.265990
+5              safe  0.255466
+6   banking_f_oov_f  0.172762
+7            secure  0.162574
+8          security  0.149772
+9    banking_online  0.119735
+10           safety  0.110743
+11      information  0.103060
+12        is_online  0.094198
+13        of_online  0.089192
+14   my_information  0.087356
+
+
+Qid_219
+               feature     tfidf
+0              you_are  0.655101
+1          are_f_oov_f  0.154130
+2                 dumb  0.136564
+3                  bot  0.130288
+4        f_profanity_f  0.130288
+5               stupid  0.130050
+6                are_a  0.125160
+7         your_problem  0.104040
+8              are_not  0.097573
+9            are_doing  0.096437
+10                 job  0.094797
+11         f_oov_f_bot  0.091043
+12        than_f_oov_f  0.080550
+13  what_f_profanity_f  0.078030
+14      xannot_you_are  0.078030
+
+
+Qid_221
+         feature     tfidf
+0         you_do  0.433045
+1         do_you  0.267359
+2   f_oov_f_time  0.252288
+3           time  0.243386
+4     spare_time  0.209091
+5          spare  0.209091
+6      free_time  0.182955
+7     your_spare  0.182955
+8   your_f_oov_f  0.165602
+9           your  0.159729
+10       do_when  0.158130
+11       what_do  0.142052
+12          free  0.138901
+13    india_your  0.135762
+14          when  0.119490
+
+
+Qid_222
+              feature     tfidf
+0        notification  0.400238
+1               fraud  0.369681
+2      a_notification  0.298261
+3              victim  0.209328
+4   notification_that  0.164179
+5              not_do  0.160075
+6           victim_of  0.151866
+7            of_fraud  0.151866
+8               do_if  0.142027
+9            a_victim  0.135448
+10            did_not  0.118989
+11              i_did  0.118178
+12               if_i  0.116546
+13               been  0.111791
+14         my_account  0.108436
+
+
+Qid_223
+            feature     tfidf
+0          password  0.704721
+1       my_password  0.568819
+2            change  0.240674
+3         change_my  0.192426
+4         to_change  0.135180
+5      new_password  0.068185
+6          changing  0.067549
+7   change_password  0.063202
+8        f_oov_f_my  0.058577
+9          i_change  0.056909
+10  xannot_password  0.056180
+11       a_password  0.056180
+12      changing_my  0.051296
+13           update  0.037147
+14     for_changing  0.035896
+
+
+Qid_001
+                 feature     tfidf
+0                   abms  0.488864
+1                   fees  0.248958
+2           f_category_f  0.236609
+3             withdrawal  0.205856
+4                without  0.201393
+5                   free  0.185789
+6                    fee  0.181568
+7   without_f_category_f  0.176150
+8                    abm  0.176058
+9           without_fees  0.172540
+10                 money  0.142472
+11    withdrawal_expense  0.124612
+12                 a_fee  0.115989
+13             what_abms  0.115027
+14               expense  0.106741
+
+
+Qid_004
+            feature     tfidf
+0        experience  0.517701
+1           banking  0.319104
+2     about_banking  0.284228
+3          you_have  0.219086
+4               bot  0.210284
+5             a_bot  0.192869
+6          have_you  0.162416
+7     experience_do  0.153318
+8   your_experience  0.153318
+9   what_experience  0.131415
+10         you_been  0.131415
+11        long_have  0.131415
+12           do_you  0.122694
+13             long  0.114234
+14         how_long  0.110834
+
+
+Qid_005
+                feature     tfidf
+0              activate  0.471855
+1           activate_my  0.413459
+2                  card  0.353870
+3           credit_card  0.335400
+4      f_account_type_f  0.273970
+5               my_card  0.222189
+6        my_credit_card  0.208013
+7           to_activate  0.192355
+8   my_f_account_type_f  0.173528
+9            i_activate  0.151673
+10         card_f_oov_f  0.085897
+11  credit_card_f_oov_f  0.081213
+12         f_oov_f_card  0.069370
+13          card_online  0.067561
+14   credit_card_online  0.067561
+
+
+Qid_007
+                   feature     tfidf
+0            interac_flash  0.656379
+1                     wave  0.523494
+2                    setup  0.213969
+3      setup_interac_flash  0.210960
+4        use_interac_flash  0.156267
+5                 use_wave  0.117200
+6                  i_setup  0.111095
+7         up_interac_flash  0.101573
+8                 activate  0.101464
+9                      use  0.089204
+10  activate_interac_flash  0.085947
+11              i_activate  0.079735
+12     using_interac_flash  0.078133
+13              setup_wave  0.078133
+14           setup_f_oov_f  0.071754
+
+
+Qid_008
+                feature     tfidf
+0               my_card  0.386442
+1                  card  0.373546
+2        my_credit_card  0.357572
+3           credit_card  0.353743
+4   my_f_account_type_f  0.276214
+5      f_account_type_f  0.266919
+6                frozen  0.217653
+7               card_is  0.156475
+8        credit_card_is  0.154539
+9              unfreeze  0.148302
+10               locked  0.138739
+11               unlock  0.131737
+12  f_account_type_f_is  0.123661
+13          unfreeze_my  0.123585
+14            is_frozen  0.123585
+
+
+Qid_009
+                feature     tfidf
+0                  lost  0.373816
+1                  card  0.320483
+2           credit_card  0.295994
+3      f_account_type_f  0.279209
+4            debit_card  0.247822
+5               lost_my  0.247075
+6         my_debit_card  0.211513
+7                i_lost  0.188039
+8               my_card  0.166628
+9   my_f_account_type_f  0.164846
+10       my_credit_card  0.152947
+11           f_oov_f_my  0.134716
+12         f_oov_f_card  0.132869
+13               stolen  0.129942
+14  f_oov_f_credit_card  0.118083
+
+
+Qid_012
+                feature     tfidf
+0              withdraw  0.266918
+1                  card  0.262019
+2                   atm  0.261631
+3           credit_card  0.244609
+4                cannot  0.233974
+5      f_account_type_f  0.207177
+6           to_withdraw  0.151222
+7       cannot_withdraw  0.148436
+8        cannot_f_oov_f  0.145286
+9               my_card  0.131054
+10       my_credit_card  0.115375
+11      atm_credit_card  0.109934
+12             atm_card  0.109934
+13  my_f_account_type_f  0.109772
+14       withdraw_money  0.108199
+
+
+Qid_013
+                        feature     tfidf
+0                    my_balance  0.413605
+1        my_f_account_feature_f  0.367585
+2                       balance  0.359699
+3           f_account_feature_f  0.267404
+4                       pending  0.250024
+5               balance_f_oov_f  0.229596
+6               balance_include  0.200901
+7   f_account_feature_f_include  0.200901
+8                       include  0.188632
+9   f_account_feature_f_f_oov_f  0.160007
+10  included_f_location_state_f  0.158969
+11                     included  0.155452
+12               included_india  0.136259
+13         pending_transactions  0.131717
+14                      does_my  0.102226
+
+
+Qid_017
+              feature     tfidf
+0             advisor  0.764753
+1          my_advisor  0.504935
+2              change  0.181093
+3           change_my  0.132253
+4          my_f_oov_f  0.128089
+5         new_advisor  0.102008
+6              remove  0.094823
+7           remove_my  0.091876
+8   different_advisor  0.090629
+9      advisor_please  0.090007
+10          to_change  0.064381
+11        new_f_oov_f  0.053857
+12  different_f_oov_f  0.050042
+13        a_different  0.048734
+14     change_f_oov_f  0.048569
+
+
+Qid_018
+                 feature     tfidf
+0            beneficiary  0.625195
+1          a_beneficiary  0.496908
+2                    add  0.290054
+3          beneficiaries  0.201105
+4                  add_a  0.184240
+5         my_beneficiary  0.149207
+6                  i_add  0.135272
+7               remove_a  0.129098
+8                 remove  0.124802
+9                 change  0.112825
+10                biller  0.095429
+11                to_add  0.090286
+12    beneficiary_please  0.083984
+13  change_beneficiaries  0.069987
+14             recipient  0.063030
+
+
+Qid_021
+                    feature     tfidf
+0                      name  0.548219
+1                   my_name  0.388912
+2   name_f_location_state_f  0.324922
+3                   name_on  0.313318
+4                    change  0.278987
+5                    a_name  0.156490
+6               name_change  0.150230
+7                 change_my  0.145164
+8                my_account  0.141791
+9                   account  0.124180
+10              change_name  0.121846
+11                  changed  0.117411
+12               my_f_oov_f  0.112881
+13           f_oov_f_change  0.109507
+14                 i_change  0.103769
+
+
+Qid_022
+           feature     tfidf
+0           remove  0.521067
+1        remove_my  0.341533
+2       my_account  0.313060
+3          account  0.286916
+4          from_my  0.273666
+5             from  0.219462
+6         i_remove  0.170685
+7     f_oov_f_from  0.166093
+8              off  0.154010
+9     someone_from  0.142380
+10  remove_someone  0.130176
+11          off_my  0.125653
+12  remove_f_oov_f  0.112211
+13       to_remove  0.111823
+14     f_oov_f_off  0.105046
+
+
+Qid_023
+           feature     tfidf
+0              add  0.533505
+1           add_my  0.446269
+2       my_account  0.313706
+3            to_my  0.298255
+4          account  0.280384
+5            i_add  0.253640
+6            add_a  0.124677
+7      add_someone  0.104992
+8      add_f_oov_f  0.102033
+9           to_add  0.101344
+10          member  0.070952
+11           owner  0.068159
+12       friend_to  0.065620
+13         someone  0.063770
+14  f_oov_f_member  0.062604
+
+
+Qid_024
+               feature     tfidf
+0   security_questions  0.631569
+1             security  0.441620
+2          my_security  0.405594
+3            questions  0.383520
+4               change  0.193493
+5            change_my  0.150220
+6            to_change  0.071053
+7      change_security  0.068015
+8             i_change  0.065437
+9        questions_how  0.038866
+10        new_security  0.034008
+11    questions_please  0.034008
+12              update  0.031761
+13             changed  0.030375
+14          f_oov_f_my  0.029286
+
+
+Qid_027
+                        feature     tfidf
+0                       company  0.454162
+1                   the_company  0.288390
+2                   company_pay  0.263312
+3   company_f_account_feature_f  0.263312
+4                     a_company  0.247279
+5                           pay  0.233250
+6           f_account_feature_f  0.194708
+7                   f_oov_f_pay  0.182413
+8                         add_a  0.173514
+9                    company_to  0.162979
+10                       cannot  0.156448
+11                          add  0.149717
+12                       biller  0.145948
+13  f_oov_f_f_account_feature_f  0.139736
+14                  bill_biller  0.134879
+
+
+Qid_029
+                feature     tfidf
+0             a_company  0.442134
+1               company  0.340825
+2                delete  0.330282
+3              delete_a  0.324911
+4              remove_a  0.197130
+5                biller  0.195062
+6                  bill  0.193852
+7                remove  0.182630
+8           bill_biller  0.167294
+9   f_category_f_biller  0.159606
+10             i_delete  0.155112
+11             i_remove  0.151359
+12                  pay  0.127012
+13  f_account_feature_f  0.107153
+14            company_i  0.101261
+
+
+Qid_033
+                         feature     tfidf
+0                          bills  0.325805
+1                            pay  0.292624
+2            f_account_feature_f  0.242957
+3          multiple_f_category_f  0.235591
+4                  f_oov_f_bills  0.232617
+5        f_number_f_f_category_f  0.210886
+6                 multiple_bills  0.194618
+7                   f_category_f  0.190919
+8                          i_pay  0.174027
+9          i_f_account_feature_f  0.167803
+10               f_category_f_at  0.166511
+11                  pay_multiple  0.163889
+12  f_account_feature_f_multiple  0.163889
+13                      bills_at  0.163889
+14               f_number_f_bill  0.158768
+
+
+Qid_034
+                      feature     tfidf
+0               xannot_branch  0.230972
+1              xannot_f_oov_f  0.221613
+2                     closest  0.209115
+3                 xannot_that  0.182475
+4                     nearest  0.179288
+5                 xannot_open  0.167393
+6                  xannot_atm  0.167204
+7                         atm  0.166802
+8                      branch  0.166253
+9             xannot_a_branch  0.161143
+10             xannot_that_is  0.159609
+11  xannot_f_location_state_f  0.156368
+12                the_closest  0.155769
+13                the_nearest  0.138699
+14                xannot_find  0.130940
+
+
+Qid_035
+                  feature     tfidf
+0                 advisor  0.519140
+1               financial  0.445029
+2       financial_f_oov_f  0.354379
+3       financial_advisor  0.243892
+4         f_oov_f_advisor  0.232179
+5             a_financial  0.224117
+6   financial_certificate  0.197750
+7              an_advisor  0.196120
+8     f_oov_f_certificate  0.158596
+9             certificate  0.132679
+10          for_financial  0.105467
+11        nearest_f_oov_f  0.079430
+12                nearest  0.074987
+13               advisors  0.073320
+14            the_nearest  0.073320
+
+
+Qid_036
+                  feature     tfidf
+0                   check  0.599492
+1            f_category_f  0.336012
+2              more_check  0.262246
+3                   order  0.183567
+4          business_check  0.179670
+5       more_f_category_f  0.166789
+6         us_f_category_f  0.163817
+7                us_check  0.163817
+8   business_f_category_f  0.161825
+9      f_category_f_check  0.145406
+10     order_f_category_f  0.142786
+11                i_order  0.141658
+12            order_check  0.137395
+13               business  0.133259
+14                     us  0.124667
+
+
+Qid_038
+            feature     tfidf
+0      my_documents  0.402310
+1             forms  0.400458
+2         documents  0.395467
+3           send_my  0.284383
+4              send  0.259415
+5            i_send  0.212174
+6          my_forms  0.189567
+7           address  0.177380
+8         completed  0.153803
+9   completed_forms  0.146998
+10           i_mail  0.146998
+11    f_oov_f_forms  0.142175
+12         forms_to  0.131524
+13          mail_my  0.129085
+14             mail  0.125768
+
+
+Qid_039
+                    feature     tfidf
+0    call_f_location_city_f  0.448644
+1                      call  0.399023
+2               call_centre  0.332107
+3                     hours  0.304081
+4                    centre  0.295651
+5         f_location_city_f  0.168467
+6                 your_call  0.167081
+7                    center  0.155675
+8   f_location_city_f_hours  0.149175
+9               call_center  0.141418
+10                 the_call  0.132512
+11   f_location_city_f_open  0.130539
+12           centre_f_oov_f  0.119661
+13              centre_open  0.118097
+14                     open  0.108189
+
+
+Qid_041
+                   feature     tfidf
+0                   number  0.376979
+1             phone_number  0.359137
+2      f_category_f_number  0.353368
+3                    phone  0.289636
+4               your_phone  0.289064
+5                reach_you  0.254826
+6        your_f_category_f  0.218335
+7                     call  0.185384
+8                    reach  0.169077
+9   call_f_location_city_f  0.166524
+10                    your  0.164797
+11            f_category_f  0.164027
+12                the_call  0.113728
+13                to_reach  0.106199
+14                  center  0.094553
+
+
+Qid_044
+                        feature     tfidf
+0                      increase  0.479051
+1                my_credit_card  0.311724
+2                   credit_card  0.307721
+3                         limit  0.299131
+4           my_f_account_type_f  0.243601
+5              f_account_type_f  0.242800
+6             credit_card_limit  0.240784
+7        f_account_type_f_limit  0.231308
+8                   increase_my  0.195564
+9                         on_my  0.122244
+10  increase_f_location_state_f  0.111993
+11                  increase_on  0.111518
+12        f_location_state_f_my  0.110254
+13                 increase_the  0.109051
+14                  to_increase  0.095235
+
+
+Qid_045
+                             feature     tfidf
+0                            balance  0.337741
+1               balance_f_category_f  0.331319
+2                          a_balance  0.322931
+3       f_account_feature_f_transfer  0.319853
+4                   balance_transfer  0.319853
+5                           transfer  0.274745
+6              a_f_account_feature_f  0.255651
+7   f_account_feature_f_f_category_f  0.245835
+8                f_account_feature_f  0.242738
+9                       f_category_f  0.170208
+10               credit_card_balance  0.119945
+11          f_account_type_f_balance  0.108032
+12                       transfer_my  0.106244
+13   credit_card_f_account_feature_f  0.104848
+14                              do_a  0.096830
+
+
+Qid_046
+                           feature     tfidf
+0           my_f_account_feature_f  0.592835
+1              f_account_feature_f  0.431668
+2                        determine  0.255338
+3                     determine_my  0.245395
+4                       determined  0.198573
+5   f_account_feature_f_determined  0.132370
+6                       f_oov_f_my  0.126383
+7      f_account_feature_f_f_oov_f  0.116950
+8                         manulife  0.108690
+9                    you_determine  0.094724
+10                           is_my  0.094427
+11                      determines  0.082739
+12                     determining  0.078877
+13                   manulife_bank  0.078661
+14                   does_manulife  0.076264
+
+
+Qid_048
+         feature     tfidf
+0      cash_back  0.613141
+1           cash  0.374608
+2           back  0.355454
+3        my_cash  0.292101
+4   back_f_oov_f  0.252974
+5   back_rewards  0.244990
+6        rewards  0.224986
+7           when  0.101165
+8       redeemed  0.086293
+9         redeem  0.086293
+10     how_often  0.083485
+11         often  0.082939
+12      get_cash  0.073632
+13        get_my  0.070422
+14      i_redeem  0.049959
+
+
+Qid_049
+                                feature     tfidf
+0                          transactions  0.317377
+1                    account_statements  0.278305
+2                             statement  0.278305
+3                       transactions_on  0.250610
+4       transactions_f_location_state_f  0.230129
+5                       my_transactions  0.224393
+6                            categorize  0.217373
+7                           categorized  0.201847
+8                 credit_card_statement  0.196691
+9   f_account_type_f_account_statements  0.196691
+10           f_account_type_f_statement  0.196691
+11       credit_card_account_statements  0.196691
+12                my_account_statements  0.161510
+13                         my_statement  0.161510
+14                        categorize_my  0.160442
+
+
+Qid_050
+               feature     tfidf
+0      minimum_payment  0.652944
+1              minimum  0.443678
+2           my_minimum  0.432996
+3              payment  0.302225
+4            determine  0.099492
+5         determine_my  0.089839
+6           calculated  0.080916
+7           determined  0.080350
+8            calculate  0.075886
+9      payment_f_oov_f  0.067784
+10       you_determine  0.059622
+11          payment_is  0.059494
+12         the_minimum  0.049474
+13  payment_determined  0.045910
+14    minimum_payments  0.045910
+
+
+Qid_051
+                feature     tfidf
+0           credit_card  0.359196
+1      f_account_type_f  0.347620
+2          not_received  0.256859
+3              received  0.251035
+4                  card  0.248492
+5   my_f_account_type_f  0.193098
+6              have_not  0.185731
+7                   not  0.180566
+8        my_credit_card  0.176360
+9            debit_card  0.159308
+10          received_my  0.138264
+11             checking  0.117260
+12        my_debit_card  0.115239
+13              my_card  0.110656
+14              did_not  0.103184
+
+
+Qid_052
+                    feature     tfidf
+0                  interest  0.562813
+1                calculated  0.353823
+2              f_category_f  0.229194
+3                 calculate  0.229065
+4          interest_f_oov_f  0.217140
+5        calculate_interest  0.193208
+6    calculate_f_category_f  0.193208
+7       interest_calculated  0.193208
+8   f_category_f_calculated  0.186975
+9               interest_is  0.144427
+10              is_interest  0.132873
+11            you_calculate  0.130894
+12            is_calculated  0.114532
+13                   how_is  0.113463
+14             how_interest  0.109764
+
+
+Qid_053
+                feature     tfidf
+0              interest  0.418904
+1          owe_interest  0.338432
+2      owe_f_category_f  0.338432
+3                   owe  0.307883
+4           f_oov_f_owe  0.252561
+5             still_owe  0.232356
+6                   why  0.192960
+7          f_category_f  0.176847
+8                 still  0.176626
+9               i_still  0.166841
+10               why_do  0.124630
+11                 paid  0.108063
+12               i_paid  0.105590
+13  f_account_feature_f  0.104496
+14        have_interest  0.090922
+
+
+Qid_055
+                    feature     tfidf
+0                       add  0.441331
+1               credit_card  0.324917
+2            my_credit_card  0.276421
+3               add_another  0.258741
+4          f_account_type_f  0.243442
+5                     i_add  0.229991
+6       my_f_account_type_f  0.211858
+7                   another  0.201917
+8                     to_my  0.179965
+9               add_someone  0.146838
+10              card_holder  0.141190
+11              add_f_oov_f  0.136427
+12                   to_add  0.130833
+13  f_account_type_f_holder  0.129400
+14       credit_card_holder  0.129400
+
+
+Qid_056
+                                 feature     tfidf
+0                            activate_my  0.422398
+1                               activate  0.412899
+2                            credit_card  0.356391
+3                       f_account_type_f  0.267024
+4                 my_manulife_money_plus  0.190291
+5                    manulife_money_plus  0.181377
+6                         my_credit_card  0.179538
+7               f_nickname_f_credit_card  0.173471
+8        manulife_money_plus_credit_card  0.173471
+9   manulife_money_plus_f_account_type_f  0.173471
+10         f_nickname_f_f_account_type_f  0.161132
+11                                  card  0.159490
+12                           to_activate  0.154045
+13              manulife_money_plus_card  0.153564
+14                     f_nickname_f_card  0.153564
+
+
+Qid_058
+                             feature     tfidf
+0                        credit_card  0.371749
+1                     my_credit_card  0.339160
+2                   f_account_type_f  0.276527
+3                                pay  0.268417
+4                             pay_my  0.258616
+5                my_f_account_type_f  0.257644
+6             f_account_feature_f_my  0.254452
+7                f_account_feature_f  0.232603
+8           auto_f_account_feature_f  0.225917
+9                           auto_pay  0.225917
+10                              auto  0.187263
+11                  f_category_f_pay  0.161507
+12  f_category_f_f_account_feature_f  0.152386
+13               credit_card_payment  0.097694
+14                           payment  0.089618
+
+
+Qid_061
+                     feature     tfidf
+0                       debt  0.639617
+1                    my_debt  0.573263
+2                     reduce  0.232027
+3                  reduce_my  0.189059
+4   f_account_feature_f_down  0.131273
+5                   pay_down  0.119186
+6                        pay  0.113902
+7                       down  0.108051
+8                  to_reduce  0.107348
+9        f_account_feature_f  0.105102
+10                   down_my  0.099551
+11                f_oov_f_my  0.085656
+12                  i_reduce  0.073046
+13               debt_please  0.069649
+14                     i_pay  0.068268
+
+
+Qid_062
+            feature     tfidf
+0           deposit  0.418218
+1      f_category_f  0.258071
+2            access  0.222800
+3          how_long  0.211711
+4         i_deposit  0.206633
+5      mutual_funds  0.204746
+6              long  0.202419
+7   my_mutual_funds  0.171873
+8              hold  0.162519
+9         hold_time  0.162228
+10        deposited  0.156090
+11   i_f_category_f  0.153838
+12         the_hold  0.142458
+13       my_deposit  0.141960
+14        a_deposit  0.141381
+
+
+Qid_067
+                      feature     tfidf
+0         mobile_f_category_f  0.423513
+1                      mobile  0.379027
+2   f_category_f_f_category_f  0.312426
+3             mobile_deposits  0.273755
+4       f_category_f_deposits  0.259079
+5                    deposits  0.222358
+6               create_mobile  0.192421
+7                f_category_f  0.186254
+8                 deposits_to  0.162092
+9             f_category_f_to  0.160493
+10             mobile_deposit  0.151285
+11       f_category_f_deposit  0.149993
+12                    deposit  0.142543
+13                   a_mobile  0.140004
+14        create_f_category_f  0.137666
+
+
+Qid_070
+                 feature     tfidf
+0                  image  0.426583
+1            check_image  0.418524
+2     f_category_f_image  0.344449
+3               my_check  0.340884
+4          check_f_oov_f  0.276810
+5                  check  0.270923
+6              image_was  0.179808
+7        my_f_category_f  0.144734
+8           f_category_f  0.139894
+9                    was  0.133076
+10           f_oov_f_was  0.130100
+11  f_category_f_f_oov_f  0.129602
+12                   why  0.123925
+13              accepted  0.117556
+14               refused  0.107409
+
+
+Qid_071
+                      feature     tfidf
+0              mobile_deposit  0.356887
+1         mobile_f_category_f  0.352427
+2        f_category_f_deposit  0.337754
+3                      mobile  0.283661
+4   f_category_f_f_category_f  0.266225
+5                     deposit  0.248780
+6                       check  0.237129
+7               deposit_check  0.210940
+8          f_category_f_check  0.203106
+9        deposit_f_category_f  0.191655
+10                check_after  0.154166
+11               f_category_f  0.142238
+12                   a_mobile  0.138151
+13                  my_mobile  0.130717
+14                       save  0.120579
+
+
+Qid_073
+                      feature     tfidf
+0         mobile_f_category_f  0.332729
+1   f_category_f_f_category_f  0.304488
+2                      limits  0.298727
+3                      mobile  0.291122
+4                     deposit  0.257287
+5              deposit_limits  0.254233
+6         f_category_f_limits  0.227530
+7                f_category_f  0.221213
+8        f_category_f_deposit  0.209204
+9                    deposits  0.198315
+10      f_category_f_deposits  0.188694
+11            mobile_deposits  0.169042
+12             mobile_deposit  0.169042
+13            deposit_f_oov_f  0.159812
+14                      limit  0.110438
+
+
+Qid_074
+                 feature     tfidf
+0                deposit  0.574757
+1              a_deposit  0.473275
+2           f_category_f  0.320569
+3         a_f_category_f  0.250761
+4               create_a  0.225135
+5                 create  0.193607
+6        deposit_options  0.136669
+7                options  0.126858
+8   f_category_f_options  0.119595
+9              to_create  0.093497
+10       deposit_f_oov_f  0.088595
+11             i_deposit  0.087039
+12              i_create  0.082373
+13               into_my  0.077606
+14            my_account  0.065367
+
+
+Qid_075
+                 feature     tfidf
+0                  check  0.453393
+1          f_oov_f_check  0.294038
+2           f_category_f  0.279411
+3             you_accept  0.278766
+4                deposit  0.270766
+5                 accept  0.226075
+6              i_deposit  0.207236
+7         i_f_category_f  0.154286
+8               of_check  0.148869
+9   f_oov_f_f_category_f  0.142409
+10        accept_f_oov_f  0.110017
+11              accepted  0.108789
+12                 dated  0.102826
+13             check_are  0.091612
+14         foreign_check  0.088746
+
+
+Qid_077
+            feature     tfidf
+0         etransfer  0.391647
+1             wrong  0.329851
+2      etransfer_to  0.322844
+3         the_wrong  0.316230
+4      an_etransfer  0.262812
+5   an_f_category_f  0.252584
+6   f_category_f_to  0.195603
+7      f_category_f  0.160506
+8      wrong_person  0.152833
+9            to_the  0.143033
+10          send_an  0.136428
+11             sent  0.131218
+12           i_sent  0.113521
+13               an  0.110849
+14          sent_an  0.110792
+
+
+Qid_080
+              feature     tfidf
+0           etransfer  0.540765
+1        my_etransfer  0.442611
+2     my_f_category_f  0.250241
+3    f_category_f_did  0.232792
+4       etransfer_did  0.227249
+5        f_category_f  0.225919
+6             did_not  0.217591
+7                 did  0.200493
+8          go_through  0.155304
+9              not_go  0.152512
+10                not  0.152309
+11                why  0.115344
+12           not_work  0.099061
+13            through  0.083918
+14  etransfer_f_oov_f  0.075286
+
+
+Qid_083
+                 feature     tfidf
+0              etransfer  0.701259
+1           f_category_f  0.289632
+2      receive_etransfer  0.243939
+3           an_etransfer  0.226286
+4        an_f_category_f  0.208602
+5   receive_f_category_f  0.203198
+6                    app  0.141082
+7                the_app  0.140809
+8                receive  0.109058
+9                send_an  0.106679
+10          requirements  0.102082
+11                    an  0.092095
+12      xannot_etransfer  0.091477
+13     etransfer_through  0.085379
+14                  send  0.078738
+
+
+Qid_095
+                 feature     tfidf
+0              etransfer  0.717246
+1          for_etransfer  0.329525
+2           f_category_f  0.288953
+3       for_f_category_f  0.193124
+4      etransfer_f_oov_f  0.143696
+5                 limits  0.133022
+6                maximum  0.118303
+7                  limit  0.115131
+8                    cap  0.112177
+9              limit_for  0.083098
+10               minimum  0.076052
+11            limits_for  0.073464
+12                amount  0.071507
+13  f_category_f_f_oov_f  0.071181
+14         etransfer_per  0.069951
+
+
+Qid_096
+                        feature     tfidf
+0                       profile  0.466205
+1             etransfer_profile  0.433689
+2          f_category_f_profile  0.430678
+3                     etransfer  0.329906
+4             etransfer_f_oov_f  0.293373
+5                  my_etransfer  0.244439
+6          f_category_f_f_oov_f  0.140783
+7               my_f_category_f  0.131334
+8                  f_category_f  0.129718
+9                      language  0.081317
+10                         edit  0.070398
+11                       change  0.068544
+12                  language_on  0.063246
+13  language_f_location_state_f  0.063246
+14                        on_my  0.061544
+
+
+Qid_100
+             feature     tfidf
+0          etransfer  0.591505
+1       my_etransfer  0.437834
+2    my_f_category_f  0.248325
+3       f_category_f  0.241949
+4           accepted  0.162532
+5          recipient  0.158652
+6      etransfer_was  0.142854
+7           declined  0.133603
+8              if_my  0.127739
+9   f_category_f_was  0.123915
+10       a_recipient  0.122470
+11           know_if  0.112381
+12            i_know  0.110916
+13     etransfer_has  0.100908
+14               has  0.095791
+
+
+Qid_101
+                    feature     tfidf
+0                recipients  0.437141
+1                 etransfer  0.401136
+2   f_category_f_recipients  0.390949
+3      etransfer_recipients  0.390949
+4         etransfer_f_oov_f  0.266260
+5            etransfer_list  0.217194
+6         f_category_f_list  0.217194
+7              f_category_f  0.158647
+8              my_etransfer  0.133972
+9      f_category_f_f_oov_f  0.127772
+10                     list  0.116750
+11            recipients_be  0.097737
+12            can_etransfer  0.075670
+13          my_f_category_f  0.072562
+14             people_india  0.065158
+
+
+Qid_104
+            feature     tfidf
+0         etransfer  0.531023
+1      etransfer_to  0.338077
+2      an_etransfer  0.289113
+3           send_an  0.286225
+4   an_f_category_f  0.274773
+5      f_category_f  0.214901
+6   f_category_f_to  0.208883
+7              send  0.190815
+8            i_send  0.182474
+9      etransfer_be  0.163645
+10    can_etransfer  0.157635
+11          be_sent  0.144791
+12            to_my  0.139894
+13               an  0.115563
+14          sent_to  0.114391
+
+
+Qid_105
+                      feature     tfidf
+0                   etransfer  0.561611
+1                my_etransfer  0.297215
+2              re_hyp_deposit  0.242338
+3                f_category_f  0.240765
+4                         why  0.203684
+5           to_re_hyp_deposit  0.188485
+6             my_f_category_f  0.175181
+7                unsuccessful  0.162979
+8             another_account  0.162487
+9      unsuccessful_etransfer  0.124794
+10  unsuccessful_f_category_f  0.124794
+11              india_another  0.111094
+12                     why_do  0.109270
+13                        did  0.108339
+14                    another  0.105303
+
+
+Qid_108
+                feature     tfidf
+0             etransfer  0.664189
+1                  safe  0.362434
+2          f_category_f  0.259010
+3         are_etransfer  0.245660
+4                secure  0.209011
+5      are_f_category_f  0.151550
+6               safe_to  0.134022
+7          an_etransfer  0.125652
+8      etransfer_secure  0.123982
+9     f_category_f_safe  0.123982
+10    etransfer_f_oov_f  0.120819
+11       etransfer_safe  0.116689
+12             how_safe  0.114876
+13  f_category_f_secure  0.109396
+14      an_f_category_f  0.102183
+
+
+Qid_112
+                           feature     tfidf
+0                        etransfer  0.635744
+1                     an_etransfer  0.344337
+2                  an_f_category_f  0.326581
+3                     f_category_f  0.253156
+4                          stop_an  0.225630
+5                             stop  0.190967
+6      pre_hyp_terminate_etransfer  0.177454
+7   pre_hyp_terminate_f_category_f  0.153538
+8                               an  0.138188
+9                pre_hyp_terminate  0.137893
+10                           pause  0.123071
+11                      f_oov_f_an  0.111039
+12                          i_stop  0.106546
+13                        pause_an  0.088885
+14             i_pre_hyp_terminate  0.084726
+
+
+Qid_113
+                feature     tfidf
+0             etransfer  0.536607
+1          f_category_f  0.218618
+2                  long  0.197345
+3              how_long  0.192637
+4              malaysia  0.184993
+5                 money  0.164425
+6          etransfer_to  0.147778
+7              overseas  0.145736
+8     e_hyp_transferred  0.137046
+9           to_malaysia  0.122123
+10                 days  0.094177
+11  i_e_hyp_transferred  0.091364
+12   manulife_etransfer  0.091364
+13             manulife  0.087523
+14      f_category_f_to  0.085848
+
+
+Qid_121
+                             feature     tfidf
+0                               fees  0.614654
+1                              avoid  0.346126
+2                       f_category_f  0.277202
+3                       f_oov_f_fees  0.249789
+4                 avoid_f_category_f  0.244551
+5                         avoid_fees  0.223590
+6                           to_avoid  0.157330
+7               f_oov_f_f_category_f  0.145153
+8                            my_fees  0.143222
+9           f_account_feature_f_fees  0.125769
+10                         eliminate  0.104808
+11                           i_avoid  0.094398
+12  f_account_feature_f_f_category_f  0.092994
+13            eliminate_f_category_f  0.090456
+14                            reduce  0.084637
+
+
+Qid_123
+            feature     tfidf
+0             forms  0.792611
+1    manulife_forms  0.277140
+2        your_forms  0.251158
+3          manulife  0.186672
+4              form  0.167198
+5            a_form  0.144608
+6   forms_available  0.095267
+7        bank_forms  0.095267
+8              your  0.093758
+9         get_forms  0.086606
+10    find_manulife  0.086606
+11        the_forms  0.083366
+12        forms_for  0.072250
+13        where_are  0.072053
+14           i_find  0.069395
+
+
+Qid_128
+            feature     tfidf
+0             fraud  0.556236
+1     f_oov_f_fraud  0.330188
+2           protect  0.296910
+3          identity  0.264526
+4       my_identity  0.176233
+5   protect_f_oov_f  0.158980
+6           prevent  0.158680
+7        to_protect  0.153425
+8        protect_my  0.153218
+9    protect_myself  0.152865
+10   f_oov_f_myself  0.148135
+11       from_fraud  0.143189
+12            avoid  0.132175
+13    prevent_fraud  0.125336
+14      avoid_fraud  0.125336
+
+
+Qid_131
+                                       feature     tfidf
+0                                       better  0.447046
+1                                     a_better  0.427621
+2                                         rate  0.361192
+3           guaranteed_investment_certificates  0.215637
+4                                  better_rate  0.207926
+5                                 f_oov_f_rate  0.190498
+6      guaranteed_investment_certificates_rate  0.186226
+7                                   get_better  0.168694
+8                               better_pricing  0.156599
+9                                  pricing_for  0.156599
+10                                     pricing  0.156599
+11                             f_oov_f_pricing  0.156599
+12   better_guaranteed_investment_certificates  0.152367
+13  f_oov_f_guaranteed_investment_certificates  0.148147
+14                              better_f_oov_f  0.145156
+
+
+Qid_132
+            feature     tfidf
+0             rates  0.751778
+1     current_rates  0.321821
+2        your_rates  0.225675
+3           current  0.184969
+4              your  0.178838
+5      _apo_s_rates  0.130197
+6          are_your  0.119391
+7   manulife__apo_s  0.113932
+8      your_current  0.104418
+9          what_are  0.100633
+10     rates_please  0.096546
+11        rates_are  0.091146
+12        rates_for  0.090496
+13         manulife  0.090425
+14          me_your  0.078134
+
+
+Qid_133
+                   feature     tfidf
+0                 increase  0.442959
+1                    limit  0.434648
+2              increase_my  0.208859
+3            f_oov_f_limit  0.183995
+4         withdrawal_limit  0.177061
+5   f_account_type_f_limit  0.169612
+6               withdrawal  0.165414
+7        credit_card_limit  0.165171
+8       f_category_f_limit  0.159475
+9         f_account_type_f  0.157721
+10                  change  0.145560
+11             credit_card  0.144031
+12             to_increase  0.130769
+13     f_account_feature_f  0.126532
+14                   daily  0.121082
+
+
+Qid_134
+                                   feature     tfidf
+0                    non_hyp_readvanceable  0.535902
+1                            readvanceable  0.478278
+2   non_hyp_readvanceable_f_account_type_f  0.305407
+3           readvanceable_f_account_type_f  0.242020
+4                                     loan  0.219159
+5               non_hyp_readvanceable_loan  0.195921
+6                  a_non_hyp_readvanceable  0.190159
+7                         f_account_type_f  0.173537
+8                       readvanceable_loan  0.167109
+9                          a_readvanceable  0.155584
+10                       readvanceable_and  0.121010
+11                                   loans  0.119759
+12               and_non_hyp_readvanceable  0.115248
+13             non_hyp_readvanceable_loans  0.092198
+14                                 loan_is  0.080681
+
+
+Qid_137
+                   feature     tfidf
+0             manulife_one  0.537393
+1             f_nickname_f  0.379203
+2          my_manulife_one  0.358326
+3          my_f_nickname_f  0.260234
+4                    using  0.140690
+5                correctly  0.135046
+6       using_f_nickname_f  0.132278
+7       using_manulife_one  0.132278
+8                     down  0.122801
+9                 am_using  0.119995
+10                using_my  0.110098
+11  manulife_one_correctly  0.102883
+12    manulife_one_balance  0.102883
+13  f_nickname_f_correctly  0.102883
+14    f_nickname_f_balance  0.102883
+
+
+Qid_138
+                 feature     tfidf
+0         line_of_credit  0.660331
+1      my_line_of_credit  0.504311
+2       f_account_type_f  0.296673
+3    my_f_account_type_f  0.241609
+4                 access  0.164946
+5              access_my  0.135938
+6               i_access  0.089646
+7                 use_my  0.084361
+8                    use  0.082644
+9               withdraw  0.069012
+10    use_line_of_credit  0.058349
+11         withdraw_from  0.056824
+12      a_line_of_credit  0.056277
+13  use_f_account_type_f  0.054085
+14                to_use  0.052499
+
+
+Qid_140
+            feature     tfidf
+0         passwords  0.403367
+1        and_online  0.374894
+2              same  0.279082
+3           app_and  0.227783
+4               app  0.195506
+5          the_same  0.194712
+6            online  0.188850
+7    online_banking  0.182828
+8           for_app  0.165762
+9       and_f_oov_f  0.165038
+10   online_f_oov_f  0.163760
+11         password  0.161301
+12  f_oov_f_banking  0.160501
+13          banking  0.153631
+14         same_for  0.138229
+
+
+Qid_142
+                   feature     tfidf
+0                      app  0.343469
+1                    login  0.326356
+2                     save  0.325771
+3                   i_save  0.246903
+4                more_than  0.192122
+5                 multiple  0.190863
+6             save_f_oov_f  0.179803
+7                save_more  0.176344
+8            save_multiple  0.176344
+9   f_location_state_f_app  0.175118
+10                    than  0.159955
+11       multiple_accounts  0.147112
+12         than_f_number_f  0.143332
+13                 for_app  0.138883
+14               app_login  0.136214
+
+
+Qid_143
+                  feature     tfidf
+0                official  0.470257
+1          official_check  0.470257
+2   official_f_category_f  0.470257
+3           f_oov_f_check  0.322180
+4                   check  0.232996
+5              a_official  0.167380
+6    f_oov_f_f_category_f  0.158683
+7            f_category_f  0.144545
+8                 expense  0.084897
+9               i_expense  0.070316
+10                  order  0.055934
+11           the_official  0.055793
+12                     hi  0.045473
+13          check_f_oov_f  0.045259
+14        expense_f_oov_f  0.043173
+
+
+Qid_145
+                         feature     tfidf
+0                      appraisal  0.670741
+1                   an_appraisal  0.528142
+2                          house  0.220463
+3                       my_house  0.215401
+4                     an_f_oov_f  0.169122
+5                             an  0.139587
+6                           home  0.110997
+7                         get_an  0.109442
+8   appraisal_f_location_state_f  0.105628
+9                   appraisal_on  0.105628
+10                 appraisal_for  0.100347
+11                     appraised  0.084503
+12                       my_home  0.080845
+13                 house_f_oov_f  0.078328
+14          my_f_location_city_f  0.066990
+
+
+Qid_148
+                  feature     tfidf
+0              fixed_rate  0.490596
+1                 a_fixed  0.490596
+2                   fixed  0.410017
+3                    rate  0.390553
+4                mortgage  0.168245
+5   rate_f_account_type_f  0.164649
+6           rate_mortgage  0.148025
+7                    lock  0.142459
+8        f_account_type_f  0.096490
+9                  into_a  0.096081
+10                 i_lock  0.092524
+11          mortgage_rate  0.081421
+12  f_account_type_f_rate  0.077679
+13              lock_into  0.076127
+14               secure_a  0.066644
+
+
+Qid_149
+                      feature     tfidf
+0                   frequency  0.421278
+1                    mortgage  0.325152
+2           payment_frequency  0.298265
+3                    payments  0.287801
+4           mortgage_payments  0.246337
+5   f_account_type_f_payments  0.230412
+6                 my_mortgage  0.215641
+7                     payment  0.173313
+8            f_account_type_f  0.171298
+9                       often  0.153499
+10                       less  0.149261
+11           mortgage_payment  0.147212
+12   f_account_type_f_payment  0.134989
+13                     create  0.124807
+14        my_f_account_type_f  0.122587
+
+
+Qid_150
+                      feature     tfidf
+0           mortgage_increase  0.434501
+1   f_account_type_f_increase  0.398217
+2                    increase  0.369239
+3                    mortgage  0.362476
+4            mortgage_f_oov_f  0.340276
+5                 my_mortgage  0.305021
+6    f_account_type_f_f_oov_f  0.210216
+7            f_account_type_f  0.188481
+8         my_f_account_type_f  0.173398
+9                      status  0.089715
+10                       when  0.065090
+11                  when_will  0.063268
+12                       will  0.056653
+13                 the_status  0.054232
+14                 a_mortgage  0.049599
+
+
+Qid_151
+                      feature     tfidf
+0           mortgage_increase  0.401335
+1                    increase  0.396112
+2                    mortgage  0.372083
+3   f_account_type_f_increase  0.367821
+4            mortgage_f_oov_f  0.321114
+5                  a_mortgage  0.233172
+6    f_account_type_f_f_oov_f  0.198378
+7            f_account_type_f  0.196109
+8          a_f_account_type_f  0.150784
+9                 my_mortgage  0.135553
+10                  documents  0.125939
+11                 do_provide  0.094655
+12             what_documents  0.083280
+13                increase_my  0.082000
+14        my_f_account_type_f  0.080081
+
+
+Qid_153
+                     feature     tfidf
+0           mortgage_payment  0.461633
+1   f_account_type_f_payment  0.423304
+2                   mortgage  0.411497
+3                    payment  0.290296
+4                my_mortgage  0.220342
+5           f_account_type_f  0.215388
+6                       miss  0.211969
+7                 a_mortgage  0.160303
+8                     i_miss  0.155442
+9                     miss_a  0.130431
+10       my_f_account_type_f  0.126887
+11        a_f_account_type_f  0.103662
+12                   miss_my  0.090675
+13             cannot_create  0.085558
+14                       fee  0.081081
+
+
+Qid_155
+                        feature     tfidf
+0              sub_hyp_accounts  0.627459
+1                   subaccounts  0.427399
+2               explain_f_oov_f  0.209153
+3                subaccounts_to  0.166268
+4      sub_hyp_accounts_f_oov_f  0.145485
+5                           sub  0.144819
+6                       explain  0.132426
+7           explain_subaccounts  0.125221
+8            understand_f_oov_f  0.105956
+9        using_sub_hyp_accounts  0.103918
+10                   understand  0.101079
+11     explain_sub_hyp_accounts  0.096324
+12                    correctly  0.090936
+13                  sub_account  0.090936
+14  understand_sub_hyp_accounts  0.086692
+
+
+Qid_157
+                feature     tfidf
+0              mortgage  0.441111
+1           my_mortgage  0.426946
+2   my_f_account_type_f  0.245000
+3      f_account_type_f  0.231364
+4              progress  0.201659
+5                   see  0.193561
+6                 i_see  0.168435
+7           mortgage_is  0.157392
+8                  paid  0.155854
+9           progress_of  0.131374
+10  f_account_feature_f  0.126286
+11         the_progress  0.125900
+12      my_manulife_one  0.122963
+13    mortgage_payments  0.120945
+14         manulife_one  0.115072
+
+
+Qid_158
+                feature     tfidf
+0                 early  0.476972
+1              mortgage  0.300344
+2           my_mortgage  0.241403
+3         early_f_oov_f  0.227535
+4             repayment  0.205626
+5       early_repayment  0.202822
+6                 repay  0.196484
+7             for_early  0.176251
+8      f_account_type_f  0.165814
+9   f_account_feature_f  0.162771
+10                  pay  0.160015
+11        f_oov_f_early  0.153454
+12  my_f_account_type_f  0.150513
+13          repay_early  0.126764
+14                i_pay  0.111049
+
+
+Qid_159
+                                 feature     tfidf
+0                               mortgage  0.478400
+1                            my_mortgage  0.438294
+2                    my_f_account_type_f  0.249161
+3                       f_account_type_f  0.248760
+4                                   date  0.237595
+5                       mortgage_payment  0.229454
+6               f_account_type_f_payment  0.210403
+7                      mortgage_payments  0.176065
+8                                 change  0.169145
+9                           payment_date  0.167879
+10             f_account_type_f_payments  0.164683
+11                               payment  0.144517
+12          mortgage_f_account_feature_f  0.139278
+13  f_account_type_f_f_account_feature_f  0.123225
+14                   f_account_feature_f  0.105708
+
+
+Qid_160
+                    feature     tfidf
+0             contributions  0.423490
+1         scheduled_f_oov_f  0.328647
+2                 scheduled  0.278692
+3          contributions_to  0.238586
+4                    set_up  0.218344
+5                       set  0.201489
+6              up_scheduled  0.200046
+7              contribution  0.188068
+8   scheduled_contributions  0.164323
+9    scheduled_contribution  0.164323
+10                       up  0.161400
+11        recurring_f_oov_f  0.157179
+12                recurring  0.150047
+13               check_plan  0.150034
+14       pre_hyp_authorized  0.135745
+
+
+Qid_162
+                      feature     tfidf
+0           advantage_account  0.497377
+1        an_advantage_account  0.451980
+2             an_f_nickname_f  0.352610
+3                        open  0.317162
+4                f_nickname_f  0.309847
+5                     open_an  0.244741
+6                  f_oov_f_an  0.198324
+7                          an  0.154355
+8                      i_open  0.146368
+9                     to_open  0.141532
+10                 opening_an  0.089519
+11                    opening  0.083464
+12                     open_a  0.062729
+13  advantage_account_account  0.052129
+14                a_f_product  0.047656
+
+
+Qid_165
+                      feature     tfidf
+0                        rrsp  0.531040
+1                     my_rrsp  0.327957
+2                f_nickname_f  0.292230
+3                contribution  0.221649
+4                rrsp_f_oov_f  0.221627
+5             my_f_nickname_f  0.204177
+6               contribute_to  0.191308
+7                  contribute  0.187856
+8                       limit  0.185161
+9               f_oov_f_limit  0.163151
+10         contribution_limit  0.159219
+11       f_nickname_f_f_oov_f  0.131342
+12                     yearly  0.127539
+13          rrsp_contribution  0.124925
+14  f_nickname_f_contribution  0.115796
+
+
+Qid_166
+                                  feature     tfidf
+0                tax_free_savings_account  0.533553
+1             my_tax_free_savings_account  0.338945
+2                            f_nickname_f  0.301098
+3                         my_f_nickname_f  0.232942
+4                              contribute  0.217852
+5        tax_free_savings_account_f_oov_f  0.214179
+6                           contribute_to  0.211290
+7                            contribution  0.194727
+8                                   limit  0.192292
+9                      contribution_limit  0.172520
+10                          f_oov_f_limit  0.139335
+11  tax_free_savings_account_contribution  0.130787
+12                   f_nickname_f_f_oov_f  0.126929
+13              f_nickname_f_contribution  0.121230
+14                         can_contribute  0.116567
+
+
+Qid_168
+               feature     tfidf
+0               travel  0.296698
+1                 trip  0.290730
+2       travel_f_oov_f  0.271294
+3         travel_plans  0.261041
+4   f_category_f_plans  0.249297
+5        upcoming_trip  0.229399
+6     upcoming_f_oov_f  0.214586
+7                plans  0.214352
+8             upcoming  0.202103
+9            traveling  0.161310
+10              notify  0.160217
+11        f_category_f  0.157401
+12          notify_you  0.139313
+13             country  0.130547
+14              you_of  0.117676
+
+
+Qid_169
+            feature     tfidf
+0              lost  0.407556
+1           lost_my  0.369608
+2            tablet  0.312725
+3            i_lost  0.284080
+4         my_tablet  0.269089
+5          my_phone  0.260272
+6             phone  0.223077
+7        f_oov_f_my  0.189188
+8   my_f_category_f  0.179350
+9        my_f_oov_f  0.157211
+10     f_category_f  0.146241
+11             lose  0.115416
+12           i_lose  0.115416
+13          lose_my  0.100680
+14             if_i  0.097931
+
+
+Qid_177
+                        feature     tfidf
+0                 joint_account  0.353728
+1               e_hyp_statement  0.349865
+2                          both  0.320068
+3                    statements  0.249287
+4                  both_f_oov_f  0.222015
+5               a_joint_account  0.211185
+6                        owners  0.187303
+7                      can_both  0.168639
+8                       holders  0.165430
+9           account_hyp_holders  0.149181
+10              account_holders  0.144291
+11     both_account_hyp_holders  0.136208
+12  f_oov_f_account_hyp_holders  0.136208
+13        joint_account_f_oov_f  0.132267
+14                         view  0.108933
+
+
+Qid_180
+                feature     tfidf
+0                 paper  0.432458
+1             paper_and  0.430526
+2   and_e_hyp_statement  0.389306
+3       e_hyp_statement  0.380593
+4            both_paper  0.201523
+5          both_f_oov_f  0.191186
+6                  both  0.190325
+7         f_oov_f_paper  0.184364
+8           f_oov_f_and  0.164290
+9              get_both  0.151142
+10           statements  0.148715
+11   f_oov_f_statements  0.136880
+12     paper_statements  0.095504
+13      receive_f_oov_f  0.094870
+14        receive_paper  0.089153
+
+
+Qid_183
+                  feature     tfidf
+0              statements  0.599365
+1      f_oov_f_statements  0.420702
+2               paperless  0.207603
+3                   paper  0.177351
+4         e_hyp_statement  0.175816
+5       mailed_statements  0.146442
+6        paper_statements  0.138172
+7              electronic  0.128315
+8   electronic_statements  0.124355
+9                  mailed  0.122311
+10           go_paperless  0.120599
+11                anymore  0.110818
+12     statements_f_oov_f  0.109854
+13     statements_anymore  0.103371
+14                   stop  0.092143
+
+
+Qid_187
+                               feature     tfidf
+0                           statements  0.477917
+1                      e_hyp_statement  0.331272
+2                        my_statements  0.327777
+3                   e_hyp_statement_on  0.237113
+4   e_hyp_statement_f_location_state_f  0.197956
+5                               tablet  0.173997
+6                                 copy  0.161321
+7                              copy_of  0.158435
+8                                 ipad  0.155681
+9                               a_copy  0.152981
+10                           my_tablet  0.146524
+11                           statement  0.143440
+12                  account_statements  0.143440
+13               my_account_statements  0.132132
+14                        my_statement  0.132132
+
+
+Qid_189
+           feature     tfidf
+0              tax  0.635539
+1   tax_statements  0.315539
+2           my_tax  0.310366
+3      tax_f_oov_f  0.279540
+4        tax_slips  0.262287
+5       statements  0.236671
+6            slips  0.211709
+7             when  0.162955
+8        when_will  0.101684
+9         send_tax  0.100450
+10     provide_tax  0.089289
+11        you_send  0.071109
+12            will  0.066064
+13         when_do  0.065222
+14        i_expect  0.065135
+
+
+Qid_202
+            feature     tfidf
+0        rrsp_loans  0.687160
+1     my_rrsp_loans  0.593066
+2            invest  0.178152
+3         invest_my  0.137284
+4              rrsp  0.115342
+5   f_category_f_my  0.101162
+6           my_rrsp  0.091302
+7          i_invest  0.086531
+8     rrsp_loans_to  0.082370
+9           deposit  0.078791
+10     f_category_f  0.076073
+11       deposit_my  0.072276
+12   i_f_category_f  0.070300
+13        to_invest  0.065896
+14     f_nickname_f  0.063472
+
+
+Qid_203
+                  feature     tfidf
+0              a_transfer  0.531664
+1                transfer  0.417345
+2          a_f_category_f  0.297023
+3            f_category_f  0.248997
+4     pre_hyp_terminate_a  0.230660
+5       pre_hyp_terminate  0.214589
+6                delete_a  0.180892
+7                  delete  0.179474
+8                  stop_a  0.163933
+9                    stop  0.132784
+10            transfer_on  0.119468
+11    i_pre_hyp_terminate  0.118454
+12     f_transfer_f_oov_f  0.112972
+13             accounts_f  0.112972
+14  f_transfer_accounts_f  0.112972
+
+
+Qid_205
+                 feature     tfidf
+0               transfer  0.345431
+1             i_transfer  0.301342
+2               manulife  0.283869
+3         transfer_money  0.256980
+4                  money  0.247757
+5                between  0.232510
+6         i_f_category_f  0.228522
+7     f_category_f_money  0.225895
+8           f_category_f  0.208915
+9               accounts  0.194070
+10      between_manulife  0.168437
+11         manulife_bank  0.148102
+12     manulife_accounts  0.134530
+13                  bank  0.126835
+14  f_category_f_between  0.126328
+
+
+Qid_208
+              feature     tfidf
+0       wire_transfer  0.475285
+1   wire_f_category_f  0.463906
+2                wire  0.436679
+3             my_wire  0.410502
+4            transfer  0.252114
+5        f_category_f  0.150483
+6              status  0.080752
+7               if_my  0.080323
+8              a_wire  0.073121
+9         transfer_is  0.071163
+10          status_of  0.069214
+11        is_complete  0.062669
+12             i_know  0.061256
+13           complete  0.055365
+14            know_if  0.052948
+
+
+Qid_211
+               feature     tfidf
+0           withdrawal  0.331455
+1                limit  0.311182
+2             withdraw  0.289475
+3     withdrawal_limit  0.266096
+4   f_category_f_limit  0.249653
+5                  atm  0.215046
+6   f_oov_f_withdrawal  0.210659
+7                daily  0.203804
+8              maximum  0.166169
+9         f_category_f  0.132563
+10            how_much  0.120737
+11        can_withdraw  0.119833
+12          i_withdraw  0.118886
+13                much  0.115513
+14            my_daily  0.115139
+
+
+Qid_220
+       feature     tfidf
+0      are_you  0.434182
+1        you_a  0.397263
+2          bot  0.299873
+3        robot  0.245082
+4        human  0.233235
+5        a_bot  0.212713
+6      chatbot  0.166471
+7      a_robot  0.157222
+8         real  0.135183
+9      you_are  0.119520
+10     is_this  0.117481
+11   automated  0.109752
+12    computer  0.094547
+13  f_oov_f_or  0.091902
+14     machine  0.090454
+
+
+Qid_233
+                       feature     tfidf
+0                         bill  0.357348
+1                       a_bill  0.282568
+2                          pay  0.255260
+3                      can_pay  0.241433
+4      can_f_account_feature_f  0.235144
+5                 f_category_f  0.231924
+6          f_account_feature_f  0.226825
+7                      maximum  0.220062
+8                     toward_a  0.211979
+9                       toward  0.208685
+10                  pay_toward  0.192106
+11  f_account_feature_f_toward  0.192106
+12              a_f_category_f  0.163177
+13                     towards  0.149079
+14                   a_maximum  0.133346
+
+
+Qid_234
+                   feature     tfidf
+0                      tax  0.568211
+1           tax_statements  0.351365
+2            tax_statement  0.301170
+3   tax_account_statements  0.301170
+4                statement  0.276633
+5               statements  0.272121
+6       account_statements  0.271780
+7                   my_tax  0.242609
+8                     view  0.098526
+9                  view_my  0.064462
+10             f_oov_f_tax  0.047387
+11                download  0.042776
+12          statements_for  0.039811
+13                 the_tax  0.037646
+14                  cannot  0.036643
+
+
+Qid_235
+                 feature     tfidf
+0             void_check  0.489206
+1                   void  0.470067
+2      void_f_category_f  0.424594
+3          f_oov_f_check  0.385339
+4                  check  0.275445
+5   f_oov_f_f_category_f  0.162678
+6           f_category_f  0.142981
+7                 voided  0.110764
+8             order_void  0.096918
+9               get_void  0.087688
+10          voided_check  0.087688
+11         order_f_oov_f  0.084766
+12                a_void  0.073842
+13   voided_f_category_f  0.069227
+14               i_order  0.055700
+
+
+Qid_236
+                  feature     tfidf
+0    f_category_f_between  0.378854
+1        transfer_between  0.363205
+2                 between  0.341206
+3                transfer  0.274313
+4            manulife_one  0.223388
+5   manulife_one_accounts  0.210316
+6                accounts  0.191638
+7             subaccounts  0.188866
+8     between_subaccounts  0.188158
+9            f_category_f  0.178419
+10  f_nickname_f_accounts  0.175668
+11             i_transfer  0.173003
+12        between_f_oov_f  0.164218
+13           f_nickname_f  0.157631
+14            to_transfer  0.153759
+
+
+Qid_237
+               feature     tfidf
+0            discharge  0.614187
+1    discharge_request  0.380932
+2          a_discharge  0.366824
+3      f_oov_f_request  0.318176
+4              request  0.255958
+5               send_a  0.216117
+6                 send  0.157176
+7           request_to  0.144234
+8               i_send  0.125499
+9         to_discharge  0.106546
+10           a_request  0.081381
+11            requests  0.075477
+12    f_oov_f_requests  0.071037
+13  discharge_requests  0.070543
+14   discharge_f_oov_f  0.070543
+
+
+Qid_238
+                       feature     tfidf
+0                    discharge  0.446927
+1            discharge_request  0.441832
+2              f_oov_f_request  0.369043
+3                 my_discharge  0.302485
+4           account_statements  0.260260
+5                    statement  0.260260
+6                      request  0.210492
+7            request_statement  0.157666
+8   request_account_statements  0.157666
+9                  a_discharge  0.139347
+10      account_statements_for  0.110713
+11               statement_for  0.110713
+12                        when  0.084356
+13        a_account_statements  0.083299
+14                 a_statement  0.083299
+
+
+Qid_239
+                     feature     tfidf
+0            my_manulife_one  0.372361
+1               manulife_one  0.345996
+2       manulife_one_account  0.339335
+3            my_f_nickname_f  0.270427
+4       f_nickname_f_account  0.264731
+5               f_nickname_f  0.244147
+6                      limit  0.215880
+7                       over  0.192396
+8                  the_limit  0.174962
+9                   over_the  0.158478
+10                     cover  0.138629
+11                   account  0.137092
+12                   am_over  0.126735
+13  limit_f_location_state_f  0.121069
+14                   expense  0.120163
+
+
+Qid_240
+           feature     tfidf
+0            check  0.402952
+1             copy  0.354763
+2           copies  0.338525
+3           a_copy  0.338525
+4          copy_of  0.308602
+5        copies_of  0.279417
+6          a_check  0.265205
+7     f_category_f  0.208027
+8             of_a  0.169031
+9         of_check  0.150455
+10      see_copies  0.147965
+11        my_check  0.126879
+12  a_f_category_f  0.121781
+13     see_f_oov_f  0.118254
+14      f_oov_f_of  0.095607
+
+
+Qid_241
+                     feature     tfidf
+0                    renewal  0.548107
+1   f_account_type_f_renewal  0.321079
+2           mortgage_renewal  0.321079
+3                   mortgage  0.244284
+4           mortgage_f_oov_f  0.242115
+5                   about_my  0.227905
+6                my_mortgage  0.221535
+7                 my_renewal  0.219917
+8   f_account_type_f_f_oov_f  0.149574
+9                  contacted  0.146575
+10          f_account_type_f  0.128467
+11       my_f_account_type_f  0.127595
+12           contacted_about  0.116265
+13                      will  0.112347
+14              be_contacted  0.099037
+
+
+Qid_242
+                feature     tfidf
+0                 renew  0.552873
+1              renew_my  0.360254
+2              mortgage  0.353749
+3               i_renew  0.317320
+4           my_mortgage  0.307782
+5      f_account_type_f  0.187447
+6   my_f_account_type_f  0.176979
+7              to_renew  0.154804
+8                 early  0.139008
+9            f_oov_f_my  0.128297
+10              renewal  0.110868
+11        f_oov_f_early  0.091350
+12            can_renew  0.080625
+13         renewal_date  0.080071
+14          renew_early  0.074866
+
+
+Qid_243
+                             feature     tfidf
+0          apple_f_account_feature_f  0.401407
+1                   f_merchant_f_pay  0.401407
+2                          apple_pay  0.401407
+3   f_merchant_f_f_account_feature_f  0.401407
+4                              apple  0.335278
+5                       f_merchant_f  0.275795
+6                                pay  0.197096
+7                f_account_feature_f  0.158721
+8                      f_oov_f_apple  0.128422
+9                      support_apple  0.101543
+10              f_oov_f_f_merchant_f  0.099427
+11              support_f_merchant_f  0.094123
+12                  use_f_merchant_f  0.089597
+13                         use_apple  0.089597
+14                           support  0.079506
+
+
+Qid_244
+                        feature     tfidf
+0                         rates  0.417765
+1                      my_rates  0.400475
+2                        rising  0.392302
+3                          lock  0.294963
+4       lock_f_location_state_f  0.257574
+5                    lock_india  0.257574
+6           f_account_feature_f  0.215719
+7                       to_lock  0.143939
+8    rising_f_account_feature_f  0.138940
+9                        i_lock  0.128735
+10                f_oov_f_india  0.120171
+11                     india_my  0.098919
+12  f_oov_f_f_account_feature_f  0.093148
+13   f_account_feature_f_rising  0.089903
+14                 about_rising  0.089903
+
+
+Qid_245
+             feature     tfidf
+0             emails  0.708867
+1        unsubscribe  0.396458
+2        your_emails  0.174973
+3               stop  0.161746
+4   unsubscribe_from  0.150173
+5      i_unsubscribe  0.149051
+6    manulife_emails  0.129610
+7     unsubscribe_to  0.129610
+8       stop_f_oov_f  0.114342
+9           manulife  0.107089
+10      your_f_oov_f  0.097329
+11       bank_emails  0.097207
+12              from  0.093846
+13              your  0.083735
+14      stop_sending  0.078090
+
+
+Qid_246
+                                              feature     tfidf
+0           canadian_depository_insurance_corporation  0.785510
+1   canadian_depository_insurance_corporation_f_oov_f  0.246126
+2                                             covered  0.187884
+3        by_canadian_depository_insurance_corporation  0.183286
+4      have_canadian_depository_insurance_corporation  0.167575
+5                                          covered_by  0.160184
+6                                            coverage  0.155330
+7   canadian_depository_insurance_corporation_cove...  0.151865
+8                                         my_accounts  0.121144
+9                                            accounts  0.109759
+10                                         f_oov_f_by  0.096835
+11     with_canadian_depository_insurance_corporation  0.094261
+12                                         affiliated  0.083788
+13                                                 by  0.080444
+14     does_canadian_depository_insurance_corporation  0.078551
+
+
+Qid_247
+           feature     tfidf
+0           passed  0.463188
+1       has_passed  0.380377
+2      has_f_oov_f  0.374859
+3             died  0.333050
+4              has  0.268663
+5         has_died  0.243840
+6     f_oov_f_away  0.192945
+7      passed_away  0.181920
+8      f_oov_f_has  0.156175
+9             away  0.135178
+10          family  0.094762
+11          member  0.089373
+12  family_f_oov_f  0.084767
+13  f_oov_f_member  0.084408
+14   family_member  0.084408
+
+
+Qid_248
+               feature     tfidf
+0         my_insurance  0.465116
+1            insurance  0.412519
+2            cancelled  0.364452
+3      my_f_category_f  0.194839
+4       been_cancelled  0.192059
+5        insurance_has  0.189183
+6             a_letter  0.184238
+7               letter  0.173120
+8    insurance_f_oov_f  0.165463
+9         f_category_f  0.152029
+10   f_oov_f_cancelled  0.139635
+11     being_cancelled  0.135131
+12     insurance_being  0.130627
+13    f_category_f_has  0.122836
+14  f_category_f_being  0.114308
+
+
+Qid_249
+                 feature     tfidf
+0     f_category_f_slips  0.485375
+1          deposit_slips  0.481833
+2                  slips  0.438837
+3        deposit_f_oov_f  0.333608
+4                deposit  0.286447
+5   f_category_f_f_oov_f  0.185391
+6           f_category_f  0.147865
+7           more_deposit  0.121460
+8          order_deposit  0.097573
+9            get_deposit  0.097168
+10     more_f_category_f  0.091113
+11    order_f_category_f  0.087882
+12      get_f_category_f  0.075928
+13                 order  0.070195
+14               i_order  0.066109
+
+
+Qid_250
+                         feature     tfidf
+0                      promotion  0.541954
+1                          promo  0.167512
+2                     f_number_f  0.149251
+3   f_number_f_f_currency_type_f  0.148498
+4                           code  0.140174
+5                         paylah  0.138864
+6                       interest  0.130376
+7              f_currency_type_f  0.130307
+8                        percent  0.130161
+9             f_number_f_percent  0.126824
+10                  f_oov_f_code  0.126809
+11              f_number_f__dol_  0.121695
+12                            hi  0.120536
+13                         _dol_  0.117099
+14                    promotions  0.113791
+
+
+Qid_251
+             feature     tfidf
+0   promotional_rate  0.464658
+1       f_oov_f_rate  0.450576
+2        promotional  0.448670
+3               rate  0.391156
+4    the_promotional  0.339075
+5                why  0.129816
+6            see_the  0.101130
+7                see  0.082297
+8              i_not  0.079172
+9         promo_rate  0.076774
+10             promo  0.075087
+11               not  0.073001
+12            cannot  0.066009
+13        cannot_see  0.064123
+14            why_am  0.061578
+
+
+Qid_254
+                    feature     tfidf
+0           my_mutual_funds  0.483064
+1                   on_hold  0.380011
+2   f_location_state_f_hold  0.380011
+3                      hold  0.360474
+4              mutual_funds  0.327328
+5                    are_on  0.193226
+6                on_f_oov_f  0.159430
+7    are_f_location_state_f  0.150744
+8                       why  0.147256
+9          mutual_funds_are  0.132105
+10                  hold_on  0.132105
+11  hold_f_location_state_f  0.127309
+12                   a_hold  0.111261
+13                 they_are  0.073426
+14                  why_are  0.063578
+
+
+Qid_255
+               feature     tfidf
+0         manulife_one  0.604629
+1         f_nickname_f  0.426648
+2   about_manulife_one  0.297165
+3       a_manulife_one  0.287970
+4       a_f_nickname_f  0.196524
+5   about_f_nickname_f  0.192831
+6                 call  0.148543
+7                  who  0.143936
+8     for_manulife_one  0.129428
+9               i_call  0.108391
+10                talk  0.105008
+11             about_a  0.101362
+12               speak  0.099243
+13    for_f_nickname_f  0.082309
+14             talk_to  0.082207
+
+
+Qid_256
+                    feature     tfidf
+0         advantage_account  0.648257
+1              f_nickname_f  0.403839
+2       a_advantage_account  0.291308
+3   about_advantage_account  0.230934
+4            a_f_nickname_f  0.192622
+5        about_f_nickname_f  0.174808
+6                       who  0.154443
+7                      call  0.154039
+8                    i_call  0.125555
+9                   about_a  0.106051
+10                    speak  0.103002
+11    for_advantage_account  0.102804
+12                     talk  0.087579
+13               call_about  0.079954
+14                 call_for  0.079848
+
+
+Qid_257
+               feature     tfidf
+0               a_loan  0.587475
+1                 loan  0.495209
+2   a_f_account_type_f  0.352736
+3     f_account_type_f  0.300896
+4              about_a  0.192047
+5                  who  0.162220
+6                 call  0.123339
+7                speak  0.098364
+8               i_call  0.095921
+9               who_do  0.090396
+10                talk  0.086732
+11             talk_to  0.072163
+12          speak_with  0.068444
+13            call_for  0.066590
+14             i_speak  0.066366
+
+
+Qid_258
+               feature     tfidf
+0                 rrsp  0.686031
+1         f_nickname_f  0.377521
+2               a_rrsp  0.356676
+3       a_f_nickname_f  0.227676
+4           about_rrsp  0.179989
+5                 call  0.144042
+6                  who  0.124270
+7              about_a  0.119297
+8               i_call  0.111676
+9   about_f_nickname_f  0.110262
+10                talk  0.092069
+11             talk_to  0.084915
+12            call_for  0.084654
+13               speak  0.080838
+14             i_speak  0.064968
+
+
+Qid_259
+                           feature     tfidf
+0         tax_free_savings_account  0.667595
+1       a_tax_free_savings_account  0.426702
+2                     f_nickname_f  0.355956
+3                   a_f_nickname_f  0.272375
+4                          about_a  0.151683
+5                             call  0.134771
+6                              who  0.129694
+7   about_tax_free_savings_account  0.107030
+8                           i_call  0.086583
+9                            speak  0.082212
+10                        call_for  0.075135
+11              about_f_nickname_f  0.069452
+12                            talk  0.066691
+13    for_tax_free_savings_account  0.064218
+14                         who_can  0.060626
+
+
+Qid_260
+               feature     tfidf
+0                 rrif  0.679919
+1               a_rrif  0.451695
+2         f_nickname_f  0.336195
+3       a_f_nickname_f  0.276981
+4              about_a  0.146304
+5                  who  0.114937
+6                 call  0.114595
+7           about_rrif  0.094691
+8                 talk  0.089111
+9               i_call  0.086606
+10             talk_to  0.071692
+11               speak  0.067374
+12            call_for  0.062974
+13  about_f_nickname_f  0.061445
+14       someone_about  0.055039
+
+
+Qid_261
+                                     feature     tfidf
+0         guaranteed_investment_certificates  0.663584
+1       a_guaranteed_investment_certificates  0.590216
+2                                    about_a  0.190408
+3                                       call  0.178030
+4                                        who  0.139573
+5                                     i_call  0.118445
+6                                   call_for  0.116378
+7                                       talk  0.093280
+8     for_guaranteed_investment_certificates  0.082890
+9   about_guaranteed_investment_certificates  0.082890
+10                                   talk_to  0.067028
+11                                     speak  0.066608
+12                                   who_can  0.062813
+13                                call_about  0.061504
+14                                     for_a  0.057629
+
+
+Qid_262
+                   feature     tfidf
+0           line_of_credit  0.621301
+1         a_line_of_credit  0.507959
+2       a_f_account_type_f  0.284315
+3         f_account_type_f  0.279137
+4                      who  0.166680
+5                  about_a  0.165374
+6                     call  0.130368
+7     about_line_of_credit  0.105587
+8                    speak  0.098686
+9                   i_call  0.096235
+10                 who_can  0.090015
+11                    talk  0.078015
+12                call_for  0.069976
+13                to_about  0.068060
+14  about_f_account_type_f  0.067693
+
+
+Qid_263
+                             feature     tfidf
+0         business_advantage_account  0.657176
+1       a_business_advantage_account  0.477516
+2                       f_nickname_f  0.338975
+3                     a_f_nickname_f  0.292815
+4                               call  0.141080
+5                            about_a  0.132938
+6                                who  0.120100
+7                             i_call  0.086118
+8                           call_for  0.076535
+9                               talk  0.067128
+10                             speak  0.063949
+11                           talk_to  0.063062
+12  about_business_advantage_account  0.059468
+13    for_business_advantage_account  0.057742
+14                     someone_about  0.054728
+
+
+Qid_264
+                              feature     tfidf
+0         us_dollar_advantage_account  0.646275
+1       a_us_dollar_advantage_account  0.441108
+2                        f_nickname_f  0.360138
+3                      a_f_nickname_f  0.267344
+4                             about_a  0.144221
+5                                 who  0.128192
+6                                call  0.126564
+7                                talk  0.099042
+8                            to_about  0.095807
+9                               speak  0.092503
+10                            talk_to  0.089236
+11                             i_call  0.083762
+12  about_us_dollar_advantage_account  0.075267
+13                  advantage_account  0.069210
+14                 about_f_nickname_f  0.066284
+
+
+Qid_265
+                   feature     tfidf
+0              credit_card  0.525022
+1            a_credit_card  0.440181
+2         f_account_type_f  0.395347
+3       a_f_account_type_f  0.332869
+4                  about_a  0.175567
+5                      who  0.142256
+6                     talk  0.132486
+7        about_credit_card  0.125776
+8                  talk_to  0.110115
+9                     call  0.108961
+10                to_about  0.097840
+11  about_f_account_type_f  0.096540
+12                    more  0.090083
+13                  i_call  0.088595
+14                   speak  0.080368
+
+
+Qid_266
+                   feature     tfidf
+0                 mortgage  0.554465
+1               a_mortgage  0.474940
+2         f_account_type_f  0.367100
+3       a_f_account_type_f  0.332222
+4                  about_a  0.194135
+5                mortgages  0.161891
+6                      who  0.112933
+7          about_mortgages  0.099616
+8                     more  0.097381
+9   about_f_account_type_f  0.091334
+10                    call  0.081813
+11             information  0.077957
+12                   speak  0.076524
+13                    talk  0.070174
+14        more_information  0.069362
+
+
+Qid_267
+                 feature     tfidf
+0           manulife_one  0.619246
+1           f_nickname_f  0.439996
+2         a_manulife_one  0.297768
+3     about_manulife_one  0.283030
+4         a_f_nickname_f  0.203210
+5     about_f_nickname_f  0.187832
+6                   more  0.162610
+7             more_about  0.125347
+8   manulife_one_f_oov_f  0.096447
+9                about_a  0.094417
+10      more_information  0.092887
+11           information  0.087818
+12    manulife_one_works  0.080859
+13     manulife_one_work  0.074950
+14                 works  0.067771
+
+
+Qid_268
+                      feature     tfidf
+0           advantage_account  0.691659
+1                f_nickname_f  0.430877
+2         a_advantage_account  0.253208
+3              a_f_nickname_f  0.167429
+4     about_advantage_account  0.167038
+5                        more  0.141617
+6     advantage_account_works  0.127873
+7          about_f_nickname_f  0.126441
+8   advantage_account_f_oov_f  0.117195
+9       how_advantage_account  0.116100
+10         f_nickname_f_works  0.109619
+11                 more_about  0.107357
+12                    about_a  0.092460
+13           how_f_nickname_f  0.091300
+14           more_information  0.087930
+
+
+Qid_269
+                     feature     tfidf
+0           f_account_type_f  0.551776
+1                       loan  0.546339
+2         a_f_account_type_f  0.143452
+3                     a_loan  0.129853
+4               f_oov_f_loan  0.121157
+5                         hi  0.111773
+6                      loans  0.107584
+7   f_oov_f_f_account_type_f  0.099972
+8     about_f_account_type_f  0.095978
+9                      apply  0.093098
+10              loan_f_oov_f  0.086032
+11      for_f_account_type_f  0.085120
+12  f_account_type_f_f_oov_f  0.083919
+13                f_number_f  0.077853
+14                    borrow  0.076102
+
+
+Qid_270
+               feature     tfidf
+0                 rrsp  0.706345
+1         f_nickname_f  0.388700
+2               a_rrsp  0.316682
+3           about_rrsp  0.236499
+4       a_f_nickname_f  0.202147
+5                 more  0.145135
+6   about_f_nickname_f  0.144880
+7     more_information  0.098696
+8              about_a  0.096863
+9           more_about  0.096190
+10         information  0.084965
+11           rrsp_work  0.066823
+12         xannot_rrsp  0.061940
+13        rrsp_f_oov_f  0.060860
+14   information_about  0.060696
+
+
+Qid_271
+                             feature     tfidf
+0           tax_free_savings_account  0.680675
+1         a_tax_free_savings_account  0.428777
+2                       f_nickname_f  0.362930
+3                     a_f_nickname_f  0.273700
+4     about_tax_free_savings_account  0.155948
+5                               more  0.131410
+6                            about_a  0.118399
+7                         more_about  0.101297
+8                 about_f_nickname_f  0.101195
+9   tax_free_savings_account_f_oov_f  0.079350
+10                  more_information  0.075065
+11     tax_free_savings_account_work  0.065344
+12    tax_free_savings_account_works  0.065344
+13                       information  0.064044
+14                        learn_more  0.060692
+
+
+Qid_272
+                    feature     tfidf
+0                      rrif  0.725832
+1              f_nickname_f  0.358897
+2                    a_rrif  0.345151
+3            a_f_nickname_f  0.211648
+4                about_rrif  0.186209
+5                      more  0.143459
+6        about_f_nickname_f  0.120831
+7          more_information  0.107008
+8                   about_a  0.102327
+9                more_about  0.093800
+10              information  0.088577
+11  f_location_state_f_rrif  0.079804
+12             rrif_f_oov_f  0.069163
+13                  on_rrif  0.067626
+14        information_about  0.055683
+
+
+Qid_273
+                                              feature     tfidf
+0                  guaranteed_investment_certificates  0.724216
+1                a_guaranteed_investment_certificates  0.496926
+2            about_guaranteed_investment_certificates  0.216882
+3                                                more  0.176305
+4                                             about_a  0.132374
+5                                    more_information  0.118431
+6                                          more_about  0.103585
+7                                         information  0.099830
+8             guaranteed_investment_certificates_work  0.087839
+9            guaranteed_investment_certificates_works  0.087474
+10                                              learn  0.085596
+11         guaranteed_investment_certificates_f_oov_f  0.079703
+12  f_location_state_f_guaranteed_investment_certi...  0.070168
+13              on_guaranteed_investment_certificates  0.070168
+14                                  information_about  0.069797
+
+
+Qid_274
+                   feature     tfidf
+0           line_of_credit  0.667937
+1         a_line_of_credit  0.456929
+2         f_account_type_f  0.300090
+3       a_f_account_type_f  0.255752
+4     about_line_of_credit  0.153424
+5                     more  0.144509
+6                  about_a  0.137825
+7               more_about  0.107523
+8   about_f_account_type_f  0.098362
+9     line_of_credit_works  0.098192
+10  line_of_credit_f_oov_f  0.089399
+11  f_account_type_f_works  0.088439
+12     line_of_credit_work  0.085918
+13        more_information  0.083663
+14             information  0.081026
+
+
+Qid_275
+                               feature     tfidf
+0           business_advantage_account  0.689371
+1         a_business_advantage_account  0.449802
+2                         f_nickname_f  0.357790
+3                       a_f_nickname_f  0.275820
+4                                 more  0.124367
+5     about_business_advantage_account  0.107618
+6                              about_a  0.106347
+7                           more_about  0.085596
+8                   about_f_nickname_f  0.076484
+9                          information  0.071670
+10                    more_information  0.071359
+11  business_advantage_account_f_oov_f  0.066621
+12    business_advantage_account_works  0.058562
+13     business_advantage_account_work  0.052706
+14                               learn  0.050938
+
+
+Qid_276
+                                feature     tfidf
+0           us_dollar_advantage_account  0.673651
+1         a_us_dollar_advantage_account  0.391658
+2                          f_nickname_f  0.382156
+3                        a_f_nickname_f  0.246570
+4     about_us_dollar_advantage_account  0.147789
+5                                  more  0.143906
+6                               about_a  0.121900
+7                    about_f_nickname_f  0.106556
+8                      more_information  0.101624
+9                            more_about  0.101584
+10                          information  0.087486
+11                    advantage_account  0.078754
+12  us_dollar_advantage_account_f_oov_f  0.076631
+13     us_dollar_advantage_account_work  0.068806
+14                    information_about  0.065101
+
+
+Qid_277
+                 feature     tfidf
+0            credit_card  0.528411
+1       f_account_type_f  0.395909
+2                 offers  0.224751
+3        for_credit_card  0.171294
+4                  deals  0.146210
+5         f_oov_f_offers  0.138571
+6             promotions  0.138571
+7                    any  0.130485
+8   for_f_account_type_f  0.129106
+9               you_have  0.126207
+10   credit_card_f_oov_f  0.124563
+11      what_credit_card  0.122268
+12           any_f_oov_f  0.116862
+13        credit_card_do  0.115429
+14            offers_for  0.114320
+
+
+Qid_278
+                          feature     tfidf
+0                    manulife_one  0.552144
+1                    f_nickname_f  0.397762
+2                            open  0.330409
+3   f_account_type_f_manulife_one  0.217919
+4   f_account_type_f_f_nickname_f  0.187004
+5                 an_manulife_one  0.156416
+6            f_oov_f_manulife_one  0.152823
+7                         to_open  0.146694
+8            savings_manulife_one  0.125285
+9                          open_a  0.125265
+10              open_manulife_one  0.119970
+11           savings_f_nickname_f  0.119649
+12               new_manulife_one  0.100987
+13           f_oov_f_f_nickname_f  0.100318
+14                an_f_nickname_f  0.094476
+
+
+Qid_279
+                          feature     tfidf
+0                            loan  0.544183
+1                f_account_type_f  0.424585
+2                           apply  0.301291
+3                       apply_for  0.207961
+4                          a_loan  0.188680
+5                    f_oov_f_loan  0.177275
+6              a_f_account_type_f  0.167441
+7        f_oov_f_f_account_type_f  0.159510
+8               f_category_f_loan  0.136906
+9          apply_f_account_type_f  0.108634
+10                        i_apply  0.107447
+11                       to_apply  0.101943
+12  f_category_f_f_account_type_f  0.100004
+13                          study  0.096936
+14                      education  0.088989
+
+
+Qid_280
+             feature     tfidf
+0               rrsp  0.705425
+1       f_nickname_f  0.388193
+2             a_rrsp  0.276533
+3           for_rrsp  0.271505
+4   for_f_nickname_f  0.179738
+5     a_f_nickname_f  0.176519
+6            an_rrsp  0.157016
+7          apply_for  0.147117
+8              apply  0.133105
+9               open  0.121958
+10   an_f_nickname_f  0.113598
+11            open_a  0.088021
+12          to_apply  0.059913
+13                an  0.055231
+14           open_an  0.045697
+
+
+Qid_281
+                             feature     tfidf
+0           tax_free_savings_account  0.618519
+1   tax_free_savings_account_account  0.350895
+2                       f_nickname_f  0.330054
+3                               open  0.298431
+4               f_nickname_f_account  0.228651
+5   f_oov_f_tax_free_savings_account  0.159728
+6        an_tax_free_savings_account  0.135613
+7                            to_open  0.132609
+8      open_tax_free_savings_account  0.124686
+9                             open_a  0.106783
+10      new_tax_free_savings_account  0.105405
+11              f_oov_f_f_nickname_f  0.102545
+12                           account  0.099327
+13        a_tax_free_savings_account  0.098452
+14                 open_f_nickname_f  0.096535
+
+
+Qid_282
+             feature     tfidf
+0               rrif  0.709116
+1       f_nickname_f  0.350631
+2             a_rrif  0.330273
+3           for_rrif  0.295273
+4     a_f_nickname_f  0.202525
+5   for_f_nickname_f  0.179149
+6          apply_for  0.152905
+7              apply  0.138051
+8               open  0.113176
+9             open_a  0.102103
+10          to_apply  0.071042
+11           an_rrif  0.066182
+12           to_open  0.061836
+13         f_oov_f_a  0.052456
+14   an_f_nickname_f  0.045681
+
+
+Qid_283
+                                   feature     tfidf
+0       guaranteed_investment_certificates  0.703800
+1     a_guaranteed_investment_certificates  0.568906
+2   for_guaranteed_investment_certificates  0.267900
+3                                    apply  0.133667
+4                                   open_a  0.131048
+5                                apply_for  0.126162
+6                                     open  0.118501
+7                                f_oov_f_a  0.063586
+8                                 to_apply  0.063430
+9                                  i_apply  0.063081
+10                                 to_open  0.060691
+11                                   get_a  0.051919
+12                                   for_a  0.045428
+13                             application  0.038226
+14                         application_for  0.037348
+
+
+Qid_284
+                 feature     tfidf
+0         line_of_credit  0.686827
+1       a_line_of_credit  0.412184
+2       f_account_type_f  0.308577
+3     for_line_of_credit  0.293834
+4     a_f_account_type_f  0.230707
+5              apply_for  0.165310
+6                  apply  0.158363
+7   for_f_account_type_f  0.155134
+8                   open  0.082945
+9                 open_a  0.070059
+10               i_apply  0.066124
+11     an_line_of_credit  0.055480
+12   an_f_account_type_f  0.050847
+13              to_apply  0.044881
+14             f_oov_f_a  0.038816
+
+
+Qid_285
+                           feature     tfidf
+0       business_advantage_account  0.688678
+1     a_business_advantage_account  0.466980
+2                     f_nickname_f  0.349855
+3                   a_f_nickname_f  0.286354
+4   for_business_advantage_account  0.146640
+5                        apply_for  0.116677
+6                            apply  0.115255
+7                             open  0.101236
+8                           open_a  0.095855
+9                 for_f_nickname_f  0.086993
+10                           for_a  0.058436
+11                         i_apply  0.050383
+12                       f_oov_f_a  0.049529
+13                         to_open  0.049456
+14                        to_apply  0.032997
+
+
+Qid_286
+                            feature     tfidf
+0       us_dollar_advantage_account  0.676574
+1                      f_nickname_f  0.392493
+2     a_us_dollar_advantage_account  0.383570
+3                    a_f_nickname_f  0.248273
+4   for_us_dollar_advantage_account  0.206607
+5                              open  0.137204
+6                         apply_for  0.125786
+7                  for_f_nickname_f  0.125353
+8                             apply  0.119543
+9                            open_a  0.104526
+10                advantage_account  0.093026
+11                          to_open  0.055856
+12                        f_oov_f_a  0.051144
+13                         to_apply  0.050819
+14                            for_a  0.042705
+
+
+Qid_288
+          feature     tfidf
+0            code  0.590913
+1          branch  0.427467
+2     branch_code  0.413818
+3       bank_code  0.257374
+4            bank  0.181290
+5        manulife  0.135967
+6        code_for  0.135656
+7      and_branch  0.105978
+8        code_and  0.090838
+9          number  0.083989
+10  branch_number  0.075698
+11     the_branch  0.069893
+12      my_branch  0.065605
+13     f_number_f  0.059211
+14   f_oov_f_code  0.058984
+
+
+Qid_289
+                 feature     tfidf
+0            credit_card  0.467195
+1        new_credit_card  0.383673
+2       f_account_type_f  0.352408
+3   new_f_account_type_f  0.321925
+4                  a_new  0.255720
+5                replace  0.226698
+6                    new  0.224523
+7             replace_my  0.163310
+8         my_credit_card  0.127535
+9              i_replace  0.108353
+10                  worn  0.100897
+11   my_f_account_type_f  0.100463
+12                 get_a  0.096370
+13              worn_out  0.093690
+14   f_oov_f_credit_card  0.093358
+
+
+Qid_290
+                     feature     tfidf
+0                credit_card  0.443531
+1                       lost  0.361335
+2           f_account_type_f  0.332313
+3             my_credit_card  0.319985
+4                    lost_my  0.270282
+5        my_f_account_type_f  0.245248
+6                     i_lost  0.203121
+7                 f_oov_f_my  0.122708
+8                      block  0.120825
+9        f_oov_f_credit_card  0.117118
+10                   blocked  0.117070
+11  f_oov_f_f_account_type_f  0.099142
+12            credit_card_is  0.081312
+13                    stolen  0.080550
+14                blocked_my  0.072328
+
+
+Qid_291
+                 feature     tfidf
+0             borrowings  0.497331
+1            current_and  0.443773
+2          and_available  0.374911
+3   available_borrowings  0.359609
+4                current  0.249567
+5             my_current  0.186864
+6              available  0.177285
+7                    why  0.124437
+8     borrowings_f_oov_f  0.103292
+9         borrowings_are  0.087989
+10            aren_apo_t  0.085908
+11        and_avaialable  0.072687
+12          my_available  0.072687
+13    f_oov_f_borrowings  0.072687
+14            avaialable  0.072687
+
+
+Qid_292
+               feature     tfidf
+0             transfer  0.415848
+1                remit  0.287593
+2                money  0.271359
+3         f_category_f  0.263968
+4             overseas  0.205936
+5             money_to  0.196032
+6       transfer_money  0.176674
+7             malaysia  0.166265
+8   f_category_f_money  0.155303
+9             manulife  0.131768
+10              canada  0.124329
+11         to_malaysia  0.116187
+12                bank  0.112944
+13          send_money  0.112699
+14      manulife_remit  0.110590
+
+
+Qid_293
+                      feature     tfidf
+0                   frequency  0.420615
+1                    payments  0.326357
+2           payment_frequency  0.295985
+3                        loan  0.282529
+4               loan_payments  0.234167
+5                     my_loan  0.212070
+6                       often  0.196986
+7   f_account_type_f_payments  0.175662
+8                     payment  0.168165
+9                loan_payment  0.156111
+10           f_account_type_f  0.146783
+11                       less  0.144829
+12                     create  0.141914
+13            create_payments  0.134484
+14                   i_create  0.122198
+
+
+Qid_154
+             feature     tfidf
+0                sub  0.444958
+1         subaccount  0.287359
+2    sub_hyp_account  0.273759
+3   sub_hyp_accounts  0.251461
+4        subaccounts  0.251461
+5       sub_accounts  0.251461
+6        sub_account  0.251461
+7              means  0.190419
+8      f_oov_f_means  0.177573
+9   f_oov_f_accounts  0.173566
+10        definition  0.159936
+11          what_sub  0.147978
+12          accounts  0.130933
+13   f_oov_f_account  0.127275
+14     definition_of  0.119952
+
+
+ok
+
+Process finished with exit code 0

@@ -1,0 +1,365 @@
+======================================================================
+CALCULATE TFIDF
+======================================================================
+GetUserAccountInformation
+                      feature     tfidf
+0         f_account_type_f_my  0.289236
+1        f_account_type_f_the  0.179581
+2   checking_f_account_type_f  0.178709
+3       f_account_type_f_what  0.169596
+4         f_account_type_f_is  0.162133
+5    f_account_type_f_f_oov_f  0.143102
+6                     my_what  0.142391
+7                  balance_my  0.137617
+8        f_account_type_f_for  0.135254
+9                 checking_my  0.133151
+10                   how_much  0.127225
+11                      is_my  0.126784
+12   balance_f_account_type_f  0.126344
+13        f_account_type_f_on  0.117559
+14               checking_the  0.117351
+
+
+Help
+         feature     tfidf
+0        help_me  0.374134
+1       can_help  0.268524
+2         help_i  0.268524
+3     help_where  0.218175
+4       get_help  0.217443
+5    help_please  0.205999
+6       help_you  0.189481
+7   f_oov_f_help  0.162223
+8        help_to  0.151676
+9      help_with  0.146902
+10         get_i  0.135343
+11       can_you  0.123044
+12     help_some  0.122419
+13        me_you  0.115354
+14      help_how  0.114444
+
+
+Null
+                         feature     tfidf
+0                     f_oov_f_my  0.143579
+1          f_number_f_f_number_f  0.135144
+2                     amount_due  0.129371
+3                     balance_my  0.115826
+4    f_account_type_f_f_number_f  0.115062
+5              ending_f_number_f  0.110094
+6                balance_f_oov_f  0.106953
+7                      change_to  0.106843
+8                           i_my  0.106415
+9      checking_f_account_type_f  0.095253
+10                         my_to  0.091289
+11       ending_f_account_type_f  0.091038
+12  f_currency_type_f_f_number_f  0.090130
+13                 f_number_f_in  0.089398
+14           f_account_type_f_my  0.088264
+
+
+ShowTransactions
+                         feature     tfidf
+0      dollars_f_currency_type_f  0.190947
+1             dollars_f_number_f  0.190947
+2                   dollars_from  0.180907
+3   f_currency_type_f_f_number_f  0.178766
+4          f_currency_type_f_for  0.176228
+5                    dollars_for  0.175737
+6           f_currency_type_f_my  0.157132
+7                     dollars_my  0.156795
+8                f_number_f_from  0.156360
+9               dollars_f_date_f  0.155091
+10        f_currency_type_f_from  0.152867
+11           f_date_f_f_number_f  0.151885
+12                 f_number_f_my  0.148333
+13                f_number_f_for  0.147952
+14         f_account_type_f_from  0.147451
+
+
+VpaCancellation
+                           feature     tfidf
+0        pre_hyp_terminate_request  0.444788
+1           pre_hyp_terminate_that  0.338371
+2         number_pre_hyp_terminate  0.213664
+3           pre_hyp_terminate_this  0.213664
+4            let_pre_hyp_terminate  0.186956
+5         _apo_s_pre_hyp_terminate  0.170969
+6             it_pre_hyp_terminate  0.157906
+7        f_oov_f_pre_hyp_terminate  0.156909
+8           okay_pre_hyp_terminate  0.148263
+9                       my_request  0.125882
+10           pre_hyp_terminate_you  0.122121
+11                      _apo_s_let  0.121308
+12                    request_this  0.118610
+13  f_category_f_pre_hyp_terminate  0.117681
+14                 f_oov_f_request  0.117681
+
+
+VpaConfirmation
+           feature     tfidf
+0       great_idea  0.326451
+1         so_think  0.309224
+2       great_that  0.250965
+3   f_payee_f_fine  0.237520
+4          i_think  0.219546
+5             i_so  0.203505
+6         great_is  0.201668
+7          is_that  0.192941
+8        fine_that  0.132316
+9       right_that  0.124173
+10         is_sure  0.124173
+11        that_yes  0.120034
+12    correct_that  0.115488
+13       good_that  0.103939
+14        ahead_go  0.103478
+
+
+VpaGetAnswer
+                         feature     tfidf
+0                     f_oov_f_my  0.189586
+1                           i_my  0.152802
+2                   f_oov_f_what  0.149503
+3          card_f_account_type_f  0.136699
+4               card_credit_card  0.136556
+5                    can_f_oov_f  0.133841
+6           f_category_f_f_oov_f  0.130700
+7   credit_card_f_account_type_f  0.129500
+8                     f_oov_f_is  0.125042
+9                    f_oov_f_the  0.121462
+10           f_account_type_f_my  0.115957
+11                           a_i  0.112775
+12                f_category_f_i  0.110378
+13      f_account_type_f_f_oov_f  0.108646
+14                credit_card_my  0.105677
+
+
+VpaGreeting
+                    feature     tfidf
+0            f_oov_f_olivia  0.335030
+1             f_oov_f_hello  0.233224
+2                   how_you  0.224708
+3                   are_you  0.210651
+4              hello_olivia  0.182337
+5                   are_how  0.180729
+6              good_morning  0.180085
+7                 hello_liv  0.173280
+8        f_nickname_f_hello  0.156074
+9           f_payee_f_hello  0.153706
+10                doing_how  0.150895
+11              hello_hello  0.136753
+12                hello_say  0.136753
+13  hello_virtual_assistant  0.132062
+14                doing_you  0.124120
+
+
+VpaJunk
+                     feature     tfidf
+0                 f_oov_f_is  0.236970
+1               _f_number_f_  0.188889
+2         f_number_f_f_oov_f  0.132742
+3               f_oov_f_what  0.130447
+4        f_payee_f_f_payee_f  0.117040
+5        f_country_f_f_oov_f  0.116510
+6                f_oov_f_the  0.116454
+7   f_account_type_f_f_oov_f  0.114864
+8              f_payee_f_hai  0.113450
+9                 f_oov_f_my  0.110135
+10               f_oov_f_hai  0.108820
+11      f_category_f_f_oov_f  0.105322
+12              f_oov_f_posb  0.104189
+13                f_oov_f_ho  0.099701
+14                    is_who  0.096194
+
+
+VpaProfanity
+                        feature     tfidf
+0               _f_profanity_f_  0.712464
+1         f_oov_f_f_profanity_f  0.337045
+2             f_profanity_f_you  0.330406
+3                       are_you  0.189236
+4                   are_f_oov_f  0.119749
+5               f_profanity_f_i  0.113244
+6             are_f_profanity_f  0.107768
+7            f_profanity_f_this  0.101781
+8   f_profanity_f_f_profanity_f  0.088725
+9              f_profanity_f_go  0.088725
+10               f_oov_f_stupid  0.075496
+11       f_profanity_f_yourself  0.075075
+12      f_payee_f_f_profanity_f  0.073972
+13             f_profanity_f_is  0.073972
+14           f_profanity_f_your  0.071845
+
+
+VpaSessionClose
+                      feature     tfidf
+0             f_oov_f_goodbye  0.351761
+1                 goodbye_you  0.234507
+2                 goodbye_liv  0.175880
+3                 goodbye_yes  0.175880
+4   goodbye_virtual_assistant  0.175880
+5                goodbye_sign  0.175880
+6        f_nickname_f_goodbye  0.175880
+7              goodbye_olivia  0.175880
+8                 goodbye_off  0.175880
+9                  goodbye_me  0.175880
+10                and_goodbye  0.175880
+11          f_payee_f_goodbye  0.175880
+12             f_oov_f_olivia  0.170088
+13                   off_sign  0.154287
+14                    me_sign  0.154287
+
+
+VpaStartOver
+                    feature     tfidf
+0                over_start  0.692022
+1              f_oov_f_over  0.202060
+2               number_over  0.115247
+3              number_start  0.094927
+4                 again_try  0.094927
+5   again_f_currency_type_f  0.094927
+6     f_currency_type_f_try  0.087674
+7                   over_re  0.087584
+8                 okay_over  0.087584
+9                mind_never  0.087584
+10              _startover_  0.087584
+11                 _forget_  0.087584
+12              going_start  0.087584
+13                 re_start  0.087584
+14            f_oov_f_start  0.081542
+
+
+VpaThankYou
+                feature     tfidf
+0               are_you  0.282353
+1              best_you  0.198280
+2              _thanks_  0.171510
+3      f_payee_f_thanks  0.149032
+4              are_best  0.148710
+5           _apo_s_that  0.148607
+6          f_oov_f_nice  0.137348
+7             joke_nice  0.137208
+8        f_payee_f_nice  0.137208
+9     f_nickname_f_nice  0.137208
+10             liv_nice  0.137208
+11  f_nickname_f_thanks  0.135513
+12           liv_thanks  0.135513
+13                _you_  0.108411
+14       f_oov_f_thanks  0.106451
+
+
+VpaDynamicallyCustomizable.PaymentFees
+                      feature     tfidf
+0   f_category_f_f_category_f  0.277661
+1            f_category_f_for  0.217105
+2            f_category_f_fee  0.194323
+3        charges_f_category_f  0.191909
+4              a_f_category_f  0.187088
+5             f_category_f_to  0.179815
+6          f_category_f_there  0.149593
+7           f_category_f_what  0.141447
+8            are_f_category_f  0.135690
+9           f_category_f_fees  0.135476
+10                      a_fee  0.129985
+11       f_category_f_f_oov_f  0.123829
+12                charges_for  0.120566
+13                     fee_to  0.115259
+14                       a_to  0.113487
+
+
+VpaDynamicallyCustomizable.PaymentProcessingTime
+                  feature     tfidf
+0    f_category_f_f_oov_f  0.240990
+1                how_long  0.206468
+2       f_category_f_long  0.173485
+3        f_category_f_how  0.165344
+4                how_take  0.156177
+5               long_take  0.149068
+6                 long_to  0.144159
+7       f_category_f_take  0.140564
+8         f_category_f_to  0.123326
+9       f_category_f_will  0.121207
+10              when_will  0.117262
+11                take_to  0.104024
+12           f_oov_f_long  0.103662
+13  f_category_f_transfer  0.102630
+14       f_category_f_the  0.101347
+
+
+VpaDynamicallyCustomizable.PaymentBeneficiary
+                     feature     tfidf
+0            f_category_f_my  0.272720
+1       f_category_f_f_oov_f  0.252930
+2                 f_oov_f_my  0.178713
+3             f_category_f_i  0.177582
+4                       i_my  0.138562
+5           f_category_f_not  0.131052
+6                     my_not  0.122458
+7             beneficiary_my  0.117698
+8        beneficiary_f_oov_f  0.117382
+9            f_category_f_if  0.114037
+10                   has_not  0.113199
+11  beneficiary_f_category_f  0.107950
+12          f_category_f_has  0.107032
+13         f_category_f_will  0.099651
+14                      i_if  0.099533
+
+
+VpaDynamicallyCustomizable.PaymentExecution
+                            feature     tfidf
+0                f_paymenttype_f_to  0.206161
+1           f_oov_f_f_paymenttype_f  0.203225
+2          f_paymenttype_f_payments  0.187842
+3                   f_category_f_to  0.176379
+4                    f_category_f_i  0.172118
+5                 f_paymenttype_f_i  0.167013
+6   f_paymentdest_f_f_paymentdest_f  0.135713
+7                  f_oov_f_payments  0.125305
+8               can_f_paymenttype_f  0.118201
+9                             how_i  0.115861
+10               f_paymentdest_f_to  0.115475
+11             f_paymenttype_f_make  0.115031
+12                 f_category_f_how  0.114142
+13                    make_payments  0.113042
+14                          make_to  0.106711
+
+
+VpaDynamicallyCustomizable.PaymentTypeNull
+                         feature     tfidf
+0                 _f_category_f_  0.393653
+1              f_category_f_what  0.361758
+2                f_category_f_is  0.359781
+3              f_category_f_make  0.355828
+4               f_category_f_how  0.340720
+5               can_f_category_f  0.336976
+6                 f_category_f_i  0.303273
+7                        is_what  0.303273
+8   f_category_f_f_paymenttype_f  0.162099
+9   f_category_f_f_paymentdest_f  0.059305
+10      f_paymenttype_f_transfer  0.052267
+11         f_category_f_transfer  0.044378
+12          f_paymenttype_f_make  0.035446
+13          f_paymenttype_f_what  0.031629
+14           f_paymenttype_f_how  0.031629
+
+
+VpaDynamicallyCustomizable.PaymentCancellation
+                           feature     tfidf
+0   f_category_f_pre_hyp_terminate  0.216189
+1             f_category_f_f_oov_f  0.184475
+2                   f_category_f_i  0.178476
+3              i_pre_hyp_terminate  0.175364
+4                  f_category_f_to  0.167996
+5             pre_hyp_terminate_to  0.164200
+6        payment_pre_hyp_terminate  0.149034
+7              a_pre_hyp_terminate  0.142939
+8            f_category_f_transfer  0.142487
+9                   a_f_category_f  0.140821
+10                can_f_category_f  0.133360
+11                             a_i  0.127023
+12           can_pre_hyp_terminate  0.120505
+13                       i_payment  0.114166
+14                 f_category_f_my  0.114036
+
+
+ok

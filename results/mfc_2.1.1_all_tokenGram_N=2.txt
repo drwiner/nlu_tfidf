@@ -1,0 +1,273 @@
+/usr/local/bin/python3.7 /Users/davidwiner/Documents/kasisto_docs/tfidf/tf_idf.py
+======================================================================
+CALCULATE TFIDF
+======================================================================
+VpaGetDefinition
+                                            feature     tfidf
+0        f_location_state_f_tell_f_location_state_f  0.131150
+1                        f_location_state_f_tell_me  0.131150
+2                                      tell_tell_me  0.131150
+3                   tell_f_location_state_f_tell_me  0.131150
+4                                        me_tell_me  0.131150
+5                        me_tell_f_location_state_f  0.131150
+6                      tell_tell_f_location_state_f  0.131150
+7   f_location_state_f_what_tell_f_location_state_f  0.112414
+8                                      me_what_tell  0.112414
+9                   f_location_state_f_what_tell_me  0.112414
+10                                     tell_me_what  0.112414
+11                     tell_f_location_state_f_what  0.112414
+12                     f_location_state_f_what_tell  0.112414
+13                                  me_what_tell_me  0.112414
+14                  me_what_tell_f_location_state_f  0.112414
+
+
+GetUserAccountInformation
+                                 feature     tfidf
+0                    f_account_type_f_my  0.156213
+1              checking_f_account_type_f  0.144793
+2                 f_account_feature_f_my  0.142424
+3                 my_my_f_account_type_f  0.137892
+4   f_account_type_f_my_f_account_type_f  0.137892
+5            balance_f_account_feature_f  0.123240
+6                                my_what  0.110002
+7   f_account_feature_f_f_account_type_f  0.109844
+8                             balance_my  0.105087
+9                            checking_my  0.104312
+10                                 is_my  0.103211
+11          checking_my_f_account_type_f  0.093791
+12       my_checking_my_f_account_type_f  0.092916
+13          f_account_type_f_my_checking  0.092916
+14                        my_my_checking  0.092916
+
+
+Help
+                                       feature     tfidf
+0              help_f_location_state_f_help_me  0.183264
+1   f_location_state_f_help_f_location_state_f  0.183264
+2                                 help_help_me  0.183264
+3                                      help_me  0.183264
+4                   help_f_location_state_f_me  0.183264
+5                   f_location_state_f_help_me  0.183264
+6                 help_help_f_location_state_f  0.183264
+7                      f_location_state_f_help  0.183264
+8                                   help_me_me  0.183264
+9                                       _help_  0.114969
+10                                f_oov_f_help  0.085523
+11                                    can_help  0.066432
+12                                    help_you  0.062105
+13                 help_f_location_state_f_you  0.059789
+14                                 help_me_you  0.059789
+
+
+Null
+                                       feature     tfidf
+0                  balance_f_account_feature_f  0.136841
+1                       f_account_feature_f_my  0.094533
+2                f_location_state_f_f_number_f  0.093977
+3                     f_location_state_f_india  0.084980
+4                        f_number_f_f_number_f  0.079843
+5                    checking_f_account_type_f  0.078534
+6                  f_account_feature_f_f_oov_f  0.068954
+7                                   balance_my  0.068398
+8                                         i_my  0.062910
+9                                   amount_due  0.062377
+10                       f_account_feature_f_i  0.060566
+11                                   change_to  0.060492
+12                 f_account_type_f_f_number_f  0.059500
+13                                       my_to  0.058127
+14  f_account_feature_f_my_f_account_feature_f  0.057322
+
+
+ShowTransactions
+                                           feature     tfidf
+0                              for_f_number_f_from  0.097936
+1                              _dol__from_f_date_f  0.095920
+2                     for_f_number_f_from_f_date_f  0.093909
+3                   f_number_f__dol__from_f_date_f  0.093841
+4                     f_currency_type_f_f_number_f  0.090554
+5   f_currency_type_f_f_number_f_f_currency_type_f  0.090337
+6          f_number_f_f_number_f_f_currency_type_f  0.090337
+7                                          from_my  0.089550
+8                        for_from_f_account_type_f  0.086939
+9                                         for_from  0.086268
+10                                   f_date_f_from  0.085952
+11                                  f_number_f_for  0.085586
+12                               for_from_f_date_f  0.085132
+13                                   f_number_f_my  0.084519
+14                            f_number_f__dol__for  0.084321
+
+
+VpaCancellation
+                                       feature     tfidf
+0                    pre_hyp_terminate_request  0.224551
+1     pre_hyp_terminate_pre_hyp_terminate_that  0.192473
+2                  pre_hyp_terminate_that_that  0.192473
+3                       pre_hyp_terminate_that  0.141346
+4                       pre_hyp_terminate_this  0.128315
+5                  pre_hyp_terminate_this_this  0.128315
+6     pre_hyp_terminate_pre_hyp_terminate_this  0.128315
+7                 _apo_s_pre_hyp_terminate_let  0.092658
+8          _apo_s_pre_hyp_terminate_let__apo_s  0.092658
+9                    f_oov_f_pre_hyp_terminate  0.086651
+10                    number_pre_hyp_terminate  0.085627
+11             _apo_s__apo_s_pre_hyp_terminate  0.080197
+12                let__apo_s_pre_hyp_terminate  0.080197
+13  _apo_s_pre_hyp_terminate_pre_hyp_terminate  0.080197
+14         pre_hyp_terminate_this_this_request  0.074127
+
+
+VpaGetAnswer
+                                      feature     tfidf
+0                                       can_i  0.158439
+1                                   can_can_i  0.145638
+2                                     can_i_i  0.145626
+3                                 can_f_oov_f  0.143745
+4                               can_i_f_oov_f  0.139148
+5                                   can_i_pay  0.113735
+6                                 can_i_i_pay  0.111947
+7                 can_i_i_f_account_feature_f  0.099643
+8                        f_category_f_f_oov_f  0.096157
+9                       f_account_feature_f_i  0.095994
+10                                 f_oov_f_to  0.094702
+11                                    can_pay  0.093879
+12                  can_i_f_account_feature_f  0.093654
+13                f_account_feature_f_f_oov_f  0.093588
+14  f_account_feature_f_i_f_account_feature_f  0.092736
+
+
+VpaGreeting
+                  feature     tfidf
+0   f_location_state_f_hi  0.219964
+1         hello_hello_kai  0.160505
+2             are_you_you  0.147316
+3             are_are_you  0.147316
+4           hello_kai_kai  0.146343
+5             how_how_are  0.145604
+6             are_how_are  0.145604
+7               hello_kai  0.142810
+8                 are_you  0.136662
+9                 how_you  0.136662
+10        are_you_how_are  0.135203
+11            how_are_you  0.135203
+12                are_how  0.133891
+13            are_you_how  0.124327
+14          how_you_doing  0.100807
+
+
+VpaSessionClose
+                           feature     tfidf
+0                  goodbye_kai_kai  0.085603
+1                 goodbye_manulife  0.085603
+2                      goodbye_kai  0.085603
+3         goodbye_goodbye_manulife  0.085603
+4              goodbye_goodbye_kai  0.085603
+5        goodbye_manulife_manulife  0.085603
+6                         off_sign  0.074091
+7                     f_oov_f_sign  0.065922
+8                         day_have  0.059587
+9   me_off_sign_f_location_state_f  0.057069
+10                  me_off_sign_me  0.057069
+11                     goodbye_off  0.057069
+12                     me_off_sign  0.057069
+13                 f_oov_f_goodbye  0.057069
+14                    goodbye_sign  0.057069
+
+
+VpaStartOver
+                   feature     tfidf
+0         start_start_over  0.362264
+1          over_start_over  0.362264
+2               over_start  0.362264
+3             f_oov_f_over  0.139352
+4     f_oov_f_f_oov_f_over  0.110989
+5        f_oov_f_over_over  0.110989
+6            f_oov_f_start  0.101347
+7      start_start_f_oov_f  0.086253
+8    f_oov_f_start_f_oov_f  0.086253
+9   f_location_city_f_over  0.062431
+10       number_start_over  0.059793
+11           start_over_to  0.059793
+12           over_to_start  0.059793
+13      f_oov_f_start_over  0.059793
+14     start_over_to_start  0.059793
+
+
+VpaThankYou
+                     feature     tfidf
+0                you_you_are  0.191704
+1                are_you_are  0.191704
+2                    are_you  0.164364
+3     thanks_thanks_manulife  0.102498
+4   manulife_thanks_manulife  0.102498
+5            manulife_thanks  0.094719
+6                   best_you  0.085616
+7     nice_f_oov_f_nice_joke  0.081998
+8                   _thanks_  0.081998
+9             nice_nice_joke  0.081998
+10            joke_nice_joke  0.081998
+11         f_oov_f_nice_joke  0.081998
+12         joke_nice_f_oov_f  0.081998
+13                 joke_nice  0.081998
+14              f_oov_f_nice  0.078933
+
+
+VpaJunk
+                               feature     tfidf
+0              f_oov_f_f_oov_f_f_oov_f  0.283352
+1                                   åˆ  0.160670
+2                                   åº  0.144819
+3                                  àœö  0.115279
+4                                  ½çš  0.115279
+5                                   åš  0.110235
+6                           f_oov_f_is  0.102696
+7   f_location_state_f_f_oov_f_f_oov_f  0.084849
+8                   f_number_f_f_oov_f  0.073730
+9                                 äººå  0.072770
+10                                å¾ˆå  0.072770
+11                                  æœ  0.072770
+12                                obæˆ  0.072770
+13                                ï¼œé  0.072770
+14                               œ_á¾û  0.072770
+
+
+VpaProfanity
+                                feature     tfidf
+0                       _f_profanity_f_  0.509567
+1                           are_you_are  0.190756
+2                           you_you_are  0.190756
+3                               are_you  0.179585
+4                       f_oov_f_you_are  0.153353
+5                 f_oov_f_f_profanity_f  0.150498
+6                     f_profanity_f_you  0.138295
+7                           are_f_oov_f  0.128279
+8       f_profanity_f_you_f_profanity_f  0.094159
+9                 you_you_f_profanity_f  0.094159
+10                      are_f_oov_f_you  0.093508
+11                  are_f_oov_f_you_are  0.093508
+12                  are_f_oov_f_f_oov_f  0.092999
+13  f_profanity_f_f_profanity_f_f_oov_f  0.089090
+14        f_oov_f_f_profanity_f_f_oov_f  0.089090
+
+
+VpaConfirmation
+             feature     tfidf
+0        so_think_so  0.206452
+1     think_think_so  0.206452
+2   i_think_think_so  0.182516
+3    great_idea_idea  0.179524
+4   great_great_idea  0.179524
+5         great_idea  0.179524
+6           so_think  0.166037
+7         i_think_so  0.151599
+8       that_that_is  0.137395
+9            is_that  0.137395
+10        is_that_is  0.137395
+11        great_that  0.132348
+12              i_so  0.129313
+13           i_think  0.121382
+14          great_is  0.119799
+
+
+ok
+
+Process finished with exit code 0

@@ -1,0 +1,159 @@
+/usr/local/bin/python3.7 /Users/davidwiner/Documents/kasisto_docs/tfidf/tf_idf.py
+======================================================================
+CALCULATE TFIDF
+======================================================================
+Qid_063
+                      feature     tfidf
+0                      mobile  0.383485
+1                     deposit  0.383485
+2                f_category_f  0.321390
+3         mobile_f_category_f  0.273918
+4        f_category_f_deposit  0.273918
+5   f_category_f_f_category_f  0.273918
+6                       check  0.219134
+7               check_deposit  0.219134
+8          check_f_category_f  0.219134
+9          f_category_f_check  0.219134
+10               mobile_check  0.219134
+11      manulife_f_category_f  0.164351
+12                   manulife  0.164351
+13             mobile_deposit  0.164351
+14            manulife_mobile  0.164351
+
+
+Qid_124
+           feature     tfidf
+0            phish  0.650224
+1         phishing  0.650224
+2       what_phish  0.175736
+3    what_phishing  0.175736
+4      phishing_is  0.105442
+5      phish_means  0.105442
+6         phish_is  0.105442
+7          a_phish  0.105442
+8   phishing_means  0.105442
+9       a_phishing  0.105442
+10       the_phish  0.070295
+11    the_phishing  0.070295
+12     an_phishing  0.052721
+13        an_phish  0.052721
+14      with_phish  0.035147
+
+
+Qid_134a
+                                feature     tfidf
+0                      f_account_type_f  0.536607
+1                                  loan  0.268303
+2                           advanceable  0.268303
+3                                 loans  0.268303
+4                                    re  0.268303
+5                        re_advanceable  0.268303
+6                    re_hyp_advanceable  0.268303
+7                         readvanceable  0.268303
+8        readvanceable_f_account_type_f  0.178869
+9          advanceable_f_account_type_f  0.178869
+10  re_hyp_advanceable_f_account_type_f  0.178869
+11             re_hyp_advanceable_loans  0.089434
+12                     advanceable_loan  0.089434
+13                    advanceable_loans  0.089434
+14                  readvanceable_loans  0.089434
+
+
+Qid_134b
+                         feature     tfidf
+0               f_account_type_f  0.499123
+1                            non  0.446668
+2                    advanceable  0.249562
+3                           loan  0.249562
+4                          loans  0.249562
+5   advanceable_f_account_type_f  0.166374
+6          non_hyp_readvanceable  0.148889
+7              non_readvanceable  0.148889
+8                     non_hyp_re  0.148889
+9         non_hyp_re_advanceable  0.148889
+10    non_hyp_re_hyp_advanceable  0.148889
+11        non_re_hyp_advanceable  0.148889
+12                        non_re  0.148889
+13                 readvanceable  0.124781
+14            re_hyp_advanceable  0.124781
+
+
+Qid_135
+               feature     tfidf
+0         manulife_one  0.647699
+1         f_nickname_f  0.647699
+2    what_f_nickname_f  0.175054
+3    what_manulife_one  0.175054
+4      manulife_one_is  0.105032
+5   f_nickname_f_means  0.105032
+6   manulife_one_means  0.105032
+7       a_manulife_one  0.105032
+8      f_nickname_f_is  0.105032
+9       a_f_nickname_f  0.105032
+10         manulifeone  0.080962
+11    the_manulife_one  0.070022
+12    the_f_nickname_f  0.070022
+13     an_manulife_one  0.052516
+14     an_f_nickname_f  0.052516
+
+
+Qid_167
+               feature     tfidf
+0             security  0.681110
+1             question  0.340555
+2            questions  0.340555
+3    security_question  0.340555
+4   security_questions  0.340555
+5        what_security  0.184084
+6           a_security  0.110450
+7         the_security  0.073633
+8       question_means  0.055225
+9      questions_means  0.055225
+10         an_security  0.055225
+11         question_is  0.055225
+12        questions_is  0.055225
+13       with_security  0.036817
+14    f_oov_f_security  0.018408
+
+
+Qid_196
+                         feature     tfidf
+0           pre_authorized_debit  0.681110
+1                          forms  0.340555
+2     pre_authorized_debit_forms  0.340555
+3      pre_authorized_debit_form  0.340555
+4                           form  0.340555
+5      what_pre_authorized_debit  0.184084
+6         a_pre_authorized_debit  0.110450
+7       the_pre_authorized_debit  0.073633
+8                       forms_is  0.055225
+9                     form_means  0.055225
+10       an_pre_authorized_debit  0.055225
+11                       form_is  0.055225
+12                   forms_means  0.055225
+13     with_pre_authorized_debit  0.036817
+14  f_oov_f_pre_authorized_debit  0.018408
+
+
+Qid_059
+                  feature     tfidf
+0      creditor_insurance  0.450699
+1   creditor_f_category_f  0.450699
+2                creditor  0.450699
+3               insurance  0.450699
+4            f_category_f  0.377721
+5           what_creditor  0.121811
+6            insurance_is  0.073086
+7              a_creditor  0.073086
+8         insurance_means  0.073086
+9         f_category_f_is  0.061252
+10     f_category_f_means  0.061252
+11           the_creditor  0.048724
+12            an_creditor  0.036543
+13          with_creditor  0.024362
+14         about_creditor  0.012181
+
+
+ok
+
+Process finished with exit code 0

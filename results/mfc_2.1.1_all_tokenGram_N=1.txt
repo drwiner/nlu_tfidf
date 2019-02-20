@@ -1,0 +1,273 @@
+/usr/local/bin/python3.7 /Users/davidwiner/Documents/kasisto_docs/tfidf/tf_idf.py
+======================================================================
+CALCULATE TFIDF
+======================================================================
+VpaGetDefinition
+                         feature     tfidf
+0                           what  0.337867
+1                        tell_me  0.256004
+2        tell_f_location_state_f  0.256004
+3                    advanceable  0.225527
+4               f_account_type_f  0.210269
+5                            non  0.173677
+6                             is  0.162459
+7                        me_what  0.152742
+8   advanceable_f_account_type_f  0.150351
+9                 re_advanceable  0.150351
+10            re_hyp_advanceable  0.150351
+11                          tell  0.149628
+12                         loans  0.143346
+13                          loan  0.131815
+14                  manulife_one  0.130863
+
+
+GetUserAccountInformation
+                  feature     tfidf
+0     f_account_feature_f  0.387735
+1        f_account_type_f  0.334373
+2                checking  0.284791
+3     my_f_account_type_f  0.271218
+4                 balance  0.270725
+5                    what  0.220982
+6                      is  0.198454
+7                     the  0.183707
+8             my_checking  0.182756
+9                how_much  0.150926
+10  f_location_state_f_my  0.143806
+11                   much  0.140373
+12                    how  0.136616
+13                what_is  0.119304
+14                    for  0.112427
+
+
+Help
+                    feature     tfidf
+0                      help  0.732033
+1                   help_me  0.355751
+2   help_f_location_state_f  0.355751
+3                       can  0.104039
+4               help_please  0.087801
+5        transaction_search  0.081155
+6                  out_here  0.081155
+7                  you_help  0.077374
+8                    cannot  0.071150
+9                   can_you  0.061003
+10             payment_help  0.060867
+11                 checking  0.059292
+12             help_f_oov_f  0.059292
+13         f_account_type_f  0.056749
+14                   me_out  0.056491
+
+
+Null
+                feature     tfidf
+0            f_number_f  0.318542
+1   f_account_feature_f  0.316950
+2               balance  0.247089
+3      f_account_type_f  0.184508
+4                amount  0.181097
+5               payment  0.152617
+6                 india  0.146689
+7              checking  0.135563
+8                  what  0.126823
+9                   due  0.123585
+10         f_category_f  0.112823
+11               please  0.112549
+12            principal  0.103913
+13                  for  0.102487
+14               change  0.101987
+
+
+ShowTransactions
+                         feature     tfidf
+0                           from  0.303078
+1   f_number_f_f_currency_type_f  0.268102
+2                     f_number_f  0.250721
+3          from_f_account_type_f  0.247614
+4              f_currency_type_f  0.247178
+5                 for_f_number_f  0.241281
+6                  from_f_date_f  0.236826
+7               f_number_f__dol_  0.231892
+8                          _dol_  0.231892
+9                            for  0.212901
+10                  transactions  0.188021
+11              f_account_type_f  0.184631
+12              for_f_category_f  0.127921
+13                    _dol__from  0.120395
+14                  f_category_f  0.110566
+
+
+VpaCancellation
+                                feature     tfidf
+0                     pre_hyp_terminate  0.694370
+1                pre_hyp_terminate_that  0.327079
+2                               request  0.312906
+3                pre_hyp_terminate_this  0.218053
+4              _apo_s_pre_hyp_terminate  0.136283
+5              number_pre_hyp_terminate  0.125967
+6                  pre_hyp_terminate_it  0.121258
+7   f_location_city_f_pre_hyp_terminate  0.109026
+8                          that_request  0.109026
+9                          this_request  0.109026
+10                 pre_hyp_terminate_my  0.087683
+11                             transfer  0.085057
+12                           let__apo_s  0.085057
+13                you_pre_hyp_terminate  0.081770
+14                                  let  0.078906
+
+
+VpaGetAnswer
+                  feature     tfidf
+0                     can  0.335166
+1                   can_i  0.289066
+2            f_category_f  0.261281
+3                     how  0.236906
+4     f_account_feature_f  0.210516
+5   i_f_account_feature_f  0.184079
+6                   i_pay  0.182944
+7        f_account_type_f  0.181637
+8            f_nickname_f  0.179147
+9                     pay  0.178396
+10                   what  0.143075
+11                     is  0.141872
+12                   do_i  0.133042
+13        f_oov_f_f_oov_f  0.126474
+14                    the  0.110066
+
+
+VpaGreeting
+         feature     tfidf
+0          hello  0.461885
+1             hi  0.362160
+2            how  0.246992
+3        are_you  0.242548
+4      hello_kai  0.240946
+5        how_are  0.239729
+6            are  0.206828
+7        morning  0.199774
+8            hey  0.160082
+9   good_morning  0.156273
+10         doing  0.126125
+11     you_doing  0.125969
+12            up  0.112503
+13     say_hello  0.107762
+14         there  0.106721
+
+
+VpaSessionClose
+                    feature     tfidf
+0                   goodbye  0.425152
+1               goodbye_kai  0.212576
+2          goodbye_manulife  0.212576
+3                       bye  0.183987
+4                      sign  0.163703
+5                       for  0.153961
+6               you_goodbye  0.141717
+7                 goodnight  0.141717
+8               and_goodbye  0.141717
+9                   sign_me  0.122658
+10                   me_off  0.109135
+11                  yes_and  0.109135
+12                  session  0.109135
+13  sign_f_location_state_f  0.109135
+14   f_location_state_f_off  0.109135
+
+
+VpaStartOver
+          feature     tfidf
+0      start_over  0.526146
+1           start  0.516037
+2            over  0.516037
+3    f_oov_f_over  0.161199
+4   start_f_oov_f  0.125273
+5          forget  0.100749
+6            stop  0.093823
+7           again  0.079784
+8      never_mind  0.075164
+9             try  0.064398
+10      try_again  0.062636
+11       to_start  0.060450
+12       re_going  0.057895
+13      startover  0.057895
+14           mind  0.050772
+
+
+VpaThankYou
+            feature     tfidf
+0            thanks  0.456817
+1           you_are  0.327284
+2              nice  0.245463
+3               are  0.243336
+4              cool  0.225008
+5   thanks_manulife  0.174988
+6         nice_joke  0.139990
+7              best  0.133468
+8             great  0.122766
+9              very  0.122766
+10         love_you  0.121163
+11     nice_f_oov_f  0.121163
+12      that__apo_s  0.114204
+13           i_love  0.104993
+14  nice_f_number_f  0.104993
+
+
+VpaJunk
+                       feature     tfidf
+0              f_oov_f_f_oov_f  0.535688
+1                           is  0.264588
+2                   f_number_f  0.255968
+3                         what  0.169289
+4                          the  0.149164
+5                          how  0.130806
+6             f_account_type_f  0.128901
+7   f_location_state_f_f_oov_f  0.117200
+8                          can  0.114296
+9                 f_category_f  0.100034
+10                     account  0.093523
+11                         are  0.092340
+12                         who  0.090906
+13                  ho_f_oov_f  0.088537
+14                   i_f_oov_f  0.083958
+
+
+VpaProfanity
+                   feature     tfidf
+0            f_profanity_f  0.870161
+1                  you_are  0.237707
+2                      are  0.194063
+3        you_f_profanity_f  0.117335
+4    f_profanity_f_f_oov_f  0.111018
+5              are_f_oov_f  0.099905
+6   f_profanity_f_yourself  0.071771
+7                   stupid  0.066611
+8         go_f_profanity_f  0.063796
+9         is_f_profanity_f  0.063796
+10                yourself  0.061411
+11                    your  0.058912
+12                      go  0.051950
+13                     bot  0.050687
+14   f_oov_f_f_profanity_f  0.049958
+
+
+VpaConfirmation
+       feature     tfidf
+0        great  0.354911
+1           is  0.332895
+2     think_so  0.287729
+3          yes  0.253508
+4   great_idea  0.250199
+5         idea  0.217989
+6      that_is  0.191486
+7         sure  0.178663
+8      correct  0.174590
+9        think  0.171420
+10        fine  0.162303
+11       right  0.161360
+12  absolutely  0.159240
+13     i_think  0.158758
+14          so  0.157219
+
+
+ok
+
+Process finished with exit code 0

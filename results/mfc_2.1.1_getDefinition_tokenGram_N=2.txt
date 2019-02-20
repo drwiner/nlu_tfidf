@@ -1,0 +1,159 @@
+/usr/local/bin/python3.7 /Users/davidwiner/Documents/kasisto_docs/tfidf/tf_idf.py
+======================================================================
+CALCULATE TFIDF
+======================================================================
+Qid_063
+                                           feature     tfidf
+0                             deposit_f_category_f  0.173438
+1                              f_category_f_mobile  0.173438
+2                        f_category_f_f_category_f  0.173438
+3                                   deposit_mobile  0.173438
+4         f_category_f_deposit_mobile_f_category_f  0.123884
+5   f_category_f_deposit_f_category_f_f_category_f  0.123884
+6                 f_category_f_mobile_f_category_f  0.123884
+7    f_category_f_f_category_f_mobile_f_category_f  0.123884
+8                      deposit_mobile_f_category_f  0.123884
+9                     deposit_f_category_f_deposit  0.123884
+10                      mobile_mobile_f_category_f  0.123884
+11                     f_category_f_deposit_mobile  0.123884
+12          f_category_f_f_category_f_f_category_f  0.123884
+13               f_category_f_f_category_f_deposit  0.123884
+14                f_category_f_f_category_f_mobile  0.123884
+
+
+Qid_124
+                             feature     tfidf
+0                      phishing_what  0.300923
+1                         phish_what  0.300923
+2                 what_what_phishing  0.143296
+3                    what_what_phish  0.143296
+4                        is_phishing  0.143296
+5             phishing_what_phishing  0.143296
+6                           is_phish  0.143296
+7                   phish_what_phish  0.143296
+8                        me_phishing  0.128967
+9                           me_phish  0.128967
+10       f_location_state_f_phishing  0.128967
+11          f_location_state_f_phish  0.128967
+12                     phishing_tell  0.100308
+13                        phish_tell  0.100308
+14  phishing_tell_f_location_state_f  0.100308
+
+
+Qid_134a
+                                              feature     tfidf
+0                               f_account_type_f_what  0.195281
+1                                   re_re_advanceable  0.172033
+2                               f_account_type_f_loan  0.172033
+3                          advanceable_re_advanceable  0.172033
+4                                      advanceable_re  0.172033
+5                              f_account_type_f_loans  0.172033
+6   re_hyp_advanceable_re_hyp_advanceable_f_accoun...  0.114689
+7        readvanceable_readvanceable_f_account_type_f  0.114689
+8                        advanceable_f_account_type_f  0.114689
+9            advanceable_advanceable_f_account_type_f  0.114689
+10                                f_account_type_f_re  0.114689
+11                    f_account_type_f_re_advanceable  0.114689
+12                f_account_type_f_re_hyp_advanceable  0.114689
+13  f_account_type_f_re_hyp_advanceable_f_account_...  0.114689
+14                     f_account_type_f_readvanceable  0.114689
+
+
+Qid_134b
+                                          feature     tfidf
+0                            f_account_type_f_non  0.187716
+1                           f_account_type_f_what  0.178580
+2                                        non_what  0.159813
+3                           f_account_type_f_loan  0.157321
+4                          f_account_type_f_loans  0.157321
+5   advanceable_f_account_type_f_f_account_type_f  0.104881
+6        advanceable_advanceable_f_account_type_f  0.104881
+7                    advanceable_f_account_type_f  0.104881
+8                                          non_re  0.093858
+9                           non_non_readvanceable  0.093858
+10                     non_non_re_hyp_advanceable  0.093858
+11                                     non_non_re  0.093858
+12              non_hyp_re_non_hyp_re_advanceable  0.093858
+13                         non_re_hyp_advanceable  0.093858
+14                             advanceable_non_re  0.093858
+
+
+Qid_135
+                                feature     tfidf
+0             f_nickname_f_manulife_one  0.435978
+1                     f_nickname_f_what  0.247447
+2                     manulife_one_what  0.247447
+3        f_nickname_f_what_manulife_one  0.117832
+4        manulife_one_what_f_nickname_f  0.117832
+5                       f_nickname_f_is  0.117832
+6                what_what_manulife_one  0.117832
+7   what_f_nickname_f_what_manulife_one  0.117832
+8                       is_manulife_one  0.117832
+9        manulife_one_what_manulife_one  0.117832
+10               what_what_f_nickname_f  0.117832
+11       f_nickname_f_what_f_nickname_f  0.117832
+12      f_location_state_f_manulife_one  0.106049
+13                      f_nickname_f_me  0.106049
+14      f_location_state_f_f_nickname_f  0.106049
+
+
+Qid_167
+                         feature     tfidf
+0                  security_what  0.275958
+1              question_security  0.243106
+2   questions_security_questions  0.243106
+3             questions_security  0.243106
+4     security_security_question  0.243106
+5     question_security_question  0.243106
+6    security_security_questions  0.243106
+7                 questions_what  0.137979
+8        security_questions_what  0.137979
+9         security_question_what  0.137979
+10                 question_what  0.137979
+11            what_what_security  0.131408
+12                   is_security  0.131408
+13        security_what_security  0.131408
+14   f_location_state_f_security  0.118268
+
+
+Qid_196
+                                            feature     tfidf
+0                         pre_authorized_debit_what  0.275791
+1                  forms_pre_authorized_debit_forms  0.242959
+2                         form_pre_authorized_debit  0.242959
+3                    form_pre_authorized_debit_form  0.242959
+4   pre_authorized_debit_pre_authorized_debit_forms  0.242959
+5    pre_authorized_debit_pre_authorized_debit_form  0.242959
+6                        forms_pre_authorized_debit  0.242959
+7                    pre_authorized_debit_form_what  0.137896
+8                                         form_what  0.137896
+9                                        forms_what  0.137896
+10                  pre_authorized_debit_forms_what  0.137896
+11                   what_what_pre_authorized_debit  0.131329
+12   pre_authorized_debit_what_pre_authorized_debit  0.131329
+13                          is_pre_authorized_debit  0.131329
+14                          me_pre_authorized_debit  0.118196
+
+
+Qid_059
+                                     feature     tfidf
+0               creditor_insurance_insurance  0.246840
+1                         creditor_insurance  0.246840
+2                     f_category_f_insurance  0.246840
+3            creditor_insurance_f_category_f  0.246840
+4             creditor_creditor_f_category_f  0.246840
+5                creditor_creditor_insurance  0.246840
+6                      creditor_f_category_f  0.246840
+7   creditor_f_category_f_creditor_insurance  0.246840
+8         creditor_f_category_f_f_category_f  0.246840
+9            creditor_f_category_f_insurance  0.246840
+10                   creditor_insurance_what  0.140099
+11                            insurance_what  0.140099
+12                             creditor_what  0.140099
+13                creditor_f_category_f_what  0.140099
+14                         f_category_f_what  0.117414
+
+
+ok
+
+Process finished with exit code 0

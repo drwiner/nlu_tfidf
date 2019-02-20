@@ -1,0 +1,42 @@
+======================================================================
+CALCULATE TFIDF
+======================================================================
+VpaDynamicallyCustomizable.PaymentFees
+                              feature     tfidf
+0   charges_f_category_f_f_category_f  0.246641
+1       f_category_f_f_category_f_fee  0.225127
+2                  a_f_category_f_fee  0.177489
+3                 f_category_f_fee_to  0.161354
+4            charges_f_category_f_for  0.154439
+5                 f_category_f_fee_is  0.141377
+6            are_charges_f_category_f  0.124473
+7                            a_fee_to  0.123705
+8                f_category_f_fee_for  0.117558
+9              f_category_f_fee_there  0.114484
+10              are_f_category_f_fees  0.110643
+11                           a_fee_is  0.109874
+12                       fee_is_there  0.106033
+13                        a_fee_there  0.102959
+14          charges_f_category_f_what  0.102959
+
+
+VpaDynamicallyCustomizable.PaymentExecution
+                                    feature     tfidf
+0          f_oov_f_f_paymenttype_f_payments  0.217791
+1                     f_oov_f_make_payments  0.152610
+2        f_paymentdest_f_f_paymentdest_f_to  0.131928
+3         f_paymentdest_f_f_paymentdest_f_i  0.123780
+4                f_paymenttype_f_i_payments  0.113439
+5                           i_make_payments  0.109365
+6              can_f_paymenttype_f_payments  0.105605
+7      f_paymentdest_f_f_paymentdest_f_what  0.100278
+8   f_oov_f_f_paymentdest_f_f_paymentdest_f  0.092443
+9        f_paymentdest_f_f_paymentdest_f_in  0.091817
+10               f_oov_f_f_paymentdest_f_to  0.091817
+11                              can_i_money  0.090250
+12                   f_paymenttype_f_to_use  0.087116
+13             f_oov_f_f_paymentdest_f_what  0.086803
+14         f_category_f_f_paymenttype_f_use  0.086490
+
+
+ok

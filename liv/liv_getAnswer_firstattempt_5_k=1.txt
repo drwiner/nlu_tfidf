@@ -1,0 +1,2328 @@
+Liv1
+     feature     tfidf
+0  discounts  0.722226
+1     offers  0.543190
+2   discount  0.172402
+3     latest  0.170060
+4        see  0.134900
+
+Liv10
+         feature     tfidf
+0         offers  0.758226
+1      suggested  0.576055
+2       relevant  0.199353
+3  xannot_offers  0.092520
+4            see  0.067789
+
+Liv100
+           feature     tfidf
+0          request  0.428029
+1         currency  0.385010
+2            money  0.347787
+3       currencies  0.330581
+4  f_paymenttype_f  0.289719
+
+Liv101
+           feature     tfidf
+0            money  0.671261
+1          request  0.502975
+2         requests  0.260322
+3  f_paymenttype_f  0.223138
+4          someone  0.215685
+
+Liv102
+           feature     tfidf
+0            bills  0.703203
+1              pay  0.467147
+2  f_paymenttype_f  0.301229
+3     f_category_f  0.261762
+4              liv  0.192918
+
+Liv106
+           feature     tfidf
+0              due  0.615740
+1             bill  0.557036
+2  f_paymenttype_f  0.276211
+3     f_category_f  0.242187
+4     notification  0.227582
+
+Liv11
+           feature     tfidf
+0         referral  0.707196
+1        referring  0.316726
+2             code  0.264178
+3           friend  0.253537
+4  f_paymenttype_f  0.226653
+
+Liv110
+        feature     tfidf
+0     recurring  0.642544
+1     automatic  0.521179
+2      transfer  0.415037
+3  f_category_f  0.250143
+4     transfers  0.159389
+
+Liv111
+        feature     tfidf
+0     automatic  0.371949
+1      transfer  0.364721
+2     transfers  0.364332
+3        future  0.359153
+4  f_category_f  0.321543
+
+Liv114
+           feature     tfidf
+0             bill  0.728692
+1              pay  0.350151
+2     f_category_f  0.299066
+3           amount  0.225915
+4  f_paymenttype_f  0.212549
+
+Liv117
+            feature     tfidf
+0            credit  0.596728
+1               pay  0.378289
+2             bills  0.319963
+3              card  0.309322
+4  f_account_type_f  0.306926
+
+Liv118
+           feature     tfidf
+0             bill  0.656011
+1              pay  0.491890
+2  f_paymenttype_f  0.319461
+3     f_category_f  0.259768
+4             else  0.205237
+
+Liv12
+        feature     tfidf
+0         board  0.933673
+1  f_nickname_f  0.244671
+2           liv  0.241882
+3      relevant  0.050388
+4           why  0.039295
+
+Liv13
+    feature     tfidf
+0     squad  0.739663
+1      pics  0.664053
+2     picks  0.052895
+3  relevant  0.047781
+4       why  0.035496
+
+Liv132
+           feature     tfidf
+0           friend  0.615429
+1              pay  0.364794
+2          account  0.260327
+3  f_paymenttype_f  0.242464
+4              not  0.219535
+
+Liv135
+    feature     tfidf
+0       pay  0.530473
+1    people  0.463746
+2     group  0.356797
+3  multiple  0.306086
+4        at  0.283040
+
+Liv136
+           feature     tfidf
+0              pay  0.647719
+1           person  0.430647
+2          someone  0.270165
+3  f_paymenttype_f  0.265096
+4            money  0.253115
+
+Liv137
+             feature     tfidf
+0                pay  0.509356
+1             friend  0.461249
+2         currencies  0.425898
+3  f_currency_type_f  0.265604
+4           currency  0.233583
+
+Liv138
+    feature     tfidf
+0     money  0.688646
+1  received  0.310990
+2     sends  0.298608
+3   someone  0.295435
+4       see  0.237741
+
+Liv14
+        feature     tfidf
+0        health  0.823964
+1       connect  0.420798
+2           app  0.241157
+3  f_category_f  0.214458
+4          apps  0.110746
+
+Liv15
+            feature     tfidf
+0            credit  0.743124
+1  f_account_type_f  0.413303
+2              card  0.393581
+3               liv  0.221949
+4      f_nickname_f  0.201122
+
+Liv154
+             feature     tfidf
+0         currencies  0.409741
+1  f_currency_type_f  0.383220
+2                aed  0.348794
+3              money  0.342565
+4                usd  0.329162
+
+Liv158
+        feature     tfidf
+0     transfers  0.457189
+1      transfer  0.367418
+2  f_category_f  0.339684
+3       instant  0.332955
+4          time  0.271336
+
+Liv16
+           feature     tfidf
+0             card  0.593382
+1              liv  0.489140
+2         benefits  0.454928
+3  f_paymentdest_f  0.387580
+4            perks  0.089610
+
+Liv17
+            feature     tfidf
+0              card  0.646106
+1             debit  0.446941
+2               liv  0.419059
+3  f_account_type_f  0.323260
+4   f_paymentdest_f  0.232892
+
+Liv171
+         feature     tfidf
+0       currency  0.714281
+1  international  0.388471
+2      transfers  0.291042
+3            uae  0.250351
+4        outside  0.189287
+
+Liv172
+      feature     tfidf
+0          fx  0.761019
+1        rate  0.595122
+2    exchange  0.190846
+3       rates  0.083566
+4  determined  0.073891
+
+Liv173
+           feature     tfidf
+0       currencies  0.789287
+1  internationally  0.262777
+2           abroad  0.260365
+3  f_paymenttype_f  0.247117
+4         transfer  0.206638
+
+Liv18
+            feature     tfidf
+0              card  0.528892
+1               liv  0.435637
+2            credit  0.368153
+3  f_account_type_f  0.322771
+4   f_paymentdest_f  0.302615
+
+Liv181
+        feature     tfidf
+0       purpose  0.628172
+1       payment  0.619917
+2  f_category_f  0.296361
+3          fill  0.266741
+4           why  0.106213
+
+Liv182
+        feature     tfidf
+0          iban  0.973423
+1          code  0.188340
+2          your  0.056068
+3  f_nickname_f  0.052858
+4           liv  0.052255
+
+Liv183
+        feature     tfidf
+0         swift  0.851023
+1          code  0.499855
+2           liv  0.066712
+3  f_nickname_f  0.064414
+4  xannot_swift  0.063039
+
+Liv184
+        feature     tfidf
+0      transfer  0.569500
+1         wrong  0.459668
+2       details  0.416040
+3       entered  0.344244
+4  f_category_f  0.265445
+
+Liv185
+         feature     tfidf
+0    beneficiary  0.588794
+1  beneficiaries  0.577262
+2         delete  0.443350
+3          local  0.214675
+4         remove  0.182153
+
+Liv186
+           feature     tfidf
+0    international  0.468522
+1     f_category_f  0.290374
+2  f_paymentdest_f  0.287974
+3         transfer  0.286705
+4  f_paymenttype_f  0.266344
+
+Liv187
+           feature     tfidf
+0              top  0.520034
+1            money  0.373710
+2           topped  0.356741
+3               up  0.313862
+4  f_paymentdest_f  0.295449
+
+Liv188
+            feature     tfidf
+0              scan  0.532264
+1              card  0.412402
+2  f_account_type_f  0.406882
+3             debit  0.348429
+4           scanned  0.325418
+
+Liv189
+        feature     tfidf
+0       deposit  0.554868
+1        cheque  0.516925
+2       cheques  0.363414
+3  f_category_f  0.300375
+4           top  0.209396
+
+Liv19
+            feature     tfidf
+0              card  0.514648
+1  f_account_type_f  0.489625
+2   f_paymenttype_f  0.408053
+3         countries  0.253112
+4               use  0.194916
+
+Liv191
+   feature     tfidf
+0   cheque  0.845051
+1     long  0.358076
+2     take  0.171982
+3  process  0.121564
+4     time  0.120922
+
+Liv193
+        feature     tfidf
+0          cash  0.672536
+1       deposit  0.416566
+2           cdm  0.285858
+3           not  0.258932
+4  f_category_f  0.192118
+
+Liv194
+        feature     tfidf
+0          cash  0.599554
+1       deposit  0.462261
+2          long  0.371890
+3  f_category_f  0.238398
+4     deposited  0.208132
+
+Liv195
+           feature     tfidf
+0         credited  0.627296
+1           amount  0.454031
+2            wrong  0.403834
+3  f_paymentdest_f  0.201324
+4              was  0.192294
+
+Liv197
+           feature     tfidf
+0              top  0.712409
+1          maximum  0.307228
+2               up  0.287889
+3  f_paymentdest_f  0.278160
+4     f_category_f  0.266039
+
+Liv198
+        feature     tfidf
+0       minimum  0.597001
+1           top  0.444472
+2        amount  0.382738
+3  f_category_f  0.234569
+4         debit  0.204462
+
+Liv199
+   feature     tfidf
+0      top  0.562380
+1    cards  0.481344
+2     name  0.354142
+3    names  0.319747
+4  section  0.212007
+
+Liv2
+   feature     tfidf
+0   redeem  0.677797
+1  voucher  0.646488
+2    offer  0.295706
+3      use  0.088332
+4   offers  0.074927
+
+Liv20
+   feature     tfidf
+0   points  0.524913
+1   reward  0.511623
+2     card  0.396421
+3  rewards  0.367079
+4      liv  0.189429
+
+Liv200
+      feature     tfidf
+0  statements  0.777252
+1   statement  0.462082
+2       range  0.231304
+3         far  0.165437
+4   durations  0.163878
+
+Liv202
+      feature     tfidf
+0   statement  0.864203
+1       error  0.266255
+2    download  0.234176
+3        bank  0.230915
+4  statements  0.178127
+
+Liv203
+        feature     tfidf
+0  consolidated  0.658741
+1        annual  0.549461
+2     statement  0.500565
+3    statements  0.049534
+4        yearly  0.045981
+
+Liv206
+        feature     tfidf
+0          note  0.838510
+1           add  0.436945
+2        button  0.300438
+3  transactions  0.063072
+4         notes  0.054883
+
+Liv207
+    feature     tfidf
+0    search  0.746645
+1     notes  0.544914
+2      note  0.354759
+3    button  0.111685
+4  function  0.041700
+
+Liv208
+        feature     tfidf
+0       receipt  0.856447
+1           add  0.436922
+2        button  0.239874
+3  transactions  0.068180
+4      receipts  0.059544
+
+Liv209
+    feature     tfidf
+0  receipts  0.918145
+1    search  0.345947
+2   receipt  0.137431
+3     where  0.057921
+4       see  0.057297
+
+Liv21
+            feature     tfidf
+0          delivery  0.633073
+1              card  0.418593
+2  f_account_type_f  0.408921
+3            missed  0.269227
+4               was  0.185924
+
+Liv210
+           feature     tfidf
+0            split  0.789652
+1             bill  0.501167
+2  f_paymenttype_f  0.260045
+3     f_category_f  0.193991
+4           friend  0.065170
+
+Liv211
+           feature     tfidf
+0            split  0.711396
+1             bill  0.501359
+2  f_paymenttype_f  0.249942
+3              liv  0.200054
+4     f_nickname_f  0.198032
+
+Liv213
+          feature     tfidf
+0         dispute  0.836337
+1     transaction  0.505043
+2           raise  0.121368
+3         account  0.067086
+4  xannot_dispute  0.066520
+
+Liv214
+       feature     tfidf
+0      history  0.822626
+1  transaction  0.283676
+2          why  0.268032
+3          not  0.189058
+4      missing  0.127463
+
+Liv215
+                          feature     tfidf
+0                    transactions  0.416205
+1                         history  0.366498
+2                     transaction  0.343783
+3  f_spendingbreakdownparameter_f  0.283972
+4                            date  0.271627
+
+Liv216
+                          feature     tfidf
+0                  categorization  0.599552
+1                    transactions  0.459994
+2  f_spendingbreakdownparameter_f  0.367270
+3                             app  0.262486
+4                      categorize  0.253332
+
+Liv217
+      feature     tfidf
+0  categories  0.967211
+1         app  0.192009
+2   different  0.099406
+3    included  0.067745
+4        many  0.063385
+
+Liv218
+                          feature     tfidf
+0                        category  0.726847
+1                     transaction  0.431119
+2                          change  0.350579
+3  f_spendingbreakdownparameter_f  0.339460
+4                      categories  0.194636
+
+Liv22
+            feature     tfidf
+0              card  0.692532
+1  f_account_type_f  0.429846
+2               not  0.233006
+3         delivered  0.210148
+4               liv  0.205759
+
+Liv220
+                          feature     tfidf
+0                        category  0.750331
+1                             own  0.395553
+2  f_spendingbreakdownparameter_f  0.333662
+3                          create  0.325022
+4                      categories  0.165332
+
+Liv221
+   feature     tfidf
+0     tags  0.902219
+1  created  0.357784
+2      see  0.128667
+3     made  0.113390
+4    where  0.090509
+
+Liv222
+   feature     tfidf
+0     tags  0.985224
+1      new  0.125470
+2      tag  0.056292
+3     help  0.049190
+4  purpose  0.037262
+
+Liv223
+   feature     tfidf
+0     tags  0.900814
+1     edit  0.413589
+2  editing  0.057288
+3   change  0.054530
+4   edited  0.053995
+
+Liv224
+    feature     tfidf
+0     apple  0.859391
+1       pay  0.490067
+2  benefits  0.093803
+3     using  0.053984
+4       use  0.048001
+
+Liv226
+        feature     tfidf
+0         apple  0.854329
+1           pay  0.496515
+2           add  0.079325
+3           liv  0.063024
+4  f_nickname_f  0.052215
+
+Liv227
+         feature     tfidf
+0        samsung  0.852114
+1            pay  0.499999
+2       benefits  0.102816
+3  functionality  0.057887
+4          using  0.047060
+
+Liv229
+   feature     tfidf
+0  samsung  0.849110
+1      pay  0.503079
+2      liv  0.068801
+3      add  0.067904
+4      use  0.058094
+
+Liv23
+            feature     tfidf
+0          delivery  0.826966
+1            change  0.288060
+2              card  0.247240
+3  f_account_type_f  0.242271
+4              date  0.222034
+
+Liv230
+        feature     tfidf
+0          cash  0.585135
+1      withdraw  0.560907
+2           atm  0.330198
+3  f_category_f  0.284640
+4          atms  0.249241
+
+Liv231
+        feature     tfidf
+0           atm  0.804053
+1  f_category_f  0.314210
+2        charge  0.252499
+3           fee  0.182620
+4    withdrawal  0.177385
+
+Liv236
+           feature     tfidf
+0         withdraw  0.521811
+1             cash  0.464871
+2  f_paymenttype_f  0.379115
+3           abroad  0.362359
+4              atm  0.224663
+
+Liv237
+            feature     tfidf
+0              lock  0.787554
+1              card  0.369619
+2  f_account_type_f  0.364671
+3       temporarily  0.258078
+4         temporary  0.110519
+
+Liv238
+            feature     tfidf
+0           blocked  0.565313
+1       temporarily  0.467269
+2             debit  0.452147
+3  f_account_type_f  0.301840
+4              card  0.298563
+
+Liv239
+       feature     tfidf
+0        block  0.448391
+1  permanently  0.406869
+2      blocked  0.345690
+3        debit  0.333340
+4  temporarily  0.333046
+
+Liv24
+            feature     tfidf
+0              card  0.709009
+1  f_account_type_f  0.352998
+2               liv  0.283030
+3         delivered  0.265199
+4   f_paymentdest_f  0.242902
+
+Liv240
+            feature     tfidf
+0       temporarily  0.572742
+1             debit  0.401273
+2             block  0.395522
+3              card  0.305415
+4  f_account_type_f  0.301327
+
+Liv241
+           feature     tfidf
+0          details  0.706686
+1          account  0.371524
+2  f_paymentdest_f  0.322286
+3         personal  0.272958
+4           change  0.271242
+
+Liv242
+   feature     tfidf
+0  profile  0.742384
+1  picture  0.532981
+2      pic  0.302764
+3   change  0.209306
+4   upload  0.126900
+
+Liv243
+      feature     tfidf
+0       title  0.722013
+1        name  0.464121
+2     spelled  0.345644
+3  misspelled  0.207387
+4     correct  0.191269
+
+Liv244
+   feature     tfidf
+0  banking  0.501536
+1   mobile  0.493154
+2    phone  0.368947
+3   number  0.343042
+4  service  0.315978
+
+Liv245
+           feature     tfidf
+0           number  0.780502
+1          account  0.380703
+2  f_paymentdest_f  0.299465
+3            where  0.222587
+4             find  0.152799
+
+Liv246
+        feature     tfidf
+0        number  0.626911
+1        mobile  0.582126
+2        change  0.336922
+3  f_category_f  0.280398
+4         phone  0.150826
+
+Liv247
+   feature     tfidf
+0    email  0.704039
+1   userid  0.466061
+2  address  0.379361
+3   change  0.314231
+4   update  0.086106
+
+Liv248
+   feature     tfidf
+0  already  0.528635
+1   signed  0.461759
+2   number  0.335762
+3    email  0.301861
+4   mobile  0.277999
+
+Liv25
+            feature     tfidf
+0              card  0.583694
+1         delivered  0.349322
+2          delivery  0.316053
+3               liv  0.290722
+4  f_account_type_f  0.284386
+
+Liv250
+       feature     tfidf
+0     emirates  0.601223
+1           id  0.501826
+2      expired  0.410367
+3  f_country_f  0.396320
+4       update  0.164386
+
+Liv251
+   feature     tfidf
+0  address  0.752463
+1   update  0.415706
+2  mailing  0.400450
+3  billing  0.223108
+4     home  0.151443
+
+Liv252
+    feature     tfidf
+0  passport  0.872922
+1    update  0.374538
+2  updating  0.140738
+3     error  0.133119
+4       not  0.126418
+
+Liv253
+           feature     tfidf
+0         passport  0.909063
+1           update  0.375731
+2          updated  0.087689
+3  xannot_passport  0.079230
+4          renewed  0.062550
+
+Liv254
+     feature     tfidf
+0   username  0.939074
+1   remember  0.189310
+2     forgot  0.176102
+3  forgotten  0.135195
+4        not  0.073030
+
+Liv257
+        feature     tfidf
+0        salary  0.807799
+1  f_category_f  0.262945
+2  f_nickname_f  0.262503
+3           liv  0.262119
+4      transfer  0.204779
+
+Liv258
+   feature     tfidf
+0  routing  0.688172
+1   salary  0.421868
+2     code  0.387470
+3      wps  0.339099
+4  company  0.146194
+
+Liv259
+   feature     tfidf
+0    touch  0.817329
+1       id  0.547229
+2  disable  0.091567
+3    login  0.079355
+4     turn  0.060107
+
+Liv26
+            feature     tfidf
+0          delivery  0.800074
+1              card  0.358758
+2  f_account_type_f  0.275965
+3           arrange  0.254187
+4          schedule  0.214538
+
+Liv260
+   feature     tfidf
+0     face  0.825845
+1       id  0.531065
+2  disable  0.096080
+3   enable  0.079645
+4    login  0.076025
+
+Liv261
+        feature     tfidf
+0      password  0.873185
+1       letters  0.207322
+2       capital  0.187258
+3  requirements  0.182686
+4    characters  0.180804
+
+Liv262
+        feature     tfidf
+0         phone  0.758812
+1          lost  0.395647
+2  f_category_f  0.354673
+3        stolen  0.310805
+4        should  0.097052
+
+Liv263
+           feature     tfidf
+0              sms  0.553121
+1           abroad  0.433387
+2  f_paymenttype_f  0.394663
+3          country  0.282422
+4              otp  0.253279
+
+Liv264
+    feature     tfidf
+0  password  0.936245
+1     reset  0.253337
+2    change  0.129501
+3    forgot  0.119028
+4       new  0.075285
+
+Liv265
+     feature     tfidf
+0  questions  0.638894
+1   security  0.604087
+2      reset  0.329233
+3     secret  0.247037
+4   remember  0.109525
+
+Liv266
+  feature     tfidf
+0    mpin  0.962466
+1   reset  0.176427
+2  change  0.160903
+3     new  0.072366
+4  forgot  0.057402
+
+Liv268
+   feature     tfidf
+0  session  0.730966
+1  timeout  0.485161
+2      out  0.224193
+3    timed  0.220528
+4   logged  0.162733
+
+Liv27
+            feature     tfidf
+0            branch  0.797244
+1              card  0.356005
+2  f_account_type_f  0.321533
+3              pick  0.231826
+4              from  0.185631
+
+Liv271
+       feature     tfidf
+0     personal  0.533478
+1         data  0.386262
+2  information  0.327410
+3      privacy  0.289722
+4      private  0.265498
+
+Liv272
+    feature     tfidf
+0  location  0.915251
+1       why  0.242848
+2    access  0.175685
+3      need  0.124135
+4     share  0.095344
+
+Liv274
+    feature     tfidf
+0  contacts  0.953067
+1       why  0.172937
+2    access  0.135099
+3     share  0.115199
+4   contact  0.081066
+
+Liv276
+  feature     tfidf
+0  camera  0.942493
+1  access  0.244769
+2     why  0.158790
+3    need  0.076845
+4   share  0.073173
+
+Liv278
+         feature     tfidf
+0  notifications  0.889278
+1     permission  0.231317
+2         notify  0.208249
+3            why  0.180073
+4           turn  0.108803
+
+Liv28
+            feature     tfidf
+0          activate  0.691263
+1              card  0.488203
+2  f_account_type_f  0.481668
+3         activated  0.130385
+4        activating  0.122314
+
+Liv280
+    feature     tfidf
+0      data  0.646471
+1  cellular  0.550285
+2       app  0.274152
+3      wifi  0.263434
+4   offline  0.204893
+
+Liv283
+      feature     tfidf
+0  conditions  0.760371
+1       terms  0.605103
+2     privacy  0.120166
+3        your  0.114766
+4      policy  0.107600
+
+Liv285
+        feature     tfidf
+0        device  0.507879
+1           app  0.459148
+2         phone  0.342879
+3  f_nickname_f  0.291849
+4           liv  0.288522
+
+Liv286
+    feature     tfidf
+0   android  0.791090
+1   version  0.432860
+2       app  0.280077
+3  versions  0.230859
+4   support  0.147559
+
+Liv287
+        feature     tfidf
+0    smartphone  0.926703
+1  f_category_f  0.280973
+2     necessary  0.171362
+3      required  0.098984
+4    absolutely  0.062913
+
+Liv290
+        feature     tfidf
+0         phone  0.702804
+1           new  0.401762
+2           app  0.337144
+3  f_category_f  0.327865
+4      download  0.202722
+
+Liv292
+     feature     tfidf
+0    request  0.657966
+1    process  0.348137
+2  processed  0.343323
+3      error  0.325274
+4        not  0.230507
+
+Liv293
+        feature     tfidf
+0        enough  0.657962
+1         funds  0.548171
+2  f_category_f  0.251288
+3           not  0.208275
+4       message  0.174467
+
+Liv294
+             feature     tfidf
+0                aed  0.638661
+1              limit  0.427075
+2         f_number_f  0.423118
+3  f_currency_type_f  0.390510
+4              error  0.181188
+
+Liv295
+  feature     tfidf
+0    bill  0.483239
+1   later  0.398055
+2     pay  0.365249
+3     try  0.329994
+4   error  0.283950
+
+Liv296
+   feature     tfidf
+0    error  0.903087
+1  getting  0.256686
+2     keep  0.195475
+3      why  0.147925
+4   errors  0.141143
+
+Liv297
+        feature     tfidf
+0  f_nickname_f  0.670450
+1           liv  0.669338
+2          more  0.213460
+3       created  0.099648
+4       explain  0.078775
+
+Liv298
+     feature     tfidf
+0  lifestyle  0.665313
+1    digital  0.629821
+2    banking  0.387661
+3        app  0.078743
+4       mean  0.030305
+
+Liv299
+     feature     tfidf
+0        app  0.409571
+1  traveling  0.340844
+2      while  0.285955
+3        use  0.284322
+4     abroad  0.279821
+
+Liv3
+     feature     tfidf
+0   discount  0.783028
+1     offers  0.471082
+2     redeem  0.370800
+3  discounts  0.105577
+4        use  0.086276
+
+Liv30
+            feature     tfidf
+0           charges  0.376588
+1              card  0.344814
+2  f_account_type_f  0.340198
+3               atm  0.337623
+4   f_paymenttype_f  0.322170
+
+Liv300
+        feature     tfidf
+0           liv  0.587134
+1  f_nickname_f  0.585460
+2      benefits  0.336127
+3           why  0.170190
+4          bank  0.141346
+
+Liv301
+        feature     tfidf
+0           nbd  0.631751
+1      emirates  0.586394
+2   f_country_f  0.386545
+3  f_nickname_f  0.192143
+4           liv  0.191032
+
+Liv302
+        feature     tfidf
+0           nbd  0.561758
+1      emirates  0.537646
+2   f_country_f  0.354410
+3           liv  0.227929
+4  f_nickname_f  0.225703
+
+Liv303
+        feature     tfidf
+0           nbd  0.740044
+1           liv  0.324682
+2  f_nickname_f  0.281864
+3           app  0.259709
+4      emirates  0.242851
+
+Liv305
+        feature     tfidf
+0         agent  0.656442
+1         speak  0.350930
+2  xannot_agent  0.298060
+3          talk  0.246792
+4          live  0.214442
+
+Liv306
+     feature     tfidf
+0  complaint  0.747279
+1       long  0.343425
+2       hear  0.266040
+3   response  0.246230
+4       back  0.185381
+
+Liv307
+           feature     tfidf
+0            media  0.663038
+1           social  0.646725
+2  f_paymenttype_f  0.278022
+3     f_nickname_f  0.112624
+4              liv  0.111341
+
+Liv308
+           feature     tfidf
+0         facebook  0.679322
+1     f_merchant_f  0.609407
+2  f_paymenttype_f  0.274461
+3             page  0.256079
+4             your  0.112999
+
+Liv309
+           feature     tfidf
+0        instagram  0.919829
+1  f_paymenttype_f  0.305669
+2             page  0.171717
+3             your  0.110666
+4            reach  0.066549
+
+Liv31
+     feature     tfidf
+0   overdraw  0.619211
+1      limit  0.385692
+2   withdraw  0.385098
+3  overdrawn  0.277259
+4       than  0.265210
+
+Liv310
+                         feature     tfidf
+0                       snapchat  0.922312
+1                f_paymenttype_f  0.318430
+2                           page  0.123486
+3                           your  0.119703
+4  f_accountbreakdownparameter_f  0.058037
+
+Liv311
+                         feature     tfidf
+0                        twitter  0.901203
+1                f_paymenttype_f  0.333271
+2                           page  0.186314
+3                           your  0.145024
+4  f_accountbreakdownparameter_f  0.062250
+
+Liv312
+        feature     tfidf
+0       website  0.834015
+1       address  0.300629
+2  f_nickname_f  0.265331
+3           liv  0.262307
+4           url  0.175880
+
+Liv313
+        feature     tfidf
+0       website  0.817729
+1  f_nickname_f  0.361145
+2           liv  0.357029
+3       actions  0.081153
+4   xannot_find  0.079693
+
+Liv314
+        feature     tfidf
+0           vat  0.702220
+1           tax  0.431034
+2         value  0.398335
+3         added  0.292557
+4  f_category_f  0.253342
+
+Liv315
+        feature     tfidf
+0           vat  0.883862
+1      included  0.319005
+2  f_category_f  0.262151
+3    introduced  0.126542
+4       already  0.121571
+
+Liv316
+        feature     tfidf
+0           vat  0.875091
+1         rates  0.293155
+2  f_category_f  0.262106
+3          cost  0.226819
+4          much  0.129785
+
+Liv317
+        feature     tfidf
+0           vat  0.856652
+1           liv  0.258803
+2  f_nickname_f  0.257653
+3  f_category_f  0.254080
+4      services  0.153471
+
+Liv318
+        feature     tfidf
+0           vat  0.866268
+1           pay  0.383615
+2  f_category_f  0.260711
+3      required  0.078598
+4     mandatory  0.073566
+
+Liv319
+        feature     tfidf
+0           vat  0.741462
+1           atm  0.459620
+2   withdrawals  0.270620
+3        charge  0.269058
+4  f_category_f  0.224249
+
+Liv320
+       feature     tfidf
+0         chat  0.647482
+1      history  0.569245
+2        saved  0.331643
+3         long  0.238087
+4  xannot_chat  0.147153
+
+Liv321
+     feature     tfidf
+0       chat  0.604283
+1       save  0.532723
+2    history  0.528470
+3   customer  0.219130
+4  customers  0.068977
+
+Liv322
+      feature     tfidf
+0        chat  0.657751
+1     history  0.404275
+2    customer  0.280712
+3  transcript  0.274865
+4   assistant  0.264468
+
+Liv323
+        feature     tfidf
+0          name  0.847957
+1          your  0.237115
+2  f_nickname_f  0.233226
+3           liv  0.230568
+4           did  0.141347
+
+Liv324
+      feature     tfidf
+0         sad  0.392727
+1          im  0.282376
+2        sick  0.274909
+3       happy  0.256280
+4  xannot_sad  0.235636
+
+Liv325
+       feature     tfidf
+0         joke  0.600636
+1        funny  0.257345
+2  xannot_joke  0.257128
+3    something  0.251842
+4        story  0.209029
+
+Liv326
+         feature     tfidf
+0     automation  0.564733
+1           jobs  0.451684
+2         robots  0.319006
+3           bots  0.225842
+4  xannot_robots  0.188244
+
+Liv327
+           feature     tfidf
+0         favorite  0.424041
+1             like  0.396347
+2             read  0.355300
+3           movies  0.279746
+4  xannot_favorite  0.267947
+
+Liv328
+        feature     tfidf
+0        sports  0.630427
+1          play  0.350752
+2         teams  0.256840
+3          like  0.220388
+4  f_category_f  0.218153
+
+Liv329
+       feature     tfidf
+0         your  0.491196
+1        whats  0.255717
+2         from  0.235088
+3    childhood  0.232389
+4  nationality  0.216642
+
+Liv33
+        feature     tfidf
+0         limit  0.596651
+1           atm  0.439878
+2    withdrawal  0.394952
+3         daily  0.358160
+4  f_category_f  0.172051
+
+Liv330
+  feature     tfidf
+0    home  0.522085
+1    live  0.478217
+2   where  0.330996
+3    stay  0.188985
+4   house  0.187102
+
+Liv331
+        feature     tfidf
+0      sandwich  0.165069
+1  xannot_daddy  0.165069
+2           who  0.159125
+3         daddy  0.153884
+4          love  0.151243
+
+Liv332
+       feature     tfidf
+0     annoying  0.550205
+1  frustrating  0.374413
+2         loop  0.149765
+3     infinite  0.149765
+4     tiresome  0.149765
+
+Liv333
+  feature     tfidf
+0   money  0.510982
+1   extra  0.451778
+2    side  0.362443
+3    cash  0.313898
+4    make  0.300714
+
+Liv334
+        feature     tfidf
+0         emoji  0.984306
+1           use  0.101146
+2          send  0.092618
+3  xannot__hyp_  0.043747
+4    understand  0.037761
+
+Liv335
+  feature     tfidf
+0   smart  0.507203
+1     bot  0.454418
+2    bots  0.328352
+3    chat  0.266436
+4      ai  0.234555
+
+Liv336
+           feature     tfidf
+0         facebook  0.629804
+1     f_merchant_f  0.575515
+2  f_paymenttype_f  0.254896
+3              our  0.227053
+4    conversations  0.217638
+
+Liv337
+          feature     tfidf
+0         suicide  0.703582
+1        thinking  0.278138
+2            kill  0.238336
+3  xannot_suicide  0.211075
+4         killing  0.211075
+
+Liv338
+           feature     tfidf
+0         facebook  0.701014
+1     f_merchant_f  0.638725
+2  f_paymenttype_f  0.277458
+3              use  0.073905
+4              not  0.055891
+
+Liv339
+      feature     tfidf
+0         bot  0.890337
+1  xannot_bot  0.266860
+2       robot  0.206210
+3    xannot_a  0.109481
+4       short  0.087677
+
+Liv34
+            feature     tfidf
+0              card  0.561472
+1  f_account_type_f  0.499739
+2     supplementary  0.456761
+3        additional  0.229764
+4             debit  0.211464
+
+Liv340
+  feature     tfidf
+0    time  0.507532
+1   spare  0.410374
+2    free  0.335938
+3    your  0.290202
+4    when  0.213951
+
+Liv341
+          feature     tfidf
+0         weather  0.830518
+1  xannot_weather  0.407709
+2        forecast  0.181204
+3            rain  0.151003
+4         xannot_  0.092782
+
+Liv342
+           feature     tfidf
+0  f_paymenttype_f  0.417868
+1          friends  0.399076
+2             bots  0.387305
+3            other  0.219108
+4       xannot_you  0.218384
+
+Liv343
+  feature     tfidf
+0  minute  0.706460
+1    back  0.276399
+2   think  0.266284
+3    here  0.227012
+4    hold  0.204129
+
+Liv344
+           feature     tfidf
+0         favorite  0.525994
+1            color  0.361185
+2             your  0.343167
+3     xannot_color  0.249068
+4  xannot_favorite  0.234363
+
+Liv345
+       feature     tfidf
+0         time  0.728752
+1  xannot_time  0.413569
+2        whats  0.257036
+3         late  0.182158
+4  xannot_what  0.137147
+
+Liv346
+    feature     tfidf
+0   clients  0.361121
+1      many  0.345223
+2    people  0.325940
+3  favorite  0.226276
+4        we  0.220999
+
+Liv347
+    feature     tfidf
+0   welcome  0.586791
+1    launch  0.518816
+2      hope  0.311290
+3  birthday  0.173927
+4     happy  0.164108
+
+Liv348
+        feature     tfidf
+0  f_nickname_f  0.544046
+1           liv  0.537845
+2          bank  0.220257
+3          long  0.213501
+4          been  0.199029
+
+Liv349
+  feature     tfidf
+0   sleep  0.361539
+1   drink  0.262716
+2     eat  0.250296
+3    wear  0.229877
+4    body  0.214300
+
+Liv35
+            feature     tfidf
+0           blocked  0.587744
+1              card  0.408131
+2  f_account_type_f  0.402668
+3               new  0.351833
+4           request  0.270979
+
+Liv350
+         feature     tfidf
+0         stupid  0.276409
+1           dumb  0.264750
+2  f_profanity_f  0.244776
+3            job  0.228536
+4            bot  0.210956
+
+Liv351
+    feature     tfidf
+0   updates  0.556119
+1   product  0.406606
+2       new  0.395702
+3  releases  0.323805
+4     stuff  0.242411
+
+Liv353
+    feature     tfidf
+0      save  0.587132
+1     money  0.463216
+2  spending  0.309616
+3    saving  0.279843
+4      tips  0.208199
+
+Liv354
+      feature     tfidf
+0  algorithms  0.353649
+1        your  0.318933
+2  xannot_you  0.257328
+3      neural  0.247554
+4    learning  0.243020
+
+Liv355
+      feature     tfidf
+0         job  0.667968
+1      career  0.354926
+2   interview  0.228435
+3  xannot_job  0.201973
+4        rich  0.177463
+
+Liv356
+   feature     tfidf
+0      job  0.423123
+1  ashamed  0.359724
+2  worried  0.343219
+3   enough  0.333531
+4      end  0.216880
+
+Liv357
+     feature     tfidf
+0  happening  0.564833
+1   anything  0.323204
+2   happenin  0.232513
+3        new  0.210016
+4      whats  0.204682
+
+Liv358
+         feature     tfidf
+0        shorter  0.477724
+1  abbreviations  0.460030
+2       messages  0.417880
+3           text  0.361122
+4        shorten  0.265402
+
+Liv359
+     feature     tfidf
+0  confusing  0.401579
+1   supposed  0.350225
+2   confused  0.340581
+3    helpful  0.232148
+4      weird  0.216733
+
+Liv36
+            feature     tfidf
+0           expired  0.545062
+1              card  0.488671
+2  f_account_type_f  0.407654
+3          expiring  0.260029
+4               new  0.247120
+
+Liv360
+         feature     tfidf
+0           five  0.654901
+1            hi5  0.468336
+2           high  0.334906
+3             hi  0.321830
+4  high_hyp_five  0.234168
+
+Liv361
+    feature     tfidf
+0  spending  0.700606
+1    budget  0.505766
+2      help  0.148891
+3     goals  0.144628
+4       set  0.138410
+
+Liv362
+       feature     tfidf
+0         back  0.420511
+1           im  0.297230
+2  xannot_back  0.294641
+3          moi  0.268701
+4        voila  0.268701
+
+Liv363
+        feature     tfidf
+0    compliment  0.547092
+1      feedback  0.447438
+2  f_nickname_f  0.308795
+3           liv  0.305275
+4      positive  0.273546
+
+Liv364
+     feature     tfidf
+0  sometimes  0.392731
+1    respond  0.305991
+2        why  0.296939
+3   response  0.260299
+4     longer  0.240702
+
+Liv365
+        feature     tfidf
+0           why  0.445671
+1      response  0.441530
+2           not  0.309734
+3  f_nickname_f  0.295371
+4           liv  0.292005
+
+Liv366
+        feature     tfidf
+0           why  0.399978
+1        saying  0.340716
+2  f_nickname_f  0.334604
+3           liv  0.330790
+4           not  0.294059
+
+Liv367
+        feature     tfidf
+0     languages  0.855307
+1       english  0.323775
+2      language  0.191991
+3  f_nickname_f  0.175746
+4           liv  0.173743
+
+Liv368
+        feature     tfidf
+0          goal  0.866699
+1  f_nickname_f  0.376901
+2       account  0.261971
+3   xannot_goal  0.079600
+4       purpose  0.078243
+
+Liv369
+        feature     tfidf
+0          goal  0.841527
+1  f_nickname_f  0.366118
+2       account  0.300442
+3           set  0.136336
+4            up  0.119281
+
+Liv37
+            feature     tfidf
+0            number  0.660621
+1              card  0.453202
+2  f_account_type_f  0.417040
+3               new  0.258917
+4              keep  0.199486
+
+Liv370
+        feature     tfidf
+0          goal  0.792310
+1  f_nickname_f  0.308132
+2           app  0.296967
+3       account  0.253869
+4         where  0.197751
+
+Liv372
+        feature     tfidf
+0          goal  0.701438
+1         rules  0.505485
+2  f_category_f  0.233613
+3        change  0.228568
+4          date  0.209377
+
+Liv373
+        feature     tfidf
+0          goal  0.612259
+1         rules  0.531512
+2          rule  0.484521
+3  f_nickname_f  0.189106
+4       account  0.160261
+
+Liv374
+        feature     tfidf
+0         goals  0.724845
+1  f_nickname_f  0.407688
+2  f_category_f  0.359757
+3          goal  0.295352
+4     different  0.159701
+
+Liv376
+        feature     tfidf
+0          goal  0.733504
+1        amount  0.397680
+2  f_category_f  0.274869
+3  f_nickname_f  0.249797
+4       showing  0.176851
+
+Liv377
+        feature     tfidf
+0          goal  0.658509
+1  f_nickname_f  0.413443
+2         goals  0.315784
+3      accounts  0.250126
+4          than  0.195711
+
+Liv378
+                         feature     tfidf
+0                           goal  0.762151
+1  f_accountbreakdownparameter_f  0.336797
+2                       separate  0.291026
+3                        account  0.264157
+4                   f_nickname_f  0.242146
+
+Liv379
+           feature     tfidf
+0            rules  0.569961
+1          balance  0.351982
+2          account  0.341206
+3            money  0.333321
+4  f_paymentdest_f  0.300951
+
+Liv381
+        feature     tfidf
+0          goal  0.804612
+1           acc  0.280878
+2  f_category_f  0.239795
+3        delete  0.234775
+4         close  0.207546
+
+Liv38
+            feature     tfidf
+0  f_account_type_f  0.494466
+1              card  0.492225
+2               new  0.375960
+3             debit  0.340461
+4              cost  0.304719
+
+Liv383
+        feature     tfidf
+0          goal  0.770827
+1         after  0.331894
+2  f_category_f  0.300344
+3       happens  0.176463
+4          next  0.163022
+
+Liv384
+                         feature     tfidf
+0                           goal  0.698688
+1                          money  0.426130
+2  f_accountbreakdownparameter_f  0.260840
+3                        account  0.246686
+4                           from  0.220246
+
+Liv385
+        feature     tfidf
+0          goal  0.719383
+1        amount  0.327576
+2       maximum  0.323665
+3  f_category_f  0.253298
+4  f_nickname_f  0.236531
+
+Liv387
+            feature     tfidf
+0              goal  0.659847
+1             debit  0.441330
+2  f_account_type_f  0.359514
+3              card  0.344350
+4           account  0.227206
+
+Liv388
+        feature     tfidf
+0        branch  0.685905
+1          goal  0.598288
+2  f_nickname_f  0.224817
+3       account  0.203074
+4            at  0.130806
+
+Liv389
+        feature     tfidf
+0      interest  0.714908
+1          goal  0.552395
+2  f_category_f  0.224989
+3          rate  0.204111
+4       account  0.177804
+
+Liv39
+           feature     tfidf
+0              old  0.687503
+1             card  0.462847
+2              liv  0.281237
+3  f_paymentdest_f  0.242066
+4              new  0.228340
+
+Liv390
+        feature     tfidf
+0          goal  0.640582
+1         close  0.350742
+2          keep  0.286203
+3  f_nickname_f  0.283274
+4           liv  0.280045
+
+Liv395
+          feature     tfidf
+0         livions  0.962408
+1  xannot_livions  0.174983
+2          livion  0.136098
+3            earn  0.082826
+4          earned  0.043746
+
+Liv396
+   feature     tfidf
+0  livions  0.962439
+1   livion  0.191394
+2    games  0.084275
+3      use  0.083605
+4     good  0.042705
+
+Liv397
+       feature     tfidf
+0      livions  0.962349
+1     credited  0.117978
+2          not  0.096337
+3  transaction  0.080923
+4       livion  0.068045
+
+Liv398
+   feature     tfidf
+0  livions  0.968579
+1   expire  0.147033
+2     long  0.067285
+3   expiry  0.056811
+4     date  0.055715
+
+Liv399
+            feature     tfidf
+0            number  0.626760
+1              card  0.457673
+2  f_account_type_f  0.444230
+3             debit  0.358616
+4             where  0.182427
+
+Liv4
+    feature     tfidf
+0  vouchers  0.917979
+1      days  0.236983
+2       use  0.188601
+3   voucher  0.121524
+4  holidays  0.084231
+
+Liv40
+      feature     tfidf
+0         cvv  0.896964
+1      number  0.356969
+2  xannot_cvv  0.168490
+3       where  0.129236
+4        find  0.084984
+
+Liv41
+            feature     tfidf
+0               pin  0.860524
+1             reset  0.370692
+2              card  0.211955
+3  f_account_type_f  0.202479
+4            forgot  0.109012
+
+Liv42
+           feature     tfidf
+0              pin  0.860382
+1             card  0.337165
+2              liv  0.286196
+3  f_paymentdest_f  0.227128
+4              why  0.057062
+
+Liv43
+    feature     tfidf
+0       pin  0.898565
+1       set  0.229967
+2      card  0.204725
+3  activate  0.200525
+4       liv  0.151254
+
+Liv45
+     feature     tfidf
+0        pin  0.445585
+1    blocked  0.436524
+2        cvv  0.426589
+3     inputs  0.331028
+4  incorrect  0.286469
+
+Liv46
+     feature     tfidf
+0        pin  0.771616
+1      wrong  0.414099
+2    entered  0.367374
+3  incorrect  0.151908
+4        atm  0.119154
+
+Liv48
+            feature     tfidf
+0             fraud  0.383598
+1      unauthorized  0.373152
+2              card  0.367807
+3  f_account_type_f  0.362884
+4           someone  0.285954
+
+Liv49
+            feature     tfidf
+0             block  0.728049
+1              card  0.485655
+2  f_account_type_f  0.349475
+3             debit  0.231764
+4           blocked  0.129931
+
+Liv5
+   feature     tfidf
+0  rewards  0.799279
+1   redeem  0.471706
+2    limit  0.263927
+3   limits  0.131210
+4     many  0.111587
+
+Liv50
+            feature     tfidf
+0           unblock  0.592545
+1             debit  0.508539
+2  f_account_type_f  0.390688
+3              card  0.390034
+4           blocked  0.160787
+
+Liv51
+            feature     tfidf
+0       temporarily  0.613962
+1             block  0.540377
+2              card  0.352113
+3  f_account_type_f  0.347400
+4           reasons  0.129263
+
+Liv52
+            feature     tfidf
+0              lost  0.593430
+1              card  0.548588
+2  f_account_type_f  0.538871
+3         misplaced  0.098394
+4              help  0.088668
+
+Liv53
+            feature     tfidf
+0             block  0.492201
+1             debit  0.445743
+2  f_account_type_f  0.376224
+3              bank  0.373026
+4              card  0.368475
+
+Liv54
+            feature     tfidf
+0       permanently  0.606308
+1             block  0.422415
+2             debit  0.417259
+3              card  0.319908
+4  f_account_type_f  0.311418
+
+Liv55
+            feature     tfidf
+0              card  0.563446
+1  f_account_type_f  0.548984
+2           working  0.479662
+3               not  0.252875
+4              work  0.143398
+
+Liv56
+            feature     tfidf
+0               atm  0.722605
+1              card  0.386493
+2  f_account_type_f  0.352942
+3      f_category_f  0.265257
+4             stuck  0.195902
+
+Liv57
+      feature     tfidf
+0         otp  0.943121
+1         not  0.196675
+2         did  0.160245
+3  xannot_otp  0.113175
+4    received  0.072395
+
+Liv58
+            feature     tfidf
+0              name  0.706516
+1             wrong  0.405184
+2              card  0.387956
+3  f_account_type_f  0.345959
+4           printed  0.187651
+
+Liv59
+            feature     tfidf
+0           damaged  0.619542
+1              card  0.528603
+2  f_account_type_f  0.450853
+3            broken  0.240873
+4             broke  0.174633
+
+Liv60
+           feature     tfidf
+0           wallet  0.949850
+1          account  0.167806
+2         benefits  0.130457
+3  f_paymentdest_f  0.127761
+4         services  0.104731
+
+Liv61
+         feature     tfidf
+0           book  0.716426
+1         cheque  0.655911
+2        cheques  0.118428
+3          check  0.092564
+4  xannot_cheque  0.081989
+
+Liv62
+                         feature     tfidf
+0                           long  0.469923
+1                        account  0.422212
+2  f_accountbreakdownparameter_f  0.421882
+3                           open  0.320447
+4                          ready  0.287093
+
+Liv64
+       feature     tfidf
+0     emirates  0.555365
+1       upload  0.553871
+2           id  0.466127
+3  f_country_f  0.366090
+4      picture  0.111450
+
+Liv65
+       feature     tfidf
+0     emirates  0.575595
+1           id  0.520460
+2  f_country_f  0.379426
+3      picture  0.305445
+4          not  0.192839
+
+Liv66
+                         feature     tfidf
+0                           open  0.569211
+1                        account  0.463974
+2  f_accountbreakdownparameter_f  0.383577
+3                            liv  0.272306
+4                   f_nickname_f  0.268980
+
+Liv67
+        feature     tfidf
+0          sign  0.496697
+1           liv  0.413784
+2  f_nickname_f  0.399530
+3  requirements  0.344899
+4            up  0.274280
+
+Liv68
+                         feature     tfidf
+0                            otp  0.846484
+1  f_accountbreakdownparameter_f  0.290373
+2                       creating  0.270529
+3                        account  0.221064
+4                      mandatory  0.157054
+
+Liv7
+                          feature     tfidf
+0                        merchant  0.737566
+1                         voucher  0.401813
+2  f_spendingbreakdownparameter_f  0.291625
+3                        rejected  0.271986
+4                          accept  0.183190
+
+Liv70
+                         feature     tfidf
+0                            uae  0.551908
+1                           open  0.394208
+2                           live  0.345812
+3                    f_country_f  0.332673
+4  f_accountbreakdownparameter_f  0.298021
+
+Liv71
+        feature     tfidf
+0          mpin  0.982295
+1           liv  0.102981
+2  f_nickname_f  0.102866
+3           why  0.056449
+4      required  0.050639
+
+Liv72
+           feature     tfidf
+0          minimum  0.680039
+1          balance  0.549836
+2          account  0.182159
+3  f_paymentdest_f  0.137920
+4              ten  0.134672
+
+Liv73
+        feature     tfidf
+0           liv  0.393699
+1          fees  0.346954
+2  f_category_f  0.334603
+3        prices  0.315383
+4  f_nickname_f  0.310445
+
+Liv74
+           feature     tfidf
+0         interest  0.859523
+1     f_category_f  0.269128
+2             earn  0.254959
+3  f_paymentdest_f  0.181151
+4          account  0.178828
+
+Liv75
+        feature     tfidf
+0      interest  0.798482
+1         start  0.337063
+2  f_category_f  0.252414
+3       earning  0.247538
+4          earn  0.190290
+
+Liv76
+           feature     tfidf
+0            close  0.728601
+1          account  0.407547
+2  f_paymentdest_f  0.343583
+3           cancel  0.248669
+4     xannot_close  0.138280
+
+Liv77
+   feature     tfidf
+0  balance  0.612410
+1  closure  0.402391
+2  happens  0.350312
+3  account  0.292161
+4   closed  0.271088
+
+Liv78
+        feature     tfidf
+0          safe  0.634451
+1        secure  0.377495
+2           liv  0.355792
+3  f_nickname_f  0.355251
+4           app  0.255240
+
+Liv8
+   feature     tfidf
+0      low  0.829223
+1  balance  0.544663
+2    alert  0.050881
+3      see  0.040866
+4    check  0.038246
+
+Liv80
+           feature     tfidf
+0             safe  0.641900
+1          account  0.384617
+2           secure  0.380370
+3  f_paymentdest_f  0.356474
+4             keep  0.250696
+
+Liv82
+                         feature     tfidf
+0                        dormant  0.591268
+1                       inactive  0.498873
+2                        account  0.399155
+3                f_paymentdest_f  0.275251
+4  f_accountbreakdownparameter_f  0.189451
+
+Liv84
+                         feature     tfidf
+0                       accounts  0.578990
+1  f_accountbreakdownparameter_f  0.437004
+2                            liv  0.433087
+3                   f_nickname_f  0.393637
+4                          types  0.196430
+
+Liv85
+                         feature     tfidf
+0                       accounts  0.530558
+1  f_accountbreakdownparameter_f  0.502381
+2                       multiple  0.406859
+3                           open  0.255490
+4                           than  0.210081
+
+Liv86
+        feature     tfidf
+0    investment  0.449757
+1        invest  0.443286
+2  f_nickname_f  0.305801
+3           liv  0.305132
+4   investments  0.300222
+
+Liv87
+            feature     tfidf
+0           savings  0.834952
+1  f_account_type_f  0.398254
+2              open  0.250142
+3           account  0.231801
+4          accounts  0.073698
+
+Liv88
+                         feature     tfidf
+0                          joint  0.831847
+1  f_accountbreakdownparameter_f  0.319551
+2                           open  0.256842
+3                        partner  0.229741
+4                        account  0.193676
+
+Liv89
+        feature     tfidf
+0      branches  0.761851
+1        branch  0.464606
+2         visit  0.312938
+3  f_nickname_f  0.143364
+4           liv  0.141730
+
+Liv9
+       feature     tfidf
+0  suggestions  0.792393
+1        lunch  0.364857
+2       dinner  0.364745
+3         meal  0.211556
+4        these  0.118320
+
+Liv90
+    feature     tfidf
+0    branch  0.769635
+1  services  0.514757
+2  branches  0.245339
+3        at  0.189481
+4     visit  0.141973
+
+Liv92
+                          feature     tfidf
+0                         pending  0.666167
+1                         balance  0.472622
+2                    transactions  0.381733
+3  f_spendingbreakdownparameter_f  0.260452
+4                      subtracted  0.201040
+
+Liv93
+           feature     tfidf
+0          request  0.612470
+1            money  0.410857
+2            media  0.268342
+3  f_paymenttype_f  0.267739
+4           social  0.252247
+
+Liv95
+    feature     tfidf
+0     limit  0.490167
+1   request  0.439381
+2     money  0.424809
+3    amount  0.298264
+4  transfer  0.181777
+
+Liv97
+    feature     tfidf
+0     money  0.470671
+1   request  0.398354
+2    people  0.392812
+3     group  0.365456
+4  multiple  0.243456
+
+Liv99
+           feature     tfidf
+0            money  0.590676
+1          request  0.471720
+2             from  0.329519
+3  f_paymenttype_f  0.253823
+4          someone  0.238348
+
+G0001_2FA
+          feature     tfidf
+0  authentication  0.766381
+1          factor  0.363720
+2      f_number_f  0.297269
+3           _hyp_  0.158714
+4             2fa  0.139342
+
+g2kolivia
+         feature     tfidf
+0         olivia  0.951242
+1            who  0.120218
+2  xannot_olivia  0.095816
+3           name  0.091340
+4         called  0.087365
+
+Liv44
+        feature     tfidf
+0           pin  0.714396
+1           atm  0.585290
+2           set  0.233864
+3  f_category_f  0.213827
+4            at  0.196518
+
+Liv47
+            feature     tfidf
+0              card  0.465735
+1  f_account_type_f  0.459501
+2           charged  0.344988
+3       transaction  0.332267
+4             extra  0.238770
+
+Liv63
+         feature     tfidf
+0  authorization  0.592534
+1         resend  0.423684
+2       attempts  0.398550
+3           code  0.388108
+4       exceeded  0.298015
+
+Liv256
+       feature     tfidf
+0  preferences  0.962149
+1       change  0.178059
+2         edit  0.145742
+3       update  0.080106
+4     selected  0.043563
+
+Liv284
+    feature     tfidf
+0       app  0.563072
+1  internet  0.433119
+2   offline  0.330370
+3      wifi  0.316312
+4      data  0.291776
+
+Liv288
+        feature     tfidf
+0         phone  0.467127
+1       devices  0.366471
+2           log  0.335472
+3  f_category_f  0.255225
+4           app  0.211096
+
+Liv204
+      feature     tfidf
+0  statements  0.655295
+1   statement  0.512260
+2        bank  0.334834
+3     stamped  0.318519
+4        view  0.189312
+
